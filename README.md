@@ -27,8 +27,20 @@ npm run build    # salida en dist/
 
 Incluye cursor personalizado, botones magnéticos, textura de grano y navegación que se oculta al bajar. Respeta `prefers-reduced-motion`.
 
-## Contenido para reemplazar
+## Contenido y fuentes
 
-- **`src/data.js`**: marcas, categorías, horarios y dirección. La lista de marcas viene de notas de prensa públicas y **debe validarse** con el equipo comercial. Para usar el logo oficial de una marca, agrega `logo: '/brands/nombre.svg'`.
-- **`public/media/`**: las fotos actuales son **imágenes de stock de Unsplash, de uso libre, puestas como referencia**. No son fotos de Ventura Mall. Reemplázalas por fotos y videos oficiales con el mismo nombre de archivo.
-- **Estadísticas** (`index.html`, sección `.stats`): 30+ marcas, 2.000+ estacionamientos y 21 locales de comida, según la prensa de apertura. Hay que verificarlas.
+Todo el contenido de `src/data.js` tiene fuente, indicada en un comentario en cada línea:
+- **[web]** venturamall.bo, copia archivada el 14 de marzo de 2026 (el sitio en vivo tiene el certificado SSL vencido). De ahí salen los horarios, el teléfono, el email, la dirección y las coordenadas.
+- **[ig]** Publicaciones de @venturamalloficial del 8 al 13 de noviembre de 2026. De ahí salen las marcas, los eventos y Ventura Sur.
+
+Solo se listan las marcas que aparecen en publicaciones oficiales. Se quitaron TGI Fridays, Hard Rock, P.F. Chang's, Cinemark y las cifras de estacionamientos y patio de comidas, porque no se pudieron verificar.
+
+## Fotos y videos reales
+
+`scripts/instagram-media.json` tiene 36 publicaciones reales: 14 reels y 88 fotos de carrusel. Para descargarlas junto con el logo oficial:
+
+```bash
+npm run fetch-media
+```
+
+Los archivos se guardan en `public/media/ig/` y `public/brand/`. Los enlaces de Instagram expiran a los pocos días; si el script da errores 403, hay que volver a extraer el feed.
