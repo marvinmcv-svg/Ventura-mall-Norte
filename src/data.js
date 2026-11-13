@@ -33,42 +33,42 @@ export const categories = [
     name: 'Moda',
     kicker: '01',
     blurb: 'Las firmas internacionales que definen la temporada, en un solo recorrido.',
-    image: '/media/rack-warm.jpg',
+    image: 'media/rack-warm.jpg',
   },
   {
     id: 'deporte',
     name: 'Deporte',
     kicker: '02',
     blurb: 'Performance y streetwear de las marcas que mueven al mundo.',
-    image: '/media/sneaker.jpg',
+    image: 'media/sneaker.jpg',
   },
   {
     id: 'belleza',
     name: 'Belleza & Accesorios',
     kicker: '03',
     blurb: 'Joyería, fragancias y cosmética para cada ritual.',
-    image: '/media/beauty.jpg',
+    image: 'media/beauty.jpg',
   },
   {
     id: 'gastronomia',
     name: 'Gastronomía',
     kicker: '04',
     blurb: 'Del café de la mañana a la cena de autor. Bulevar, terrazas y patio de comidas.',
-    image: '/media/food-hall.jpg',
+    image: 'media/food-hall.jpg',
   },
   {
     id: 'entretenimiento',
     name: 'Entretenimiento',
     kicker: '05',
     blurb: 'Cine, bowling y noches que se alargan.',
-    image: '/media/cinema.jpg',
+    image: 'media/cinema.jpg',
   },
   {
     id: 'hogar',
     name: 'Hogar & Lifestyle',
     kicker: '06',
     blurb: 'Diseño, viaje y todo lo que hace tuyo un espacio.',
-    image: '/media/storefront.jpg',
+    image: 'media/storefront.jpg',
   },
 ];
 
@@ -118,16 +118,16 @@ export const experiences = [
   {
     title: 'Cinemark',
     text: 'Salas de última generación y los estrenos del mundo, en el corazón de Equipetrol.',
-    image: '/media/cinema.jpg',
+    image: 'media/cinema.jpg',
   },
   {
     title: 'Bulevar gastronómico',
     text: 'Terrazas, bares y cafés que convierten una tarde de compras en una noche entera.',
-    image: '/media/bar.jpg',
+    image: 'media/bar.jpg',
   },
   {
     title: 'Bowling & juegos',
     text: 'Pistas, risas y competencia sana para toda la familia.',
-    image: '/media/arcade.jpg',
+    image: 'media/arcade.jpg',
   },
 ];

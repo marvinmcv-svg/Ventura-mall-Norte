@@ -170,7 +170,7 @@ function renderRing() {
   const ring = document.createElement('div');
   ring.className = 'ring';
   ring.innerHTML = imgs
-    .map((src, i) => `<figure style="transform: rotateY(${(360 / n) * i}deg) translateZ(${radius}px)"><img src="/media/${src}.jpg" alt="" loading="lazy" /></figure>`)
+    .map((src, i) => `<figure style="transform: rotateY(${(360 / n) * i}deg) translateZ(${radius}px)"><img src="media/${src}.jpg" alt="" loading="lazy" /></figure>`)
     .join('');
   $('[data-ring]').appendChild(ring);
   return ring;
@@ -182,6 +182,7 @@ function renderVisit() {
   const q = encodeURIComponent(mall.mapsQuery);
   $('[data-map]').src = `https://www.google.com/maps?q=${q}&output=embed`;
   $('[data-directions]').href = `https://www.google.com/maps/dir/?api=1&destination=${q}`;
+  $('[data-directions-alt]').href = `https://www.google.com/maps/search/?api=1&query=${q}`;
   $('[data-year]').textContent = new Date().getFullYear();
 
   // open/closed status in Bolivia time (UTC-4, no DST)
