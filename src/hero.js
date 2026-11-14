@@ -137,8 +137,8 @@ export function createHero(canvas) {
     uLift: { value: 0.8 },
     uPixelRatio: { value: pr },
     uMouse: { value: new THREE.Vector2(99, 99) },
-    uColorA: { value: new THREE.Color('#e9d6b0') },
-    uColorB: { value: new THREE.Color('#ffffff') },
+    uColorA: { value: new THREE.Color('#ed1c24') },
+    uColorB: { value: new THREE.Color('#ff8200') },
   };
 
   const mat = new THREE.ShaderMaterial({
