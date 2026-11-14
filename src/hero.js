@@ -13,7 +13,9 @@ const vertex = /* glsl */ `
   uniform vec2  uMouse;
   attribute vec3 aScatter;
   attribute float aRand;
+  attribute float aLine;
   varying float vRand;
+  varying float vLine;
   varying float vAlpha;
 
   void main() {
@@ -46,8 +48,9 @@ const vertex = /* glsl */ `
 
     vec4 mv = modelViewMatrix * vec4(p, 1.0);
     gl_Position = projectionMatrix * mv;
-    gl_PointSize = (1.6 + aRand * 2.4) * uPixelRatio * (8.0 / -mv.z);
+    gl_PointSize = (2.0 + aRand * 2.6 + aLine * 0.5) * uPixelRatio * (8.0 / -mv.z);
     vRand = aRand;
+    vLine = aLine;
     vAlpha = 0.35 + 0.65 * t;
   }
 `;
@@ -55,47 +58,69 @@ const vertex = /* glsl */ `
 const fragment = /* glsl */ `
   uniform vec3 uColorA;
   uniform vec3 uColorB;
+  uniform vec3 uColorC;
   uniform float uScroll;
+  uniform float uTime;
   varying float vRand;
+  varying float vLine;
   varying float vAlpha;
   void main() {
     vec2 c = gl_PointCoord - 0.5;
     float d = length(c);
     float a = smoothstep(0.5, 0.0, d);
+    // VENTURA: hot red -> orange. MALL: orange -> gold, slightly brighter.
     vec3 col = mix(uColorA, uColorB, vRand);
-    gl_FragColor = vec4(col, a * vAlpha * (1.0 - uScroll * 0.55));
+    col = mix(col, mix(uColorB, uColorC, vRand), vLine);
+    // occasional sparkle
+    float sparkle = step(0.985, fract(vRand * 91.0 + uTime * 0.15)) * 0.8;
+    col += sparkle;
+    gl_FragColor = vec4(col, a * vAlpha * (1.0 + vLine * 0.15) * (1.0 - uScroll * 0.55));
   }
 `;
 
-function sampleText(text, count) {
+function sampleText(lines, count) {
+  // Draws each line (big VENTURA, then a tracked-out MALL underneath) and
+  // samples filled pixels. Returns positions and a per-point line index.
   const w = 1600;
-  const h = 360;
+  const h = 620;
   const cv = document.createElement('canvas');
   cv.width = w;
   cv.height = h;
   const ctx = cv.getContext('2d', { willReadFrequently: true });
-  ctx.fillStyle = '#fff';
   ctx.textAlign = 'center';
   ctx.textBaseline = 'middle';
-  ctx.font = '700 300px "Syne", "Helvetica Neue", Arial, sans-serif';
-  ctx.fillText(text, w / 2, h / 2 + 10);
-  const data = ctx.getImageData(0, 0, w, h).data;
-
-  const pts = [];
-  for (let y = 0; y < h; y += 2) {
-    for (let x = 0; x < w; x += 2) {
-      if (data[(y * w + x) * 4 + 3] > 128) pts.push([x, y]);
+  const layers = lines.map((l) => {
+    ctx.clearRect(0, 0, w, h);
+    ctx.fillStyle = '#fff';
+    // shrink the font until the line fits the sampling canvas (no cropping)
+    let size = l.size;
+    const fit = () => {
+      ctx.font = `${l.weight} ${size}px "Syne", "Helvetica Neue", Arial, sans-serif`;
+      if ('letterSpacing' in ctx) ctx.letterSpacing = `${(l.tracking || 0) * (size / l.size)}px`;
+      return ctx.measureText(l.text).width;
+    };
+    while (fit() > w * 0.94 && size > 40) size -= 6;
+    ctx.fillText(l.text, w / 2 + ((l.tracking || 0) * (size / l.size)) / 2, l.y);
+    const data = ctx.getImageData(0, 0, w, h).data;
+    const pts = [];
+    for (let y = 0; y < h; y += 2) for (let x = 0; x < w; x += 2) if (data[(y * w + x) * 4 + 3] > 128) pts.push([x, y]);
+    return pts;
+  });
+  const total = layers.reduce((n, p) => n + p.length, 0) || 1;
+  const pos = new Float32Array(count * 3);
+  const line = new Float32Array(count);
+  let i = 0;
+  layers.forEach((pts, li) => {
+    const n = li === layers.length - 1 ? count - i : Math.round((count * pts.length) / total);
+    for (let k = 0; k < n && i < count; k++, i++) {
+      const p = pts[Math.floor(Math.random() * pts.length)] || [w / 2, h / 2];
+      pos[i * 3] = (p[0] - w / 2) / w + (Math.random() - 0.5) * 0.002;
+      pos[i * 3 + 1] = -(p[1] - h / 2) / w + (Math.random() - 0.5) * 0.002;
+      pos[i * 3 + 2] = (Math.random() - 0.5) * 0.02;
+      line[i] = li;
     }
-  }
-  const out = new Float32Array(count * 3);
-  for (let i = 0; i < count; i++) {
-    const p = pts[Math.floor(Math.random() * pts.length)] || [w / 2, h / 2];
-    // normalised to width = 1
-    out[i * 3] = (p[0] - w / 2) / w + (Math.random() - 0.5) * 0.002;
-    out[i * 3 + 1] = -(p[1] - h / 2) / w + (Math.random() - 0.5) * 0.002;
-    out[i * 3 + 2] = (Math.random() - 0.5) * 0.02;
-  }
-  return out;
+  });
+  return { pos, line };
 }
 
 export function createHero(canvas) {
@@ -108,8 +133,11 @@ export function createHero(canvas) {
   camera.position.set(0, 0, 10);
 
   const isMobile = window.innerWidth < 768;
-  const COUNT = isMobile ? 9000 : 18000;
-  const text = sampleText('VENTURA', COUNT);
+  const COUNT = isMobile ? 14000 : 30000;
+  const { pos: text, line } = sampleText([
+    { text: 'VENTURA', size: 300, weight: 800, y: 205 },
+    { text: 'MALL', size: 150, weight: 800, y: 420, tracking: 90 },
+  ], COUNT);
 
   const scatter = new Float32Array(COUNT * 3);
   const rand = new Float32Array(COUNT);
@@ -128,6 +156,7 @@ export function createHero(canvas) {
   geo.setAttribute('position', new THREE.BufferAttribute(text, 3));
   geo.setAttribute('aScatter', new THREE.BufferAttribute(scatter, 3));
   geo.setAttribute('aRand', new THREE.BufferAttribute(rand, 1));
+  geo.setAttribute('aLine', new THREE.BufferAttribute(line, 1));
 
   const uniforms = {
     uTime: { value: 0 },
@@ -137,8 +166,9 @@ export function createHero(canvas) {
     uLift: { value: 0.8 },
     uPixelRatio: { value: pr },
     uMouse: { value: new THREE.Vector2(99, 99) },
-    uColorA: { value: new THREE.Color('#ed1c24') },
-    uColorB: { value: new THREE.Color('#ff8200') },
+    uColorA: { value: new THREE.Color('#ff2436') },
+    uColorB: { value: new THREE.Color('#ff8a00') },
+    uColorC: { value: new THREE.Color('#ffc93c') },
   };
 
   const mat = new THREE.ShaderMaterial({
@@ -166,8 +196,11 @@ export function createHero(canvas) {
     camera.updateProjectionMatrix();
     visibleH = 2 * camera.position.z * Math.tan(THREE.MathUtils.degToRad(camera.fov / 2));
     visibleW = visibleH * camera.aspect;
-    uniforms.uScale.value = visibleW * (w < 768 ? 0.92 : 0.82);
-    uniforms.uLift.value = visibleH * (w < 768 ? 0.12 : 0.14);
+    // fit both lines: limited by width on phones, by height on wide screens
+    const byW = visibleW * (w < 768 ? 0.94 : 0.74);
+    const byH = visibleH * 0.62 / (620 / 1600);
+    uniforms.uScale.value = Math.min(byW, byH);
+    uniforms.uLift.value = visibleH * (w < 768 ? 0.16 : 0.12);
   }
 
   function onMove(e) {
@@ -199,14 +232,20 @@ export function createHero(canvas) {
   tick();
 
   // pause rendering when the hero is off-screen
-  new IntersectionObserver(([entry]) => {
+  const io = new IntersectionObserver(([entry]) => {
     running = entry.isIntersecting;
-  }).observe(canvas);
+  });
+  io.observe(canvas);
 
   return {
     uniforms,
     destroy() {
       cancelAnimationFrame(raf);
+      io.disconnect();
+      window.removeEventListener('pointermove', onMove);
+      window.removeEventListener('resize', resize);
+      geo.dispose();
+      mat.dispose();
       renderer.dispose();
     },
   };

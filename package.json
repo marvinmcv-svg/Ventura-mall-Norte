@@ -5,9 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "node scripts/fetch-media.mjs && vite build",
-    "preview": "vite preview",
-    "fetch-media": "node scripts/fetch-media.mjs"
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^1.8.0",

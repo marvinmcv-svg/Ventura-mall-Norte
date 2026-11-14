@@ -1,8 +1,8 @@
 # Ventura Mall — sitio web
 
-Sitio de una sola página para Ventura Mall (Equipetrol Norte, Santa Cruz de la Sierra).
+Sitio de Ventura Mall (Equipetrol Norte, Santa Cruz de la Sierra).
 
-**Stack:** Vite · GSAP + ScrollTrigger · Lenis (smooth scroll) · Three.js (hero de partículas en shaders)
+**Stack:** Vite · GSAP + ScrollTrigger · Lenis · Three.js · función serverless de Vercel para el asistente (Claude).
 
 ```bash
 npm install
@@ -10,37 +10,31 @@ npm run dev      # http://localhost:5173
 npm run build    # salida en dist/
 ```
 
-## Secciones
+## Páginas
 
-1. **Preloader**: contador y apertura de cortina.
-2. **Hero**: unas 18k partículas WebGL forman la palabra "VENTURA", se apartan al pasar el cursor y se dispersan en una galaxia al hacer scroll.
-3. **Marquee de marcas**: se acelera, cambia de dirección y se inclina según la velocidad del scroll.
-4. **Manifiesto**: las palabras se iluminan una a una al hacer scroll.
-5. **Revelado con zoom**: la imagen del atrio se expande a pantalla completa y aparecen contadores.
-6. **Categorías**: galería horizontal fijada (pinned) con parallax dentro de cada tarjeta.
-7. **Directorio**: filtro por categoría, búsqueda y vista previa de imagen que sigue al cursor.
-8. **Gastronomía**: columna fija (sticky) con imágenes en parallax que se revelan con clip-path.
-9. **Experiencias**: tarjetas apiladas que se reducen al llegar la siguiente.
-10. **Instagram**: anillo 3D de imágenes que gira con el scroll.
-11. **Visítanos**: horarios, estado abierto/cerrado (hora de Bolivia), mapa y cómo llegar.
-12. **Footer**: el wordmark gigante se ajusta al ancho del contenedor.
+| Ruta | Contenido |
+| --- | --- |
+| `/` | Hero de partículas (VENTURA + MALL), manifiesto, cifras, categorías, tiendas destacadas, Boulevard, reels, Ruta Boulevard, experiencias, TikTok, comunidad y cómo llegar |
+| `/tiendas` | Directorio completo con filtros por categoría y búsqueda (`?cat=moda&q=jeans`) |
+| `/tiendas/:slug` | Página de cada tienda: ubicación, horario, contacto, sobre la marca, novedades en Ventura, productos (galería con lightbox), videos y tiendas relacionadas |
+| `/boulevard` | Todos los restaurantes, con logo y foto real |
+| `/boulevard/:slug` | Página de cada restaurante: reservas por WhatsApp, horario, platos y momentos, videos |
 
-Incluye cursor personalizado, botones magnéticos, textura de grano y navegación que se oculta al bajar. Respeta `prefers-reduced-motion`.
+Las rutas usan URLs limpias; `vercel.json` reescribe todo lo que no sea `/api`, `/media` o `/assets` a `index.html`. El router (`src/router.js`) anima una cortina entre páginas y limpia las animaciones de cada vista al salir.
 
-## Contenido y fuentes
+## Contenido
 
-Todo el contenido de `src/data.js` tiene fuente, indicada en un comentario en cada línea:
-- **[web]** venturamall.bo, copia archivada el 14 de marzo de 2026 (el sitio en vivo tiene el certificado SSL vencido). De ahí salen los horarios, el teléfono, el email, la dirección y las coordenadas.
-- **[ig]** Publicaciones de @venturamalloficial del 8 al 13 de noviembre de 2026. De ahí salen las marcas, los eventos y Ventura Sur.
+- `src/data.js`: todos los datos con su fuente (sitio oficial archivado, @venturamalloficial, la cuenta oficial de cada tienda y restaurante, atom.bio del Boulevard, Wikipedia). Solo se listan locales que aparecen en publicaciones oficiales.
+- `src/content.js`: helpers que combinan los datos con las fotos y videos.
+- `src/media.json`: manifiesto de medios (publicaciones, logos, TikToks, fotos del edificio).
 
-Solo se listan las marcas que aparecen en publicaciones oficiales. Se quitaron TGI Fridays, Hard Rock, P.F. Chang's, Cinemark y las cifras de estacionamientos y patio de comidas, porque no se pudieron verificar.
+## Fotos y videos
 
-## Fotos y videos reales
+Todos los medios están **guardados en el repositorio** en `public/media/` (antes se descargaban al compilar desde enlaces de Instagram/TikTok que vencen en pocos días, por eso faltaban miniaturas):
 
-`scripts/instagram-media.json` tiene 36 publicaciones reales: 14 reels y 88 fotos de carrusel. Para descargarlas junto con el logo oficial:
+- `media/logos/` — logo real de cada tienda y restaurante (avatar de su cuenta oficial). HUGO, Springfield, women'secret y Chilli Beans usan un rótulo tipográfico porque su avatar no servía.
+- `media/ig/` — fotos (WebP) y videos (MP4 de 20 s, 540p) de @venturamalloficial y de las cuentas de cada local. Cada video tiene su miniatura.
+- `media/tt/` — TikToks de @venturamalloficial con miniatura; los que no se pudieron descargar se reproducen con el reproductor de TikTok.
+- `media/mall/` — fotos del edificio de Wikimedia Commons (CC BY-SA).
 
-```bash
-npm run fetch-media
-```
-
-Los archivos se guardan en `public/media/ig/` y `public/brand/`. Los enlaces de Instagram expiran a los pocos días; si el script da errores 403, hay que volver a extraer el feed.
+La portada de cada tienda/restaurante se eligió a mano (campo `cover` en `src/data.js`) para mostrar la imagen más representativa.

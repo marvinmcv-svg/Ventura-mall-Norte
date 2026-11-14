@@ -1,6 +1,8 @@
 import { defineConfig } from 'vite';
 
-// Relative base so the build works at a domain root (Vercel) or under a sub-path.
+// Absolute base: the site uses clean URLs (/tiendas/boss), served by a SPA
+// rewrite on Vercel (see vercel.json).
 export default defineConfig({
-  base: './',
+  base: '/',
+  build: { chunkSizeWarningLimit: 900 },
 });

@@ -1,0 +1,4531 @@
+{
+ "accounts": {
+  "aeropostale": {
+   "name": "Aéropostale",
+   "followers": 4071072,
+   "logo": "media/logos/aeropostale.webp",
+   "posts": [
+    "DfsJ5jXJI8A",
+    "Dfpb_zhF7Q0",
+    "Dfm3IKZB_rj",
+    "DfkR80tyyOW",
+    "Dfhw08xlf2u",
+    "DffIzz2FGIY",
+    "Dfcj8gliaT0",
+    "DfaB1ISimtd"
+   ]
+  },
+  "armaniexchange": {
+   "name": "Armani Exchange",
+   "followers": 2626216,
+   "logo": "media/logos/armaniexchange.webp",
+   "posts": [
+    "DfreY13DkYQ",
+    "Dfoo3Ejt0xX",
+    "DfkX1fNDbrs",
+    "Dfhcp4PjQgp",
+    "Dfg8XILjQfH",
+    "Dfcq0_aElyI",
+    "DfaF_XtE7PQ",
+    "DfZcwqSk6sc"
+   ]
+  },
+  "babycorp_bolivia": {
+   "name": "Baby Corp Bolivia",
+   "followers": 33411,
+   "logo": "media/logos/babycorp_bolivia.webp",
+   "posts": [
+    "DMeHYh0M6ho",
+    "Davg0WBTrwT",
+    "DTveIKHD13T",
+    "Dfp2Vh1B97h",
+    "DfiT_u2oK_J",
+    "Dfh1aMONhIo",
+    "DfdL9wqBgGF",
+    "DfVpIPozIHV"
+   ]
+  },
+  "bahiana.scz": {
+   "name": "Bahiana Restaurante & Bar",
+   "followers": 6666,
+   "logo": "media/logos/bahiana.scz.webp",
+   "posts": [
+    "DfsOam8u8r9",
+    "DfsLH5coBo6",
+    "DfivkoeFFe4",
+    "Dfhwf9_G4-j",
+    "DffRPTxxd4O",
+    "DfZlrJRRaq9",
+    "DfYbbgym0vc",
+    "DfH-OPZEUx-",
+    "De2hmYkRA4B",
+    "De5NmbQgEu2"
+   ]
+  },
+  "boss": {
+   "name": "BOSS",
+   "followers": 12238861,
+   "logo": "media/logos/boss.webp",
+   "posts": [
+    "DfrzWvaEx46",
+    "DfhbvJ2gcNP",
+    "DfcIiU9k-fr",
+    "DfXOmPVEZL3",
+    "DfUjVZPCAfy",
+    "DfR1ednDASe",
+    "DfPd0htjz5L",
+    "DfM5Xy3iCaI"
+   ]
+  },
+  "calvinklein": {
+   "name": "Calvin Klein",
+   "followers": 26150209,
+   "logo": "media/logos/calvinklein.webp",
+   "posts": [
+    "DfsXm3pNlT_",
+    "DfsMRZFiXlj",
+    "DfsLqLyCWGJ",
+    "DfsKO5mpi3R",
+    "DfsKFJQiQ17",
+    "DfsJBc4pjkH",
+    "DfsI3p6oAIT",
+    "Dfm3IvtNw8O"
+   ]
+  },
+  "churromaniabolivia": {
+   "name": "Churromania",
+   "followers": 278,
+   "logo": "media/logos/churromaniabolivia.webp",
+   "posts": [
+    "Dfsv_DZIUFv",
+    "DfkHRWTxzX0",
+    "DfYQLqooA_4",
+    "DfKFxE2R1uj",
+    "DfIuL1ZoTr5",
+    "De-VMzYIKRe",
+    "DezKpWcx1_i",
+    "DesPc6joZtS"
+   ]
+  },
+  "cinnabonbolivia": {
+   "name": "Cinnabon Bolivia",
+   "followers": 15943,
+   "logo": "media/logos/cinnabonbolivia.webp",
+   "posts": [
+    "DePGVV1DLOG",
+    "DYZ35MWORUe",
+    "DWCJ1G8EwzF",
+    "DfmpU3JkeZB",
+    "DffMNGwRuVV",
+    "DfcjJ2wnI9r",
+    "DfSe1FjxxF6",
+    "DfFLM7CRQff",
+    "De4TCJiCbd4",
+    "DewktpfRndg"
+   ]
+  },
+  "deluxscz": {
+   "name": "DELUX",
+   "followers": 2260,
+   "logo": "media/logos/deluxscz.webp",
+   "posts": [
+    "DfshsvPODdN",
+    "DfqDN9sqDqQ",
+    "Dfnpy_fDvIv",
+    "Dfcy46AH46L",
+    "Dfax2n_jlpy",
+    "DfYKSCYDoIq",
+    "DfVodvmDme1",
+    "DfS_aD2KY29"
+   ]
+  },
+  "elcuartito.bo": {
+   "name": "El Cuartito",
+   "followers": 10440,
+   "logo": "media/logos/elcuartito.bo.webp",
+   "posts": [
+    "DfkWO0VlsYf",
+    "DfXbQM8lij6",
+    "DfFQi_GHFFb",
+    "DfAPzpElrPG",
+    "DezY8J8Fsab",
+    "DeuNGfQHebv",
+    "DehVlvqFheR",
+    "DecK0URlrjx",
+    "DeW0wwYiDqN",
+    "Dd7anHCINXL"
+   ]
+  },
+  "elcuartitobestial": {
+   "name": "El Cuartito Bestial",
+   "followers": 3192,
+   "logo": "media/logos/elcuartitobestial.webp",
+   "posts": [
+    "DfpW4AincXS",
+    "Dfm0wosFsuk",
+    "DfkIs4Hj3O0",
+    "DfhgWt4lrZ3",
+    "DfXUlZbFjU3",
+    "DfUwVSADo02",
+    "DfSYGgCjtVf",
+    "DfPmX2hFoC9",
+    "DfFLEwanElH",
+    "DfCmV4qIKC1"
+   ]
+  },
+  "fiestaperu.bo": {
+   "name": "Fiesta Perú",
+   "followers": 23816,
+   "logo": "media/logos/fiestaperu.bo.webp",
+   "posts": [
+    "Dfsa4Dxi3b1",
+    "DfpBQxHid3R",
+    "DfNQj7ZipKO",
+    "DfMy5H2CS4k",
+    "De_zVOWCtoJ",
+    "De68XGti3TE",
+    "DevN3GsCGDZ",
+    "DepBpKzCCH3",
+    "DeiGiYYC1AF",
+    "Deg6nX8iSGo"
+   ]
+  },
+  "fogo": {
+   "name": "Fogo de Chao",
+   "followers": 441239,
+   "logo": "media/logos/fogo.webp",
+   "posts": [
+    "Dfm_bd5FyuT",
+    "DfqEQLgB8pS",
+    "DfklJXtl5GT",
+    "DfdXeYeCbz2",
+    "DfauRH7NeBI",
+    "DfYKzL_puGZ",
+    "DfVaY0AggyJ",
+    "DfSdSZ6mXsq",
+    "DfKlsiqFjNc",
+    "DfIfhyQGIsy"
+   ]
+  },
+  "forever21": {
+   "name": "Forever21",
+   "followers": 13219215,
+   "logo": "media/logos/forever21.webp",
+   "posts": [
+    "DfphMP8CvN2",
+    "DfoXPi_lcOF",
+    "DfnbCyQF-6O",
+    "Dfj9zq8F-KV",
+    "DfjPkeRjlZL",
+    "DfXlc0hiPGi",
+    "DfaCWE3l1bi",
+    "DfQNxZJF8Zt"
+   ]
+  },
+  "hardrockcafescz": {
+   "name": "Hard Rock Cafe Santa Cruz",
+   "followers": 11364,
+   "logo": "media/logos/hardrockcafescz.webp",
+   "posts": [
+    "DfsICKeFjvp",
+    "DfnWINsoBCg",
+    "Dfmx1TtIbOI",
+    "Dfj-PwKI7SX",
+    "DfhsxINoWX4",
+    "DfhbRc4ll1m",
+    "DfdkqH6AEym",
+    "DfXOS5qICo3",
+    "DfVUrjFI2O7",
+    "DfUezDEIlA-"
+   ]
+  },
+  "hugo_official": {
+   "name": "HUGO",
+   "followers": 1776488,
+   "logo": "media/logos/hugo_official.webp",
+   "posts": [
+    "Dfryar5E6lF",
+    "DfmluJvBbae",
+    "DfkFuu2AOk2",
+    "DfhSCrIqRko",
+    "Dfe6hJwk7fv",
+    "DfZ6bOql8Nb",
+    "DfXhRjrkcwg",
+    "DfU4zB0GZIy"
+   ]
+  },
+  "joyeriacarrasco": {
+   "name": "CARRASCO",
+   "followers": 11221,
+   "logo": "media/logos/joyeriacarrasco.webp",
+   "posts": [
+    "DfQrUa4NeXH",
+    "DfQqZg5JNz-",
+    "DcoU-KwEYa7",
+    "DcR1UsHpOyP",
+    "DcgVQgyEWan",
+    "DbmEfL7J6D8",
+    "DbVlsw2OisA",
+    "DbGujAOJ9ms"
+   ]
+  },
+  "kaos_ventura": {
+   "name": "KAOS BOULEVARD VENTURA MALL",
+   "followers": 756,
+   "logo": "media/logos/kaos_ventura.webp",
+   "posts": [
+    "DblaNv2k7s7",
+    "DaOnChKH5jq",
+    "DYpEdE0lg68",
+    "DYFgpdRGvDR",
+    "DXMqvTfDWwl",
+    "DWU9rNjjkLn",
+    "DWO42TdFRzn",
+    "DUmjWE-DptS",
+    "DUmht5TDsaV",
+    "DUQxqvBDv2K"
+   ]
+  },
+  "kidscollectionbo": {
+   "name": "Kids Collection |Bolivia🇧🇴|",
+   "followers": 26572,
+   "logo": "media/logos/kidscollectionbo.webp",
+   "posts": [
+    "De12nVhjpGg",
+    "Dfhm--Qkl3u",
+    "DfUj8NHij2I",
+    "DfseohLGua-",
+    "Dfr1EUqRkka",
+    "DfpRvJjlaoe",
+    "DfnySv9m1QI",
+    "DfmrxnOjbhC"
+   ]
+  },
+  "levis": {
+   "name": "Levi's",
+   "followers": 10551178,
+   "logo": "media/logos/levis.webp",
+   "posts": [
+    "DflDBOHGh9O",
+    "Dfk91VvhR_R",
+    "DfdNC1Fhfi2",
+    "DfZ4TI4mz6U",
+    "DfVAxEUxmv9",
+    "DfSeGKgGY31",
+    "DfQij_1Mdin",
+    "DfQB3_7Bf97"
+   ]
+  },
+  "mango": {
+   "name": "MANGO",
+   "followers": 15737385,
+   "logo": "media/logos/mango.webp",
+   "posts": [
+    "DfrJwl7kfgj",
+    "DfoyE8KCPN0",
+    "DfjbW5gDs_s",
+    "Dfg2kPajczZ",
+    "DfeRwDak7ZZ",
+    "Dfbs_monJ6e",
+    "DfZIOhQAdfO",
+    "DfWjXIeEzB_"
+   ]
+  },
+  "manhattan.bolivia": {
+   "name": "Manhattan Bolivia",
+   "followers": 19691,
+   "logo": "media/logos/manhattan.bolivia.webp",
+   "posts": [
+    "Dfry6LSDSQK",
+    "DfmpUwFnxQv",
+    "Dfhfu6uFKJT",
+    "DfZxWuAjKUT",
+    "DfUnw1VFNDL",
+    "DfPeLgwGrBc",
+    "DfHvx0OISR-",
+    "DfCmMYdiIR1"
+   ]
+  },
+  "mariposagiftshop.scz": {
+   "name": "Mariposa Gift Shop",
+   "followers": 10407,
+   "logo": "media/logos/mariposagiftshop.scz.webp",
+   "posts": [
+    "Dfe0drCHIHu",
+    "DfUj1G4xVt2",
+    "DfTL7JQmvpy",
+    "DfKUP8lERkU",
+    "DfDWG7dArYS",
+    "DfAU_KoHD_k",
+    "De7FDpZgp-Q",
+    "DepPHW9GjJ9"
+   ]
+  },
+  "oboticario": {
+   "name": "O Boticário",
+   "followers": 13587757,
+   "logo": "media/logos/oboticario.webp",
+   "posts": [
+    "DfrwzoDkUHZ",
+    "DfqapjBxA1G",
+    "DfqJmdORgaN",
+    "Dfp_qSETwPK",
+    "Dfpw4DNzrqX",
+    "DfpOdUiRyUt",
+    "Dfo-HnHKAuw",
+    "DfngPhhMmni"
+   ]
+  },
+  "opticaspaukerbolivia": {
+   "name": "Ópticas Pauker",
+   "followers": 9564,
+   "logo": "media/logos/opticaspaukerbolivia.webp",
+   "posts": [
+    "DecNFgfpFCQ",
+    "DdcIFN5OETD",
+    "DeIcaUUpKDS",
+    "DfsB1-poFT4",
+    "DfpoQl6pcZw",
+    "Dfmvw08tJPF",
+    "Dfmbntojm8g",
+    "Dfk_Q57O7rA"
+   ]
+  },
+  "regionesbolivia": {
+   "name": "regionesbolivia",
+   "followers": 33673,
+   "logo": "media/logos/regionesbolivia.webp",
+   "posts": [
+    "DfsCQjBgNgs",
+    "DfpFFCvhBJT",
+    "DfpDSAEBwU8",
+    "DfpCAlPOFUR",
+    "DfhHEbjBjcC",
+    "DfhF_dRhCKD",
+    "Dfccv5KBt64",
+    "DfcbQiTNHOw",
+    "DfVaEXuh2Lk",
+    "DfVZtiBNWX-"
+   ]
+  },
+  "republicascz": {
+   "name": "República",
+   "followers": 2619,
+   "logo": "media/logos/republicascz.webp",
+   "posts": [
+    "B8AI7pmp2tF",
+    "B73seZQJMCw",
+    "B5YuWjHJwVv",
+    "B5I9fe0pcQ_",
+    "B5I0vAyphcF",
+    "B5BhW2rpFpe",
+    "B4-LJ5zJx25",
+    "B441MdXJ9RU",
+    "B3SDQzIpfj2",
+    "B3FeSbapRz3"
+   ]
+  },
+  "route66_bolivia": {
+   "name": "Route66 Bolivia",
+   "followers": 8808,
+   "logo": "media/logos/route66_bolivia.webp",
+   "posts": [
+    "DfmpXSbk6X5",
+    "Dfk1vA8FRJY",
+    "DfajXDsAvEL",
+    "DfX3gH2iffN",
+    "DfSuZmiDjFf",
+    "DfKlXh6jDjo",
+    "DfICGmlDGnM",
+    "De98IyhhkqK",
+    "De1jrmWx4zV",
+    "DejqJfpRfPC"
+   ]
+  },
+  "spaciomedico.bo": {
+   "name": "Spacio Médico | Salud & Bienestar",
+   "followers": 1349,
+   "logo": "media/logos/spaciomedico.bo.webp",
+   "posts": [
+    "Dfm4RqMlG_l",
+    "DfS4f9UME6l",
+    "DfIglCcDq4b",
+    "DfHnswkk2aY",
+    "DfDeaQyR-TN",
+    "De-eKtWmzxQ",
+    "De-dlOHDks9",
+    "DezH6GwjIox"
+   ]
+  },
+  "textilon.oficial": {
+   "name": "Textilón",
+   "followers": 27513,
+   "logo": "media/logos/textilon.oficial.webp",
+   "posts": [
+    "Dfs5dyOAM6-",
+    "DfsC6K8lpzw",
+    "DfiSegToTys",
+    "Dfp8ccOjlsZ",
+    "Dfp8QskjlrY",
+    "Dfp7_8wjq4F",
+    "DfifPWhPSBP",
+    "DfifoB7DQHH"
+   ]
+  },
+  "vaca_morena": {
+   "name": "Vaca Morena SteakHouse",
+   "followers": 2232,
+   "logo": "media/logos/vaca_morena.webp",
+   "posts": [
+    "DfXbJB8sCPi",
+    "DezU0OQAPqX",
+    "DeCtO9LgFWE",
+    "Dd94Vf2lCaQ",
+    "Dd4lrsKzSkm",
+    "DdEhS0XtHmY",
+    "Dc6clt9hPRD",
+    "Dcb2M00Kqkh",
+    "Db53QS-kYFg",
+    "DbbUo58CVV9"
+   ]
+  },
+  "venturamalloficial": {
+   "name": "Ventura Mall Santa Cruz Bo",
+   "followers": 55985,
+   "logo": "media/logos/venturamalloficial.webp",
+   "posts": [
+    "DfsjwfrhLKd",
+    "Dfr9hhtKC-8",
+    "Dfr0DW_gECQ",
+    "DfqILz-jnrP",
+    "DfqDN9sqDqQ",
+    "Dfp4sDXDj42",
+    "DfpeFtYjicV",
+    "DfpaR0zjnfK",
+    "DfpZ0s2FC42",
+    "DfpPQjliZO6",
+    "Dfn42btjO9H",
+    "DfnqsxIkUf9",
+    "DfnoFaRFIRk",
+    "DfnmuCTkdjC",
+    "Dfner4ADhBK",
+    "Dfm4RqMlG_l",
+    "Dfm3OJshPWf",
+    "DflHJ_3x2zk",
+    "DflFT4NpjlN",
+    "DflEf6_AC1D",
+    "Dfk0MyABbHF",
+    "DfkoltNisy6",
+    "DfkoksPDYnm",
+    "Dfkc3EdieT_",
+    "Dfkb-1VjQ37",
+    "DfkZKQCINN2",
+    "DfkTpgtD2TG",
+    "DfkSEEdp0sI",
+    "DfkQ9j_liQ4",
+    "DfkQWi9oJBp",
+    "DfkHRWTxzX0",
+    "DfkGPwYEw7A",
+    "DfkFqjxlBHp",
+    "Dfhie0Am-qb",
+    "Dffe_dOCJNt",
+    "Dfe8EyFCZUG",
+    "DfdWHEaEou1",
+    "DfczNg5n-hC",
+    "Dfcy4LTCXt9",
+    "DfcwRLkjgNx",
+    "DfcvzC-mtWs",
+    "DfcqBVtjmGi",
+    "DfcYRBhDrAd",
+    "DfcWJbNDPkI",
+    "DfbUIfdDVTz",
+    "DfaVZSbjCgo",
+    "DfaB85ijlIm",
+    "DfZ2WdqDsvY"
+   ]
+  }
+ },
+ "posts": {
+  "DfsJ5jXJI8A": {
+   "account": "aeropostale",
+   "date": "2026-11-13",
+   "type": "video",
+   "caption": "Made for staying in and chilling out this season 😴 #AeroATeam #AeroFanMail",
+   "likes": 125,
+   "views": 5835,
+   "images": [
+    "media/ig/DfsJ5jXJI8A-0.webp"
+   ],
+   "video": "media/ig/DfsJ5jXJI8A.mp4",
+   "poster": "media/ig/DfsJ5jXJI8A-poster.webp"
+  },
+  "Dfpb_zhF7Q0": {
+   "account": "aeropostale",
+   "date": "2026-11-12",
+   "type": "carousel",
+   "caption": "Your off-duty uniform just got an upgrade #AeroFanMail",
+   "likes": 599,
+   "views": null,
+   "images": [
+    "media/ig/Dfpb_zhF7Q0-0.webp",
+    "media/ig/Dfpb_zhF7Q0-1.webp",
+    "media/ig/Dfpb_zhF7Q0-2.webp"
+   ]
+  },
+  "Dfm3IKZB_rj": {
+   "account": "aeropostale",
+   "date": "2026-11-11",
+   "type": "video",
+   "caption": "The list is in! Are you Naughty or Nice? 😈😇 Shop the collection of iconic holiday characters, only at Aero. #AeroFanMail",
+   "likes": 161,
+   "views": 9871,
+   "images": [
+    "media/ig/Dfm3IKZB_rj-0.webp"
+   ]
+  },
+  "DfkR80tyyOW": {
+   "account": "aeropostale",
+   "date": "2026-11-10",
+   "type": "video",
+   "caption": "Your favorite throwback styles, reissued for everyone. #AeroATeam #AeroFanMail",
+   "likes": 457,
+   "views": 15248,
+   "images": [
+    "media/ig/DfkR80tyyOW-0.webp"
+   ]
+  },
+  "Dfhw08xlf2u": {
+   "account": "aeropostale",
+   "date": "2026-11-09",
+   "type": "video",
+   "caption": "Matching sets? Yes pls. Grab these cozy dwntme styles for you and your bestie.  #AeroFanMail",
+   "likes": 184,
+   "views": 12683,
+   "images": [
+    "media/ig/Dfhw08xlf2u-0.webp"
+   ]
+  },
+  "DffIzz2FGIY": {
+   "account": "aeropostale",
+   "date": "2026-11-08",
+   "type": "video",
+   "caption": "Straight out of the 2000s and back in your rotation. #AeroFanMail @andrewaugustoo",
+   "likes": 438,
+   "views": 26978,
+   "images": [
+    "media/ig/DffIzz2FGIY-0.webp"
+   ]
+  },
+  "Dfcj8gliaT0": {
+   "account": "aeropostale",
+   "date": "2026-11-07",
+   "type": "video",
+   "caption": "Comfy & cozy for the holidays #AeroFanMail",
+   "likes": 319,
+   "views": 18338,
+   "images": [
+    "media/ig/Dfcj8gliaT0-0.webp"
+   ]
+  },
+  "DfaB1ISimtd": {
+   "account": "aeropostale",
+   "date": "2026-11-06",
+   "type": "video",
+   "caption": "It’s all about the details. Your fresh holiday look starts with iconic Aero denim.",
+   "likes": 207,
+   "views": 24126,
+   "images": [
+    "media/ig/DfaB1ISimtd-0.webp"
+   ]
+  },
+  "DfreY13DkYQ": {
+   "account": "armaniexchange",
+   "date": "2026-11-13",
+   "type": "carousel",
+   "caption": "The jacket does the work. The layers make it yours.⁣\n⁣\nDiscover #AXfw26 collection at the link in bio.⁣\n⁣\nPhotographer: @jimcnedd⁣\nStylist: @annacarraro_⁣\nModel: Ruslan, Li",
+   "likes": 188,
+   "views": null,
+   "images": [
+    "media/ig/DfreY13DkYQ-0.webp",
+    "media/ig/DfreY13DkYQ-1.webp",
+    "media/ig/DfreY13DkYQ-2.webp"
+   ]
+  },
+  "Dfoo3Ejt0xX": {
+   "account": "armaniexchange",
+   "date": "2026-11-12",
+   "type": "image",
+   "caption": "A fresh take on the classic t-shirt.\nArmani Exchange Fall/Winter 2026–27\n\nPhotographer: @jimcnedd\nStylist: @annacarraro_\nModel: Ruslan",
+   "likes": 268,
+   "views": null,
+   "images": [
+    "media/ig/Dfoo3Ejt0xX-0.webp"
+   ]
+  },
+  "DfkX1fNDbrs": {
+   "account": "armaniexchange",
+   "date": "2026-11-10",
+   "type": "carousel",
+   "caption": "It’s the finishing touches that makes the difference.\nArmani Exchange Fall/Winter 2026–27.\n\nPhotographer: @jimcnedd\nStylist: @annacarraro_\nModel: Rey",
+   "likes": 377,
+   "views": null,
+   "images": [
+    "media/ig/DfkX1fNDbrs-0.webp",
+    "media/ig/DfkX1fNDbrs-1.webp",
+    "media/ig/DfkX1fNDbrs-2.webp"
+   ]
+  },
+  "Dfhcp4PjQgp": {
+   "account": "armaniexchange",
+   "date": "2026-11-09",
+   "type": "carousel",
+   "caption": "An easy balance between comfort and a more defined silhouette.\n\nArmani Exchange Fall/Winter 2026–27.\n\nPhotographer: @jimcnedd\nStylist: @annacarraro_\nModel: Rey",
+   "likes": 386,
+   "views": null,
+   "images": [
+    "media/ig/Dfhcp4PjQgp-0.webp",
+    "media/ig/Dfhcp4PjQgp-1.webp",
+    "media/ig/Dfhcp4PjQgp-2.webp"
+   ]
+  },
+  "Dfg8XILjQfH": {
+   "account": "armaniexchange",
+   "date": "2026-11-09",
+   "type": "carousel",
+   "caption": "A closer look at the new collection.\n#AXfw26\n\nPhotographer: @jimcnedd\nStylist: @annacarraro_\nModel: Muhammed",
+   "likes": 486,
+   "views": null,
+   "images": [
+    "media/ig/Dfg8XILjQfH-0.webp",
+    "media/ig/Dfg8XILjQfH-1.webp"
+   ]
+  },
+  "Dfcq0_aElyI": {
+   "account": "armaniexchange",
+   "date": "2026-11-07",
+   "type": "carousel",
+   "caption": "The puffer becomes a key layer, balancing volume, warmth and everyday style.⁣\n⁣\nArmani Exchange Fall/Winter 2026–27.⁣\n⁣\nPhotographer: @jimcnedd⁣\nStylist: @annacarraro_⁣\nModel: Li",
+   "likes": 422,
+   "views": null,
+   "images": [
+    "media/ig/Dfcq0_aElyI-0.webp",
+    "media/ig/Dfcq0_aElyI-1.webp"
+   ]
+  },
+  "DfaF_XtE7PQ": {
+   "account": "armaniexchange",
+   "date": "2026-11-06",
+   "type": "carousel",
+   "caption": "A new take on everyday style.⁣\n⁣\nArmani Exchange Fall/Winter 2026–27.⁣\n⁣\nPhotographer: @jimcnedd⁣\nStylist: @annacarraro_⁣\nModel: Li",
+   "likes": 264,
+   "views": null,
+   "images": [
+    "media/ig/DfaF_XtE7PQ-0.webp",
+    "media/ig/DfaF_XtE7PQ-1.webp"
+   ]
+  },
+  "DfZcwqSk6sc": {
+   "account": "armaniexchange",
+   "date": "2026-11-06",
+   "type": "carousel",
+   "caption": "The pieces that make the look.⁣\n⁣\n#AXfw26⁣\n⁣\nPhotographer: @jimcnedd⁣\nStylist: @annacarraro_⁣\nModels: Svetlana",
+   "likes": 394,
+   "views": null,
+   "images": [
+    "media/ig/DfZcwqSk6sc-0.webp",
+    "media/ig/DfZcwqSk6sc-1.webp",
+    "media/ig/DfZcwqSk6sc-2.webp"
+   ]
+  },
+  "DMeHYh0M6ho": {
+   "account": "babycorp_bolivia",
+   "date": "2025-07-24",
+   "type": "video",
+   "caption": "Mínimo esfuerzo, máximo estilo ✨ Un solo movimiento suave. Nuestro coche TRVL lx 🤍 sale esta semana en @voguegermany \n\nDisponible en tiendas @nuna.lat 🤍\n\n#babycorpbolivia #bolivia #nuna #mynuna",
+   "likes": 3,
+   "views": 25146,
+   "images": [
+    "media/ig/DMeHYh0M6ho-0.webp"
+   ],
+   "video": "media/ig/DMeHYh0M6ho.mp4",
+   "poster": "media/ig/DMeHYh0M6ho-poster.webp"
+  },
+  "Davg0WBTrwT": {
+   "account": "babycorp_bolivia",
+   "date": "2026-07-13",
+   "type": "video",
+   "caption": "Herencia, diseño y tradición inigualable. \n\nVisítanos y conoce la colección @pazrodriguezcom \n\n#babycorpbolivia #pazrodríguez #bolivia #ropaparaniños #bautizó",
+   "likes": 3,
+   "views": 21377,
+   "images": [
+    "media/ig/Davg0WBTrwT-0.webp"
+   ]
+  },
+  "DTveIKHD13T": {
+   "account": "babycorp_bolivia",
+   "date": "2026-01-20",
+   "type": "carousel",
+   "caption": "VOGUE Germany elige NUNA. @voguegermany @nuna.lat \nCalma, diseño y comfort absoluto en los hogares donde cada detalle importa🤍\nJust arrived \n\nConsultas & envíos a domicilio \nhttps://wa.me/59177661496\n\n#babycorpbolivia #nuna #leafgrow #cloud",
+   "likes": 3,
+   "views": null,
+   "images": [
+    "media/ig/DTveIKHD13T-0.webp",
+    "media/ig/DTveIKHD13T-1.webp"
+   ]
+  },
+  "Dfp2Vh1B97h": {
+   "account": "babycorp_bolivia",
+   "date": "2026-11-12",
+   "type": "video",
+   "caption": "Hoy hicimos una compra de giiirrl mathhh!✨✨🤏🏼💓",
+   "likes": 25,
+   "views": 3292,
+   "images": [
+    "media/ig/Dfp2Vh1B97h-0.webp"
+   ]
+  },
+  "DfiT_u2oK_J": {
+   "account": "babycorp_bolivia",
+   "date": "2026-11-09",
+   "type": "carousel",
+   "caption": "Nuestro amor chiquito cumplió 5 meses hace una semana y no podemos estar más enamorados! 😍💙 #boymom \n#babyboy\nLook: @babycorp_bolivia",
+   "likes": 801,
+   "views": null,
+   "images": [
+    "media/ig/DfiT_u2oK_J-0.webp",
+    "media/ig/DfiT_u2oK_J-1.webp",
+    "media/ig/DfiT_u2oK_J-2.webp"
+   ]
+  },
+  "Dfh1aMONhIo": {
+   "account": "babycorp_bolivia",
+   "date": "2026-11-09",
+   "type": "video",
+   "caption": "Amamos el esterilizador de Dr. Browns 🩵 es fácil y muy práctico de usar. Lo pueden encontrar en @babycorp_bolivia",
+   "likes": 3,
+   "views": 6427,
+   "images": [
+    "media/ig/Dfh1aMONhIo-0.webp"
+   ]
+  },
+  "DfdL9wqBgGF": {
+   "account": "babycorp_bolivia",
+   "date": "2026-11-07",
+   "type": "image",
+   "caption": "❤️❤️",
+   "likes": 3,
+   "views": null,
+   "images": [
+    "media/ig/DfdL9wqBgGF-0.webp"
+   ]
+  },
+  "DfVpIPozIHV": {
+   "account": "babycorp_bolivia",
+   "date": "2026-11-04",
+   "type": "video",
+   "caption": "La temporada más esperada del año ya está aquí | Black Friday 🖤 hasta un 70% Off en artículos seleccionados.\n\n50% OFF en tus marcas favoritas. \nY desde 10% OFF en absolutamente todas las líneas.\n\n📅 Del 5 al 15 de noviembre.\n📍 Disponible en todas nuestras sucursales de SCZ, CBBA y LPZ.\n\nAbrimos los domingos en sucursales Equipetrol\nVentura Mall\nVentura Sur \nPatio Design \nLas Brisas \nPaseo Aranjuez\n\n#babycorpbolivia #blackfriday #blackfridaysale #descuentos",
+   "likes": 3,
+   "views": 33162,
+   "images": [
+    "media/ig/DfVpIPozIHV-0.webp"
+   ]
+  },
+  "DfsOam8u8r9": {
+   "account": "bahiana.scz",
+   "date": "2026-11-13",
+   "type": "video",
+   "caption": "En Bahiana, primero comes con los ojos… y después no puedes dejar de tomarle fotos. 📸🍔🤤\n\nPorque hay platos que merecen su propio photoshoot. ¿Ya tienes el tuyo?",
+   "likes": 3,
+   "views": 785,
+   "images": [
+    "media/ig/DfsOam8u8r9-0.webp"
+   ],
+   "video": "media/ig/DfsOam8u8r9.mp4",
+   "poster": "media/ig/DfsOam8u8r9-poster.webp"
+  },
+  "DfsLH5coBo6": {
+   "account": "bahiana.scz",
+   "date": "2026-11-13",
+   "type": "carousel",
+   "caption": "🌴🔥 ¡PARLANA TROPICAL NIGHT! 🍹🌺\n\nGet ready for a tropical night full of music, new connections and unforgettable moments! 🌴✨\n\n📍 Nos encontramos en @bahiana.scz , en el corazón de Ventura Mall, Santa Cruz de la Sierra, para vivir una noche diferente, rodeados de buena energía, música y personas de todo el mundo. 🌎💃\n\n🍹 WELCOME DRINK | 20:00 – 22:00 Empezamos la noche con un welcome drink para dar la bienvenida a todos nuestros participantes. 🥂🌺\n\n🎟️ PROMOCIÓN ESPECIAL: 2x1 EN EL INGRESO ¡Ven acompañado y disfruta de nuestra promoción especial! 👯‍♀️🔥\n\n🕗 PROGRAMACIÓN 🌅 20:00 – Inicio",
+   "likes": 24,
+   "views": null,
+   "images": [
+    "media/ig/DfsLH5coBo6-0.webp",
+    "media/ig/DfsLH5coBo6-1.webp",
+    "media/ig/DfsLH5coBo6-2.webp",
+    "media/ig/DfsLH5coBo6-3.webp"
+   ]
+  },
+  "DfivkoeFFe4": {
+   "account": "bahiana.scz",
+   "date": "2026-11-10",
+   "type": "carousel",
+   "caption": "Una noche inolvidable junto a @bahiana.scz 📸✨️",
+   "likes": 3,
+   "views": null,
+   "images": [
+    "media/ig/DfivkoeFFe4-0.webp",
+    "media/ig/DfivkoeFFe4-1.webp",
+    "media/ig/DfivkoeFFe4-2.webp",
+    "media/ig/DfivkoeFFe4-3.webp"
+   ]
+  },
+  "Dfhwf9_G4-j": {
+   "account": "bahiana.scz",
+   "date": "2026-11-09",
+   "type": "carousel",
+   "caption": "De esos lugares que se disfrutan aún más en buena compañía. @bahiana.scz \n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n#restobar #girls #fhotos #date",
+   "likes": 3,
+   "views": null,
+   "images": [
+    "media/ig/Dfhwf9_G4-j-0.webp",
+    "media/ig/Dfhwf9_G4-j-1.webp",
+    "media/ig/Dfhwf9_G4-j-2.webp",
+    "media/ig/Dfhwf9_G4-j-3.webp"
+   ]
+  },
+  "DffRPTxxd4O": {
+   "account": "bahiana.scz",
+   "date": "2026-11-08",
+   "type": "image",
+   "caption": "Esta noche tiene nombre propio: Tiki. 🌴🔥\n\nUn cóctel que no pasa desapercibido y que llegó para ser el protagonista de tu noche. 🍹",
+   "likes": 3,
+   "views": null,
+   "images": [
+    "media/ig/DffRPTxxd4O-0.webp"
+   ]
+  },
+  "DfZlrJRRaq9": {
+   "account": "bahiana.scz",
+   "date": "2026-11-06",
+   "type": "video",
+   "caption": "De día somos un plan, de noche también. 😉\n\nPorque en Bahiana no hay reglas para disfrutar. 🌴",
+   "likes": 3,
+   "views": 1748,
+   "images": [
+    "media/ig/DfZlrJRRaq9-0.webp"
+   ],
+   "video": "media/ig/DfZlrJRRaq9.mp4",
+   "poster": "media/ig/DfZlrJRRaq9-poster.webp"
+  },
+  "DfYbbgym0vc": {
+   "account": "bahiana.scz",
+   "date": "2026-11-06",
+   "type": "carousel",
+   "caption": "Descubriendo lugares que tienen ese encanto especial para compartir y disfrutar. @bahiana.scz \n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n#tropical #restaurant #girls #food",
+   "likes": 3,
+   "views": null,
+   "images": [
+    "media/ig/DfYbbgym0vc-0.webp",
+    "media/ig/DfYbbgym0vc-1.webp",
+    "media/ig/DfYbbgym0vc-2.webp",
+    "media/ig/DfYbbgym0vc-3.webp"
+   ]
+  },
+  "DfH-OPZEUx-": {
+   "account": "bahiana.scz",
+   "date": "2026-10-30",
+   "type": "carousel",
+   "caption": "Truco o trato, pero mejor que sea cóctel. 🎃🍸\n\nEste Halloween tenemos las pociones perfectas para una noche de otro mundo.",
+   "likes": 3,
+   "views": null,
+   "images": [
+    "media/ig/DfH-OPZEUx--0.webp",
+    "media/ig/DfH-OPZEUx--1.webp",
+    "media/ig/DfH-OPZEUx--2.webp"
+   ]
+  },
+  "De2hmYkRA4B": {
+   "account": "bahiana.scz",
+   "date": "2026-10-23",
+   "type": "video",
+   "caption": "El director dijo: “Necesito una escena épica”. \n\nEn Bahiana entendió la misión. 🎬🫡🍹",
+   "likes": 3,
+   "views": 1744,
+   "images": [
+    "media/ig/De2hmYkRA4B-0.webp"
+   ],
+   "video": "media/ig/De2hmYkRA4B.mp4",
+   "poster": "media/ig/De2hmYkRA4B-poster.webp"
+  },
+  "De5NmbQgEu2": {
+   "account": "bahiana.scz",
+   "date": "2026-10-24",
+   "type": "video",
+   "caption": "Girls encontré un nuevo lugar para agregar a nuestra lista de planes. 🌴🍸\n\nUn ambiente tropical, rinconcitos hermosos para sacar fotos, drinks para brindar y comida rica para disfrutar sin apuro.🤍\n\nDe esos lugares donde vas a compartir con amigas y terminas llevándote mil fotos y un buen recuerdo. ✨\n\n¿Con quién vendrías a conocer Bahiana? 👀\n@bahiana.scz \n\n#Bahiana #SantaCruz #DóndeComer #Foodie #PlanesConAmigas",
+   "likes": 3,
+   "views": 3788,
+   "images": [
+    "media/ig/De5NmbQgEu2-0.webp"
+   ]
+  },
+  "DfrzWvaEx46": {
+   "account": "boss",
+   "date": "2026-11-13",
+   "type": "carousel",
+   "caption": "A night in New York, dressed in BOSS confidence. #MeghannFahy wore a sharp two-tone look – debuted on the BOSS Fall/Winter 26 runway – for an appearance on The Tonight Show Starring Jimmy Fallon #BeYourOwnBOSS",
+   "likes": 1623,
+   "views": null,
+   "images": [
+    "media/ig/DfrzWvaEx46-0.webp",
+    "media/ig/DfrzWvaEx46-1.webp"
+   ]
+  },
+  "DfhbvJ2gcNP": {
+   "account": "boss",
+   "date": "2026-11-09",
+   "type": "video",
+   "caption": "The perfect gift doesn’t find itself. #RebeccaDonaldson goes on the hunt for something special they’ll love now and forever #BeYourOwnBOSS",
+   "likes": 12353,
+   "views": 315772,
+   "images": [
+    "media/ig/DfhbvJ2gcNP-0.webp"
+   ],
+   "video": "media/ig/DfhbvJ2gcNP.mp4",
+   "poster": "media/ig/DfhbvJ2gcNP-poster.webp"
+  },
+  "DfcIiU9k-fr": {
+   "account": "boss",
+   "date": "2026-11-07",
+   "type": "carousel",
+   "caption": "Good style is a gift in itself. #LukeNewton makes the holiday season his own in effortless winter layers #BeYourOwnBOSS",
+   "likes": 7439,
+   "views": null,
+   "images": [
+    "media/ig/DfcIiU9k-fr-0.webp",
+    "media/ig/DfcIiU9k-fr-1.webp",
+    "media/ig/DfcIiU9k-fr-2.webp"
+   ]
+  },
+  "DfXOmPVEZL3": {
+   "account": "boss",
+   "date": "2026-11-05",
+   "type": "video",
+   "caption": "The search for the perfect gift has begun. Come along with #LukeNewton as he takes the hunt across town. Who’s the hardest to shop for on your list? #BeYourOwnBOSS",
+   "likes": 36070,
+   "views": 887093,
+   "images": [
+    "media/ig/DfXOmPVEZL3-0.webp"
+   ]
+  },
+  "DfUjVZPCAfy": {
+   "account": "boss",
+   "date": "2026-11-04",
+   "type": "video",
+   "caption": "Let the festivities begin. Mark the holidays in style with cosy layers and delightful gifts, wrapped up in BOSS sophistication #BeYourOwnBOSS",
+   "likes": 4706,
+   "views": 160948,
+   "images": [
+    "media/ig/DfUjVZPCAfy-0.webp"
+   ]
+  },
+  "DfR1ednDASe": {
+   "account": "boss",
+   "date": "2026-11-03",
+   "type": "carousel",
+   "caption": "British tailoring meets fine Italian suiting fabrics. David wears slim-fit virgin-wool tailoring, styled with a crisp shirt, woven tie and patterned pocket square from BOSS BY BECKHAM #BeYourOwnBOSS",
+   "likes": 3157,
+   "views": null,
+   "images": [
+    "media/ig/DfR1ednDASe-0.webp",
+    "media/ig/DfR1ednDASe-1.webp",
+    "media/ig/DfR1ednDASe-2.webp"
+   ]
+  },
+  "DfPd0htjz5L": {
+   "account": "boss",
+   "date": "2026-11-02",
+   "type": "carousel",
+   "caption": "Tailored for the festivities. One season and many occasions. BOSS BY BECKHAM suiting that rises to all of them #BeYourOwnBOSS",
+   "likes": 5461,
+   "views": null,
+   "images": [
+    "media/ig/DfPd0htjz5L-0.webp",
+    "media/ig/DfPd0htjz5L-1.webp"
+   ]
+  },
+  "DfM5Xy3iCaI": {
+   "account": "boss",
+   "date": "2026-11-01",
+   "type": "carousel",
+   "caption": "Made for staying in and settling down. The warmth of winter days at home, expressed in soft textures and neutral tones from BOSS BY BECKHAM #BeYourOwnBOSS",
+   "likes": 6261,
+   "views": null,
+   "images": [
+    "media/ig/DfM5Xy3iCaI-0.webp",
+    "media/ig/DfM5Xy3iCaI-1.webp"
+   ]
+  },
+  "DfsXm3pNlT_": {
+   "account": "calvinklein",
+   "date": "2026-11-13",
+   "type": "video",
+   "caption": "Serving holiday looks.",
+   "likes": 963,
+   "views": 95582,
+   "images": [
+    "media/ig/DfsXm3pNlT_-0.webp"
+   ],
+   "video": "media/ig/DfsXm3pNlT_.mp4",
+   "poster": "media/ig/DfsXm3pNlT_-poster.webp"
+  },
+  "DfsMRZFiXlj": {
+   "account": "calvinklein",
+   "date": "2026-11-13",
+   "type": "carousel",
+   "caption": "Out for the night. \n\n@tylermazaheri keeps it casual, yet intentional in the Ultra Soft Touch Aviator Jacket and Baggy Jean. Double denim sets the vibe for the Calvin Klein Holiday Party. \n\nShop Tyler’s look on CalvinKlein.com",
+   "likes": 3295,
+   "views": null,
+   "images": [
+    "media/ig/DfsMRZFiXlj-0.webp",
+    "media/ig/DfsMRZFiXlj-1.webp",
+    "media/ig/DfsMRZFiXlj-2.webp"
+   ]
+  },
+  "DfsLqLyCWGJ": {
+   "account": "calvinklein",
+   "date": "2026-11-13",
+   "type": "carousel",
+   "caption": "Calvin Klein after dark. \n\nSee and be seen in new sensual silhouettes and rich textures. Think relaxed tailoring and form-fitting styles with a flash of skin. \n\nShop the party looks on CalvinKlein.com",
+   "likes": 2816,
+   "views": null,
+   "images": [
+    "media/ig/DfsLqLyCWGJ-0.webp",
+    "media/ig/DfsLqLyCWGJ-1.webp",
+    "media/ig/DfsLqLyCWGJ-2.webp"
+   ]
+  },
+  "DfsKO5mpi3R": {
+   "account": "calvinklein",
+   "date": "2026-11-13",
+   "type": "video",
+   "caption": "The holiday season has arrived. Meet the guests.",
+   "likes": 5543,
+   "views": 279985,
+   "images": [
+    "media/ig/DfsKO5mpi3R-0.webp"
+   ]
+  },
+  "DfsKFJQiQ17": {
+   "account": "calvinklein",
+   "date": "2026-11-13",
+   "type": "carousel",
+   "caption": "Denim after dark. \n\n@brittenelle styles the Distressed Faux Leather Moto Jacket with the 90s Straight Jean for the Calvin Klein Holiday Party. \n\nShop Britt’s look on CalvinKlein.com",
+   "likes": 1867,
+   "views": null,
+   "images": [
+    "media/ig/DfsKFJQiQ17-0.webp",
+    "media/ig/DfsKFJQiQ17-1.webp",
+    "media/ig/DfsKFJQiQ17-2.webp"
+   ]
+  },
+  "DfsJBc4pjkH": {
+   "account": "calvinklein",
+   "date": "2026-11-13",
+   "type": "video",
+   "caption": "Pre-party fit check. @anaasaber calls @tyrellhampton for a second opinion.",
+   "likes": 931,
+   "views": 169699,
+   "images": [
+    "media/ig/DfsJBc4pjkH-0.webp"
+   ]
+  },
+  "DfsI3p6oAIT": {
+   "account": "calvinklein",
+   "date": "2026-11-13",
+   "type": "carousel",
+   "caption": "From first toast to last call. \n\n@lilychee goes sensual for the Calvin Klein Holiday Dinner Party. The Monogram Logo Rib Mini Dress with a touch of skin, layered with the embossed Faux Leather Coat. \n\nShop Lily’s look on CalvinKlein.com",
+   "likes": 8625,
+   "views": null,
+   "images": [
+    "media/ig/DfsI3p6oAIT-0.webp",
+    "media/ig/DfsI3p6oAIT-1.webp",
+    "media/ig/DfsI3p6oAIT-2.webp"
+   ]
+  },
+  "Dfm3IvtNw8O": {
+   "account": "calvinklein",
+   "date": "2026-11-11",
+   "type": "video",
+   "caption": "A softer take on iconic denim. Experience a brushed finish for an elevated, lived-in feel.",
+   "likes": 6451,
+   "views": 529345,
+   "images": [
+    "media/ig/Dfm3IvtNw8O-0.webp"
+   ]
+  },
+  "Dfsv_DZIUFv": {
+   "account": "churromaniabolivia",
+   "date": "2026-11-13",
+   "type": "video",
+   "caption": "Hay antojos que te cambian el día… y un Cremoso que te cambia hasta el humor. 🤤💙 ¿Ya probaste el tuyo?\n\n📍Encontranos en el primer piso de Ventura Mall.\n\n#ChurroMania #ChurroManiaBolivia #churros",
+   "likes": 2,
+   "views": 142,
+   "images": [
+    "media/ig/Dfsv_DZIUFv-0.webp"
+   ],
+   "video": "media/ig/Dfsv_DZIUFv.mp4",
+   "poster": "media/ig/Dfsv_DZIUFv-poster.webp"
+  },
+  "DfkHRWTxzX0": {
+   "account": "venturamalloficial",
+   "date": "2026-11-10",
+   "type": "image",
+   "caption": "Hay felicidades que se disfrutan mejor por partida doble. 🤤💙 ¿Con quién compartirías el segundo TwistMania?\n\n📍Visitanos en el primer piso de Ventura Mall.\n\n#ChurroMania #ChurroManiaBolivia #churros #Postre",
+   "likes": 3,
+   "views": null,
+   "images": [
+    "media/ig/DfkHRWTxzX0-0.webp"
+   ]
+  },
+  "DfYQLqooA_4": {
+   "account": "churromaniabolivia",
+   "date": "2026-11-05",
+   "type": "video",
+   "caption": "Un postrecito y seguimos… 👀\n\nAunque viendo todo esto, elegir solo uno puede ser complicado. 🤭\n\n 📍Vení a Churromanía y encontrá tu favorito. Te esperamos en el primer piso de Ventura Mall.\n\n#ChurroMania #ChurroManiaBolivia\n#churros #venturamall",
+   "likes": 3,
+   "views": 632,
+   "images": [
+    "media/ig/DfYQLqooA_4-0.webp"
+   ]
+  },
+  "DfKFxE2R1uj": {
+   "account": "churromaniabolivia",
+   "date": "2026-10-31",
+   "type": "image",
+   "caption": "Transición de temporada oficial: De 'dulce o truco' a 'churros de fin de año' en un abrir y cerrar de ojos. 👀✨\n\n📍 Te esperamos en el 1er piso del Ventura Mall.\n\n#ChurroMania #ChurroManiaBolivia #ChurrosSantaCruz #VenturaMall",
+   "likes": 3,
+   "views": null,
+   "images": [
+    "media/ig/DfKFxE2R1uj-0.webp"
+   ]
+  },
+  "DfIuL1ZoTr5": {
+   "account": "churromaniabolivia",
+   "date": "2026-10-30",
+   "type": "video",
+   "caption": "Cuando toca ponerse creativos para Halloween, ¡nos tomamos el trabajo muy en serio! 😂👻 Al menos las risas no faltan por aquí. \n\n#Churromania #ChurromaniaBolivia #Halloween #SpookySeason",
+   "likes": 3,
+   "views": 618,
+   "images": [
+    "media/ig/DfIuL1ZoTr5-0.webp"
+   ]
+  },
+  "De-VMzYIKRe": {
+   "account": "churromaniabolivia",
+   "date": "2026-10-26",
+   "type": "video",
+   "caption": "¿Cuántas de estas cosas ya conocías de Churromanía? 👀\n\nAhora que sabés un poquito más de nosotros, solo falta venir a probar. Los mejores churros del mundo también están en Santa Cruz. 🌎\n\n 📍Te esperamos en el primer piso de Ventura Mall.\n\n#ChurroMania #ChurroManiaBolivia #churros",
+   "likes": 3,
+   "views": 330,
+   "images": [
+    "media/ig/De-VMzYIKRe-0.webp"
+   ]
+  },
+  "DezKpWcx1_i": {
+   "account": "churromaniabolivia",
+   "date": "2026-10-22",
+   "type": "image",
+   "caption": "Dicen que el dinero no compra la felicidad, pero compra churros... y es básicamente lo mismo. 🤤✨\n\n📍 Te esperamos en el 1er piso del Ventura Mall.\n\n#ChurroMania #ChurroManiaBolivia #Churros #SantaCruz #DateUnGusto",
+   "likes": 2,
+   "views": null,
+   "images": [
+    "media/ig/DezKpWcx1_i-0.webp"
+   ]
+  },
+  "DesPc6joZtS": {
+   "account": "churromaniabolivia",
+   "date": "2026-10-19",
+   "type": "video",
+   "caption": "Todos los días son los mejores cuando se trata de comer algo dulce. 🤭\n\nDe lunes a Sunday, siempre hay una buena excusa para unos churros.\n\nVení a Churromanía y disfrutá tus favoritos.\n 📍Te esperamos en el primer piso de Ventura Mall.\n\n#ChurroMania #ChurroManiaBolivia #churros #Humor",
+   "likes": 3,
+   "views": 364,
+   "images": [
+    "media/ig/DesPc6joZtS-0.webp"
+   ]
+  },
+  "DePGVV1DLOG": {
+   "account": "cinnabonbolivia",
+   "date": "2026-10-08",
+   "type": "carousel",
+   "caption": "TUS COMBOS PERFECTOS ✨\n\nHay opciones para cada tipo de antojo y momento del día. 🤩\n\nEncuentra tu combinación favorita. 💙\n\n#Cinnabon #Bolivia #LaPaz #Cochabamba #SantaCruz",
+   "likes": 113,
+   "views": null,
+   "images": [
+    "media/ig/DePGVV1DLOG-0.webp",
+    "media/ig/DePGVV1DLOG-1.webp"
+   ]
+  },
+  "DYZ35MWORUe": {
+   "account": "cinnabonbolivia",
+   "date": "2026-05-16",
+   "type": "video",
+   "caption": "El proceso que nadie ve…pero todos disfrutan. 😌💙\n\n📍Ordena tu producto favorito o visítanos en nuestras sucursales de La Paz, Cochabamba y Santa Cruz.\n\n#Cinnabon #Bolivia #LaPaz #Cochabamba #SantaCruz",
+   "likes": 143,
+   "views": 6349,
+   "images": [
+    "media/ig/DYZ35MWORUe-0.webp"
+   ],
+   "video": "media/ig/DYZ35MWORUe.mp4",
+   "poster": "media/ig/DYZ35MWORUe-poster.webp"
+  },
+  "DWCJ1G8EwzF": {
+   "account": "cinnabonbolivia",
+   "date": "2026-03-18",
+   "type": "carousel",
+   "caption": "Tu antojo más esperado y dulce te esperan en nuestros horarios disponible 👇\n\nTe esperamos para que disfrutes de tus\nproductos favoritos. 💙\n\n#Cinnabon #Bolivia #LaPaz\n#Cochabamba #SantaCruz",
+   "likes": 30,
+   "views": null,
+   "images": [
+    "media/ig/DWCJ1G8EwzF-0.webp",
+    "media/ig/DWCJ1G8EwzF-1.webp"
+   ]
+  },
+  "DfmpU3JkeZB": {
+   "account": "cinnabonbolivia",
+   "date": "2026-11-11",
+   "type": "image",
+   "caption": "¿DÍA BUENO O DÍA MALO? 🤭\n\nNo importa cómo vaya tu día, siempre hay una buena excusa para disfrutar algo delicioso. 💙\n\n📍 Visita tu sucursal favorita y disfruta tu momento Cinnabon.\n\n#Cinnabon #Cinnachips  #LaPaz #Cochabamba #SantaCruz",
+   "likes": 20,
+   "views": null,
+   "images": [
+    "media/ig/DfmpU3JkeZB-0.webp"
+   ]
+  },
+  "DffMNGwRuVV": {
+   "account": "cinnabonbolivia",
+   "date": "2026-11-08",
+   "type": "image",
+   "caption": "Nuestras Cinna Chips combinan una textura crujiente con el irresistible sabor de la canela. 🥰\n\n¡Una opción deliciosa para cualquier antojo!\nCuéntanos, ¿ya los probaste? … 👀\n\n#Cinnabon #Cinnachips  #LaPaz #Cochabamba #SantaCruz",
+   "likes": 11,
+   "views": null,
+   "images": [
+    "media/ig/DffMNGwRuVV-0.webp"
+   ]
+  },
+  "DfcjJ2wnI9r": {
+   "account": "cinnabonbolivia",
+   "date": "2026-11-07",
+   "type": "carousel",
+   "caption": "HAY MIL FORMAS DE DECIR TE QUIERO…💙 pero algunas son más dulces que otras. 🤭\n\nSorprende a esa persona especial con un detalle delicioso de Cinnabon.\n\n👉 Etiqueta a tu persona favorita \n\n#Cinnabon #Cochabamba #Bolivia #LaPaz #SantaCruz",
+   "likes": 21,
+   "views": null,
+   "images": [
+    "media/ig/DfcjJ2wnI9r-0.webp",
+    "media/ig/DfcjJ2wnI9r-1.webp",
+    "media/ig/DfcjJ2wnI9r-2.webp",
+    "media/ig/DfcjJ2wnI9r-3.webp"
+   ]
+  },
+  "DfSe1FjxxF6": {
+   "account": "cinnabonbolivia",
+   "date": "2026-11-03",
+   "type": "video",
+   "caption": "Un poco de magia, abre la caja y descubre nuestro: ✨ CHOCOBON ✨\nUna deliciosa combinación de canela y chocolate que conquista con el primer bocado. 😋\n\n📍 Te esperamos en Santa Cruz, La Paz y Cochabamba \n\n#Cinnabon #Bolivia #Chocobon #Cochabamba #SantaCruz",
+   "likes": 33,
+   "views": 2862,
+   "images": [
+    "media/ig/DfSe1FjxxF6-0.webp"
+   ],
+   "video": "media/ig/DfSe1FjxxF6.mp4",
+   "poster": "media/ig/DfSe1FjxxF6-poster.webp"
+  },
+  "DfFLM7CRQff": {
+   "account": "cinnabonbolivia",
+   "date": "2026-10-29",
+   "type": "video",
+   "caption": "¿VENÍAS POR UNO SOLO? 🤔\n\nEntre nuestros rolls, paninos, bebidas y todas esas opciones irresistibles, sabemos que elegir solo una puede ser complicado. 💙\n\nCuéntanos, ¿qué producto es tu favorito? 👀\n\n#Cinnabon #Bolivia #LaPaz #Cochabamba #SantaCruz",
+   "likes": 17,
+   "views": 1273,
+   "images": [
+    "media/ig/DfFLM7CRQff-0.webp"
+   ],
+   "video": "media/ig/DfFLM7CRQff.mp4",
+   "poster": "media/ig/DfFLM7CRQff-poster.webp"
+  },
+  "De4TCJiCbd4": {
+   "account": "cinnabonbolivia",
+   "date": "2026-10-24",
+   "type": "carousel",
+   "caption": "¿PUEDES SENTIR ESE AROMA? 👀\nCanela recién horneada, masa suave y nuestro irresistible glaseado. 💙\n\n📍 Visita tu sucursal Cinnabon favorita y disfruta uno recién preparado.\n\n#Cinnabon #Bolivia  #LaPaz #Cochabamba #SantaCruz",
+   "likes": 23,
+   "views": null,
+   "images": [
+    "media/ig/De4TCJiCbd4-0.webp",
+    "media/ig/De4TCJiCbd4-1.webp",
+    "media/ig/De4TCJiCbd4-2.webp"
+   ]
+  },
+  "DewktpfRndg": {
+   "account": "cinnabonbolivia",
+   "date": "2026-10-21",
+   "type": "video",
+   "caption": "A veces, todo lo que necesitas es una pausa con tu bebida favorita para cambiar el mood.\n\n🔹 Chillatta Cinnamon Roll\n🔹 Caramellata\n🔹 Iced Latte\n🔹 Café Americano\n\n ¿Cuál elegirías para alegrar tu día? 👇👀\n\n#Cinnabon #Bolivia #LaPaz #Cochabamba #SantaCruz",
+   "likes": 23,
+   "views": 1962,
+   "images": [
+    "media/ig/DewktpfRndg-0.webp"
+   ]
+  },
+  "DfshsvPODdN": {
+   "account": "deluxscz",
+   "date": "2026-11-13",
+   "type": "image",
+   "caption": "BLACK FRIDAY IS ON! 🖤✨\n¡Los mejores looks vienen con grandes descuentos\n🔥 HASTA 50% OFF EN TODA LA TIENDA 🔥\nDescubrí tus marcas favoritas y aprovechá el Black Friday de DELUX.\n📍 Ventura Mall | Piso 1\n#DeluxBolivia #BlackFriday #KidsFashion #VenturaMall",
+   "likes": 1,
+   "views": null,
+   "images": [
+    "media/ig/DfshsvPODdN-0.webp"
+   ]
+  },
+  "DfqDN9sqDqQ": {
+   "account": "venturamalloficial",
+   "date": "2026-11-12",
+   "type": "video",
+   "caption": "¡El Black Friday se vive en DELUX! 🔥🤍\n✨ HASTA 50% OFF EN TODA LA TIENDA ✨\nTus marcas favoritas, los mejores looks y descuentos que no podés dejar pasar.\n🛍️ ¡Aprovechá y encontrá sus próximos favoritos!\n📍 DELUX | Ventura Mall, Piso",
+   "likes": 4,
+   "views": 519,
+   "images": [
+    "media/ig/DfqDN9sqDqQ-0.webp"
+   ],
+   "video": "media/ig/DfqDN9sqDqQ.mp4",
+   "poster": "media/ig/DfqDN9sqDqQ-poster.webp"
+  },
+  "Dfnpy_fDvIv": {
+   "account": "deluxscz",
+   "date": "2026-11-11",
+   "type": "image",
+   "caption": "Preparate para disfrutar de los descuentos más esperados del año!\n✨ HASTA 50% DE DESCUENTO EN TODA LA TIENDA ✨\n📍 DELUX | Ventura Mall, Piso 1\n💬 Escribinos para consultar por prendas, tallas y descuentos disponibles.\n¡Te esperamos! ❤️",
+   "likes": 4,
+   "views": null,
+   "images": [
+    "media/ig/Dfnpy_fDvIv-0.webp"
+   ]
+  },
+  "Dfcy46AH46L": {
+   "account": "deluxscz",
+   "date": "2026-11-07",
+   "type": "image",
+   "caption": "THE BLACK FRIDAY EVENT IS HERE! 🖤🔥\n¡Llegaron los descuentos más esperados a DELUX!\nDisfrutá de HASTA 50% OFF EN TODA LA TIENDA y encontrá los mejores looks de tus marcas favoritas. ✨\n🛍️ ¡Es el momento de renovar su guardarropa!\n📍 DELUX | Ventura Mall, Piso 1\n#DeluxBolivia #BlackFriday #KidsFashion #VenturaMall",
+   "likes": 2,
+   "views": null,
+   "images": [
+    "media/ig/Dfcy46AH46L-0.webp"
+   ]
+  },
+  "Dfax2n_jlpy": {
+   "account": "deluxscz",
+   "date": "2026-11-06",
+   "type": "image",
+   "caption": "BORN TO STAND OUT. 🔥\n\nActitud sin límites, diseños que rompen las reglas y un estilo que no pasa desapercibido.\n\n🖤 HUGO Kids para los pequeños que se atreven a ser diferentes.\n\nDescubrí la colección en DELUX.\n\n📍 Ventura Mall | Piso 1\n💬 Consultanos por tallas disponibles.",
+   "likes": 0,
+   "views": null,
+   "images": [
+    "media/ig/Dfax2n_jlpy-0.webp"
+   ]
+  },
+  "DfYKSCYDoIq": {
+   "account": "deluxscz",
+   "date": "2026-11-05",
+   "type": "carousel",
+   "caption": "KEEP GOING, KEEP GROWING! 🌸💖\n\nEsta prenda de Billieblush combina comodidad y diversión con detalles que hacen la diferencia. 🌈✨\n\n¡Perfecta para las pequeñas que brillan con su propio estilo!\n\n📍 DELUX | Ventura Mall, Piso 1\n💬 Consultanos por tallas disponibles.",
+   "likes": 24,
+   "views": null,
+   "images": [
+    "media/ig/DfYKSCYDoIq-0.webp",
+    "media/ig/DfYKSCYDoIq-1.webp",
+    "media/ig/DfYKSCYDoIq-2.webp"
+   ]
+  },
+  "DfVodvmDme1": {
+   "account": "deluxscz",
+   "date": "2026-11-04",
+   "type": "carousel",
+   "caption": "Less is more. 🖤✨\n\nUn look que demuestra que los básicos nunca pasan de moda.\n\nPolera blanca DKNY y jeans negros Calvin Klein, la combinación perfecta entre comodidad, actitud y estilo urbano.\n\n🤍 Descubrí este look en DELUX.\n\n📍 Ventura Mall | Piso 1\n💬 Consultanos por tallas disponibles.",
+   "likes": 2,
+   "views": null,
+   "images": [
+    "media/ig/DfVodvmDme1-0.webp",
+    "media/ig/DfVodvmDme1-1.webp",
+    "media/ig/DfVodvmDme1-2.webp"
+   ]
+  },
+  "DfS_aD2KY29": {
+   "account": "deluxscz",
+   "date": "2026-11-03",
+   "type": "image",
+   "caption": "Little BOSS, big style . 💙✨\nCamisa BOSS Kidswear que combina frescura, elegancia y estilo para los pequeños que marcan tendencia.\n🤍 Descubrila en Delux\n📍Ventura Mall | Piso 1",
+   "likes": 1,
+   "views": null,
+   "images": [
+    "media/ig/DfS_aD2KY29-0.webp"
+   ]
+  },
+  "DfkWO0VlsYf": {
+   "account": "elcuartito.bo",
+   "date": "2026-11-10",
+   "type": "image",
+   "caption": "Armá la mesa, pedite tu burger preferida y disfrutá de la mejor vibra con los tuyos. Vení a cualquiera de nuestras sucursales o pedítelas directo por WhatsApp. ⚡️\n\nPedidos y reservas:\n\n📲 Velarde: 620-03470 \n📲 Ventura: 760-56913 \n📲Belén: 691-52358\n\n#ElCuartito",
+   "likes": 5,
+   "views": null,
+   "images": [
+    "media/ig/DfkWO0VlsYf-0.webp"
+   ]
+  },
+  "DfXbQM8lij6": {
+   "account": "elcuartito.bo",
+   "date": "2026-11-05",
+   "type": "image",
+   "caption": "No le des tantas vueltas a lo que toca comer hoy: pedite una ronda de las mejores pizzas, burgers, alitas y milas para solucionar el hambre como se debe. ¡Lucite con El Cuartito! 🤟🏼⚡\n\nEscribinos por WhatsApp para pedidos y reservas:\n📲 Velarde: 620-03470 \n📲 Ventura: 760-56913 \n📲 Belén: 691-52358 \n\n#ElCuartito",
+   "likes": 7,
+   "views": null,
+   "images": [
+    "media/ig/DfXbQM8lij6-0.webp"
+   ]
+  },
+  "DfFQi_GHFFb": {
+   "account": "elcuartito.bo",
+   "date": "2026-10-29",
+   "type": "image",
+   "caption": "Hay decisiones que nunca fallan y esta es una de ellas. 🍔⚡️\n\nNo importa qué día sea ni qué tenés pendiente: cuando el antojo llega, esta es la única respuesta correcta. Hacé una pausa, vení por tu burger o pedila para llevar. 💥\n\n📍 Velarde, Ventura y Patio Belén.\n#ElCuartito #ModoBurger",
+   "likes": 6,
+   "views": null,
+   "images": [
+    "media/ig/DfFQi_GHFFb-0.webp"
+   ]
+  },
+  "DfAPzpElrPG": {
+   "account": "elcuartito.bo",
+   "date": "2026-10-27",
+   "type": "image",
+   "caption": "Una de las combinaciones más potentes de la casa. 🍕⚡️\n\nLa Pizza Matute no necesita presentación: es cremosa, crocante y con ese sabor intenso que te deja con ganas de pedir otra. Levantás la primera porción y ya sabés que elegiste bien. 🤟🏼\n\nVení a probarla hoy mismo a tu sucursal favorita. 💥\n\n📍 Velarde, Ventura y Patio Belén.\n#ElCuartito #PizzaMatute #PizzasArtesanales",
+   "likes": 3,
+   "views": null,
+   "images": [
+    "media/ig/DfAPzpElrPG-0.webp"
+   ]
+  },
+  "DezY8J8Fsab": {
+   "account": "elcuartito.bo",
+   "date": "2026-10-22",
+   "type": "image",
+   "caption": "Nuestras pizzas no necesitan que la pensés mucho, porque todas la rompen. 🍕⚡️\n\nLevantás una porción, sentís el queso estirándose y entendés de una por qué acá no hay margen de error. Pedirte la que sea es ir a lo seguro. 🤟🏼🍺 ¡Vení con tu grupo a la sucursal más cercana y compruébenlo en la mesa!\n\n📍 Velarde, Ventura y Patio Belén.\n#ElCuartito #PizzasArtesanales",
+   "likes": 6,
+   "views": null,
+   "images": [
+    "media/ig/DezY8J8Fsab-0.webp"
+   ]
+  },
+  "DeuNGfQHebv": {
+   "account": "elcuartito.bo",
+   "date": "2026-10-20",
+   "type": "image",
+   "caption": "Si querés comer una burger de verdad, este es el lugar. Pero ojo, no venís solo por la comida: venís por la música, las cervezas frías y la vibra que no encontrás en ningún otro lado. 🤟🏼🍺\nVení con tu grupo y comprobá por qué somos tu mejor opción. 💥\n\n📍 Velarde, Ventura y Patio Belén.\n#ElCuartito #ModoBurger",
+   "likes": 8,
+   "views": null,
+   "images": [
+    "media/ig/DeuNGfQHebv-0.webp"
+   ]
+  },
+  "DehVlvqFheR": {
+   "account": "elcuartito.bo",
+   "date": "2026-10-15",
+   "type": "image",
+   "caption": "¿Ya tenés el plan para hoy? 🤟🏼⚡️\n\nNuestra tabla de mila picada + papas + bebidas es el infalible para arrancar la noche. Buen ambiente, buena comida y cero excusas. ¡Te esperamos! 🍻🍗\n\n#ElCuartito",
+   "likes": 3,
+   "views": null,
+   "images": [
+    "media/ig/DehVlvqFheR-0.webp"
+   ]
+  },
+  "DecK0URlrjx": {
+   "account": "elcuartito.bo",
+   "date": "2026-10-13",
+   "type": "image",
+   "caption": "Mitad para mí, mitad para vos. El verdadero debate se soluciona en una sola pizza. 🤤🍕\n\nMucho queso, mucho sabor y cero vueltas. La mejor pizza artesanal de la ciudad te espera para acabar con el antojo de hoy. Vení a disfrutarla con buena compañía en tu lugar favorito. 🤟🏼🔥\n\n📍 Velarde, Ventura y Patio Belén.",
+   "likes": 1,
+   "views": null,
+   "images": [
+    "media/ig/DecK0URlrjx-0.webp"
+   ]
+  },
+  "DeW0wwYiDqN": {
+   "account": "elcuartito.bo",
+   "date": "2026-10-11",
+   "type": "image",
+   "caption": "Actitud, sabor y una mesa lista para celebrar. 🇧🇴🔥👑\n\nEl Día de la Mujer Boliviana se festeja a lo grande. Juntá a tus amigas, elijan sus platos favoritos de la casa y disfruten de un junte épico. ¡Las esperamos para brindar juntas! ⚡️🤟🏼\n\n📍 Velarde, Ventura y Patio Belén.\n\n#ElCuartito",
+   "likes": 7,
+   "views": null,
+   "images": [
+    "media/ig/DeW0wwYiDqN-0.webp"
+   ]
+  },
+  "Dd7anHCINXL": {
+   "account": "elcuartito.bo",
+   "date": "2026-09-30",
+   "type": "image",
+   "caption": "Ese sonido crocante que se escucha desde antes del primer bocado. 🍗⚡️\n\nAlitas doradas al punto exacto, bañadas en salsa y servidas directo en la tabla con apio fresco y sus dips. Sentate, pedite un chopp frío y disfrutá del verdadero sabor de la casa. 🤟🏼🍺\n\n📍 Velarde, Ventura y Patio Belén.\n#ElCuartito #Alitas",
+   "likes": 4,
+   "views": null,
+   "images": [
+    "media/ig/Dd7anHCINXL-0.webp"
+   ]
+  },
+  "DfpW4AincXS": {
+   "account": "elcuartitobestial",
+   "date": "2026-11-12",
+   "type": "carousel",
+   "caption": "Venite hoy al Ventura y pedite la Bestia de la Semana: nuestra espectacular Baconzilla. 🍔🥓⚡\n\nDoble carne smash, doble cheddar, ¡y mucho tocino! Incluye papas fritas y salsa de la casa, a un precio único de oferta.\n\n🗓️ Promo válida únicamente hasta este domingo 15 de noviembre.\n\n📍 Boulevard Ventura Mall, al lado de El Cuartito.\n#ElCuartitoBestial #LaBestiaDeLaSemana #Baconzilla",
+   "likes": 2,
+   "views": null,
+   "images": [
+    "media/ig/DfpW4AincXS-0.webp",
+    "media/ig/DfpW4AincXS-1.webp",
+    "media/ig/DfpW4AincXS-2.webp"
+   ]
+  },
+  "Dfm0wosFsuk": {
+   "account": "elcuartitobestial",
+   "date": "2026-11-11",
+   "type": "image",
+   "caption": "Esta semana, encontrá nuestra Baconzilla  a precio de oferta especial. Simple pero perfecta: doble carne smash, doble cheddar, ¡y mucho tocino! 🥓 🤤\n\n🗓️ Promo disponible únicamente hasta este domingo 15 de noviembre.\n📍 Boulevard Ventura Mall, al lado de El Cuartito.\n\n#ElCuartitoBestial #LaBestiaDeLaSemana #Baconzilla",
+   "likes": 5,
+   "views": null,
+   "images": [
+    "media/ig/Dfm0wosFsuk-0.webp"
+   ]
+  },
+  "DfkIs4Hj3O0": {
+   "account": "elcuartitobestial",
+   "date": "2026-11-10",
+   "type": "video",
+   "caption": "Nuestra Baconzilla es la bestia de esta semana, una bomba de tocino que no te vas a querer perder.\nEncontrala a precio especial con papas fritas incluidas. ¡Corré al Ventura! 🍔🥓💥\n\n📍 Boulevard Ventura Mall, al lado de El Cuartito.\n\n#ElCuartitoBestial #LaBestiaDeLaSemana #Baconzilla",
+   "likes": 4,
+   "views": 98,
+   "images": [
+    "media/ig/DfkIs4Hj3O0-0.webp"
+   ],
+   "video": "media/ig/DfkIs4Hj3O0.mp4",
+   "poster": "media/ig/DfkIs4Hj3O0-poster.webp"
+  },
+  "DfhgWt4lrZ3": {
+   "account": "elcuartitobestial",
+   "date": "2026-11-09",
+   "type": "image",
+   "caption": "¡Llegamos a la octava semana de LA BESTIA DE LA SEMANA con las mejores burgers a precio de oferta! 🔥\n\nEsta vez se apodera de la mesa nuestra monumental BACONZILLA: pan brioche tostado en su punto, doble carne smash sellada a la plancha, doble dosis de queso cheddar y cuatro tiras generosas de tocino ultra crocante. Viene acompañada con papas fritas bien doradas y salsa de la casa. \n\nUna semana, una burger, cero excusas. ¡Vení hoy mismo y disfrutá la experiencia! 🍔🥓🧀\n\n*Promo válida únicamente para consumo en el local.\n🗓️ Del 9 al 15 de noviembre\n📍 Boulevard Ventura Mall, al lado de El Cua",
+   "likes": 3,
+   "views": null,
+   "images": [
+    "media/ig/DfhgWt4lrZ3-0.webp"
+   ]
+  },
+  "DfXUlZbFjU3": {
+   "account": "elcuartitobestial",
+   "date": "2026-11-05",
+   "type": "carousel",
+   "caption": "LA BESTIA DE LA SEMANA 7 rompe todos los esquemas. Nuestra Burger BRAVA’S viene con pan brioche suave, doble carne smash sellada a la plancha, tres bastones de puré de papa ultra crocantes y un baño de alioli con salsa brava. Servida con sus infaltables papas fritas, a un precio especial por tiempo limitado.\n\nQuedan pocos días para aprovechar esta promo. ¡Pasá por el Ventura y pedila ya! 🍔🥔💥\n\n📍 Boulevard Ventura Mall, al lado de El Cuartito.\n\n#ElCuartitoBestial #LaBestiaDeLaSemana",
+   "likes": 7,
+   "views": null,
+   "images": [
+    "media/ig/DfXUlZbFjU3-0.webp",
+    "media/ig/DfXUlZbFjU3-1.webp",
+    "media/ig/DfXUlZbFjU3-2.webp"
+   ]
+  },
+  "DfUwVSADo02": {
+   "account": "elcuartitobestial",
+   "date": "2026-11-04",
+   "type": "image",
+   "caption": "Hay combinaciones que están hechas para romper la rutina bocado a bocado. 🤤🔥\n\nLa BRAVA’S se apodera de la Semana 7 con dos carnes smash selladas a la plancha, tres bastones de puré de papa crocantes y el baño perfecto de alioli con salsa brava. Servida con papas fritas y a un precio promocional exclusivo.\n\n¡Vení con hambre y viví la experiencia en el local!\n\n🗓️ Solo hasta el 8 de noviembre.\n\n📍 Boulevard Ventura Mall, al lado de El Cuartito.\n\n#ElCuartitoBestial #LaBestiaDeLaSemana",
+   "likes": 6,
+   "views": null,
+   "images": [
+    "media/ig/DfUwVSADo02-0.webp"
+   ]
+  },
+  "DfSYGgCjtVf": {
+   "account": "elcuartitobestial",
+   "date": "2026-11-03",
+   "type": "video",
+   "caption": "La Bestia de esta Semana es la brutal BRAVA’S: doble carne smash, tres bastones crocantes de puré de papa, bañadas en alioli y salsa brava. 🔥\n\nEncontrala hasta el 8 de noviembre a un precio especial, acompañada de papas fritas.\n\n¡Corré al Ventura y aprovechá la promo hoy mismo! 🍔🥔💥\n\n📍 Boulevard Ventura Mall, al lado de El Cuartito.\n\n#ElCuartitoBestial #LaBestiaDeLaSemana #BravasBestial",
+   "likes": 5,
+   "views": 342,
+   "images": [
+    "media/ig/DfSYGgCjtVf-0.webp"
+   ],
+   "video": "media/ig/DfSYGgCjtVf.mp4",
+   "poster": "media/ig/DfSYGgCjtVf-poster.webp"
+  },
+  "DfPmX2hFoC9": {
+   "account": "elcuartitobestial",
+   "date": "2026-11-02",
+   "type": "image",
+   "caption": "¡Entramos a la séptima semana de LA BESTIA DE LA SEMANA y rompemos todos los esquemas con una combinación salvaje a precio de oferta! 🔥\n\nEsta vez le toca el turno a la brutal BRAVA’S: pan brioche tostado en su punto, doble carne smash coronada con tres bastones crocantes de puré de papa, y todo bañado con nuestro alioli y la intensidad de la salsa brava. Viene acompañada con papas fritas bien doradas y salsa de la casa.\n\nUna semana, una burger, cero excusas. ¡Vení hoy mismo y disfrutá la experiencia! 🍔🥔🔥\n\n*Promo válida únicamente para consumo en el local.\n🗓️ Del 2 al 8 de noviembre\n📍 Bou",
+   "likes": 10,
+   "views": null,
+   "images": [
+    "media/ig/DfPmX2hFoC9-0.webp"
+   ]
+  },
+  "DfFLEwanElH": {
+   "account": "elcuartitobestial",
+   "date": "2026-10-29",
+   "type": "carousel",
+   "caption": "LA CLÁSICA es LA BESTIA DE LA SEMANA 6 y trae la perfección de lo tradicional: Pan brioche suave, doble carne smash sellada a la plancha, doble queso cheddar, lechuga, tomate, pepinillo y nuestra inigualable salsa burger. Servida con sus infaltables papas fritas, a un precio especial por tiempo limitado.\n\nQuedan pocos días para aprovechar esta promo. ¡Pasá por el Ventura y pedila ya! 🍔🧀⚡\n\n📍 Boulevard Ventura Mall, al lado de El Cuartito.\n\n#ElCuartitoBestial #LaBestiaDeLaSemana #ClasicaBestial",
+   "likes": 9,
+   "views": null,
+   "images": [
+    "media/ig/DfFLEwanElH-0.webp",
+    "media/ig/DfFLEwanElH-1.webp",
+    "media/ig/DfFLEwanElH-2.webp"
+   ]
+  },
+  "DfCmV4qIKC1": {
+   "account": "elcuartitobestial",
+   "date": "2026-10-28",
+   "type": "image",
+   "caption": "Nuestra burger CLÁSICA: la mejor decisión del día. 🍔⚡\n\nDoble carne, doble cheddar y todo el sabor tradicional elevado al nivel de El Cuartito Bestial. Vení a devorarte nuestra BESTIA DE LA SEMANA con sus papas fritas antes de que se termine la semana.\n\n🗓️ Válida hasta el domingo 1 de noviembre.\n📍 Boulevard Ventura Mall, al lado de El Cuartito.\n\n#ElCuartitoBestial #LaBestiaDeLaSemana #ClasicaBestial",
+   "likes": 8,
+   "views": null,
+   "images": [
+    "media/ig/DfCmV4qIKC1-0.webp"
+   ]
+  },
+  "Dfsa4Dxi3b1": {
+   "account": "fiestaperu.bo",
+   "date": "2026-11-13",
+   "type": "video",
+   "caption": "Lo mejor de la comida en peruana,\nestá en Santa Cruz,\nEn el Ventura Mall.\n\nSOMOS FIESTA PERÚ\nUna fiesta peruana en bolivia.\n\n#fiestaperubo\n#venturamallscz \n#santacruzdelasierra",
+   "likes": 7,
+   "views": 423,
+   "images": [
+    "media/ig/Dfsa4Dxi3b1-0.webp"
+   ],
+   "video": "media/ig/Dfsa4Dxi3b1.mp4",
+   "poster": "media/ig/Dfsa4Dxi3b1-poster.webp"
+  },
+  "DfpBQxHid3R": {
+   "account": "fiestaperu.bo",
+   "date": "2026-11-12",
+   "type": "video",
+   "caption": "PICANTE DE LANGOSTINOS \nLangostinos salteados en una cremosa salsa de ajíes peruanos, aromatizada con vino blanco, queso parmesano y un toque de cilantro. Guiso criollo que fusiona el sabor del mar con la intensidad del ají, servido con arroz blanco y papas en rodajas.\n\nJALEA DE PESCADO (CHICHARRON ACEVICHADO) \nEn Perú la jalea de pescado es la combinación de chicharrones de pescado cubiertos de zarza criolla (a base de cebolla), servidos sobre yucas doradas. Típico del norte peruano.\n\nARROZ CON MARISCOS \nUno de nuestros platos más populares: mezcla de paiche, calamares y langostinos sobre un ",
+   "likes": 13,
+   "views": 894,
+   "images": [
+    "media/ig/DfpBQxHid3R-0.webp"
+   ],
+   "video": "media/ig/DfpBQxHid3R.mp4",
+   "poster": "media/ig/DfpBQxHid3R-poster.webp"
+  },
+  "DfNQj7ZipKO": {
+   "account": "fiestaperu.bo",
+   "date": "2026-11-01",
+   "type": "video",
+   "caption": "CEVICHE AL OLIVO \nLeche de tigre con toque sutil de aceitunas negras, vibrante sabor para los amantes del olivo.\n\nCEVICHE MIXTO \nCubos de paiche con mixtura de mariscos, con leche de tigre, camote y choclo.\n\nCEVICHE CARRETILLERO \nCoronado con chicharrones de calamar, este delicioso ceviche de paiche es la delicia de muchos. \n\n#fiestaperubo\n#venturamallscz",
+   "likes": 42,
+   "views": 1827,
+   "images": [
+    "media/ig/DfNQj7ZipKO-0.webp"
+   ],
+   "video": "media/ig/DfNQj7ZipKO.mp4",
+   "poster": "media/ig/DfNQj7ZipKO-poster.webp"
+  },
+  "DfMy5H2CS4k": {
+   "account": "fiestaperu.bo",
+   "date": "2026-11-01",
+   "type": "video",
+   "caption": "AJÍ DE GALLINA \nEl plato más tradicional de la mesa peruana: pechuga de pollo deshilachada en una cremosa salsa de ají amarillo peruano sobre papas hervidas. Acompañado por arroz graneado y huevo duro.\n\nARROZ CON POLLO A LA LIMEÑA \nTradicional plato limeño con aromas de culantro y cerveza.\n\nARROZ CON PATO A LA CHICLAYANA \nUn plato emblemático de la gastronomía peruana con todos los aromas del norte del Perú, culantro , chicha y loche son los protagonistas.\n\n#fiestaperubo",
+   "likes": 164,
+   "views": 81482,
+   "images": [
+    "media/ig/DfMy5H2CS4k-0.webp"
+   ]
+  },
+  "De_zVOWCtoJ": {
+   "account": "fiestaperu.bo",
+   "date": "2026-10-27",
+   "type": "video",
+   "caption": "El 31 de octubre es el día de la canción criolla... y lo celebramos en FIESTA PERÚ.\n\nTe esperamos desde las 7:00 pm en el Boulevard Ventura Mall.\n\nRESERVA TU MESA HOY.\n\n#fiestaperubo\n#venturamallscz",
+   "likes": 69,
+   "views": 19151,
+   "images": [
+    "media/ig/De_zVOWCtoJ-0.webp"
+   ]
+  },
+  "De68XGti3TE": {
+   "account": "fiestaperu.bo",
+   "date": "2026-10-25",
+   "type": "image",
+   "caption": "El 31 de octubre es el día de la canción criolla... y lo celebramos en FIESTA PERÚ.\n\nTe esperamos desde las 7:00 pm en el Boulevard Las Brisas.\n\nRESERVA TU MESA HOY.\n\n#fiestaperubo\n#venturamallscz",
+   "likes": 50,
+   "views": null,
+   "images": [
+    "media/ig/De68XGti3TE-0.webp"
+   ]
+  },
+  "DevN3GsCGDZ": {
+   "account": "fiestaperu.bo",
+   "date": "2026-10-21",
+   "type": "video",
+   "caption": "El 31 de octubre es el día de la canción criolla... y lo celebramos en FIESTA PERÚ.\n\nTe esperamos desde las 7:00 pm en el Boulevard Las Brisas.\n\nRESERVA TU MESA HOY.\n\n#fiestaperubo\n#venturamallscz",
+   "likes": 221,
+   "views": 31220,
+   "images": [
+    "media/ig/DevN3GsCGDZ-0.webp"
+   ]
+  },
+  "DepBpKzCCH3": {
+   "account": "fiestaperu.bo",
+   "date": "2026-10-18",
+   "type": "video",
+   "caption": "CEVICHE CARRETILLERO \nCoronado con chicharrones de calamar, este delicioso ceviche de paiche es la delicia de muchos. \n\nCEVICHE MIXTO \nCubos de paiche con mixtura de mariscos, con leche de tigre, camote y choclo.\n \nCEVICHE A LA BRASA \nNuestra versión caliente de los ceviches. Pescado delicadamente ahumado en la parrilla, bañado en una leche de tigre con ají amarillo peruano.\n\n#fiestaperubo\n#santacruzdelasierra",
+   "likes": 497,
+   "views": 51990,
+   "images": [
+    "media/ig/DepBpKzCCH3-0.webp"
+   ]
+  },
+  "DeiGiYYC1AF": {
+   "account": "fiestaperu.bo",
+   "date": "2026-10-15",
+   "type": "video",
+   "caption": "PICARONES PERUANOS\nAnillos fritos (similar a los buñuelos) elaborados con una masa que combina harina de zapallo y camote. Una vez fritos, se sirven bañados en una miel espesa hecha de chancaca e higo.\n\nCHEESECAKE DE LÚCUMA\nUn postre cremoso con base de galleta, delicada crema de queso mezclada con pulpa de lúcuma y toque dulce-peruano.\n\nVOLCÁN DE CHOCOLATE\nUn clásico, de la pastelería francesa, tortita caliente que mantiene el interior líquido y cremoso, servido con el mejor helado de crema americana\n\n#fiestaperubo\n#venturamallscz",
+   "likes": 61,
+   "views": 2513,
+   "images": [
+    "media/ig/DeiGiYYC1AF-0.webp"
+   ]
+  },
+  "Deg6nX8iSGo": {
+   "account": "fiestaperu.bo",
+   "date": "2026-10-15",
+   "type": "video",
+   "caption": "LOMO SALTADO CON FETTUCCINI A LA HUANCAÍNA \nUn clásico moderno en Perú: el choque de dos influencias, la peruana y la italiana. \n\nLOMO SALTADO CON RISSOTO A LA HUANCAINA \nNuestra propia versión: Lomo Saltado con cremoso risotto al ají amarillo. ¡Delicioso!\n\nPAILITA DE LOMO SALTADO (GRATINADO) \nNuestro delicioso y jugoso Lomo Saltado cubierto por una capa cremosa de humita peruana gratinada con queso mozzarella. Una combinación de sabores que explotan en el paladar. \n\n#fiestaperubo\n#santacruzdelasierra \n#venturamallscz",
+   "likes": 1125,
+   "views": 141813,
+   "images": [
+    "media/ig/Deg6nX8iSGo-0.webp"
+   ]
+  },
+  "Dfm_bd5FyuT": {
+   "account": "fogo",
+   "date": "2026-11-11",
+   "type": "carousel",
+   "caption": "We’re open Thanksgiving Day* 🦃 Join us for Fire-Roasted Turkey with Au Jus, Brazilian Sausage & Apple Stuffing, Sweet Potato Casserole & more, or take the feast home with To-Go 🎉\n\nHours vary by location*",
+   "likes": 455,
+   "views": null,
+   "images": [
+    "media/ig/Dfm_bd5FyuT-0.webp",
+    "media/ig/Dfm_bd5FyuT-1.webp",
+    "media/ig/Dfm_bd5FyuT-2.webp"
+   ]
+  },
+  "DfqEQLgB8pS": {
+   "account": "fogo",
+   "date": "2026-11-12",
+   "type": "video",
+   "caption": "Would you guess them all?! 🥩",
+   "likes": 188,
+   "views": 8225,
+   "images": [
+    "media/ig/DfqEQLgB8pS-0.webp"
+   ],
+   "video": "media/ig/DfqEQLgB8pS.mp4",
+   "poster": "media/ig/DfqEQLgB8pS-poster.webp"
+  },
+  "DfklJXtl5GT": {
+   "account": "fogo",
+   "date": "2026-11-10",
+   "type": "carousel",
+   "caption": "To everyone who has served, thank you 🇺🇸\n\nThis Veterans Day, we’re honoring you at the table. Veterans and active-duty military get 50% off Full Churrasco or Indulgent Churrasco, and everyone dining with you gets 10% off their meals.\n\nValid all day now through 11/15. Bring the whole crew; we’ve got you 🔥",
+   "likes": 3485,
+   "views": null,
+   "images": [
+    "media/ig/DfklJXtl5GT-0.webp",
+    "media/ig/DfklJXtl5GT-1.webp"
+   ]
+  },
+  "DfdXeYeCbz2": {
+   "account": "fogo",
+   "date": "2026-11-07",
+   "type": "video",
+   "caption": "#ad | What are you actually eating after a long run? I’m partnering with Fogo de Chão to ask around at their giant protein-bar pop-up—and see what people think after the first bite. Fogo’s always been about real protein and their new Protein Plates give you up to 85 grams in one meal, fire-roasted, with continuous Market Table and Brazilian sides. Check out Protein Plates for your next post-run meal. @fogo #FogoPartner",
+   "likes": 3,
+   "views": 11746,
+   "images": [
+    "media/ig/DfdXeYeCbz2-0.webp"
+   ],
+   "video": "media/ig/DfdXeYeCbz2.mp4",
+   "poster": "media/ig/DfdXeYeCbz2-poster.webp"
+  },
+  "DfauRH7NeBI": {
+   "account": "fogo",
+   "date": "2026-11-06",
+   "type": "video",
+   "caption": "I didn’t run all those miles for a snack 🥩 \nCelebrated with my family at @Fogo with their new Protein Plates: a fire-roasted cut of Picanha, plus continuous Market Table and Brazilian sides, for up to 85g of real protein. This is what recovery should look like. #ad #FogoPartner",
+   "likes": 113,
+   "views": 10101,
+   "images": [
+    "media/ig/DfauRH7NeBI-0.webp"
+   ],
+   "video": "media/ig/DfauRH7NeBI.mp4",
+   "poster": "media/ig/DfauRH7NeBI-poster.webp"
+  },
+  "DfYKzL_puGZ": {
+   "account": "fogo",
+   "date": "2026-11-05",
+   "type": "video",
+   "caption": "@fogo is now offering their NEW Protein Plates and it’s the only choice for a post workout meal! You pick one of your favorite cuts, have full access to the market table, and get authentic Brazilian sides; all starting at $45. This is how you do protein right. So, RUN there and show them A LOT of LOVE! #ad @fogo #proteinplates #charlottefood",
+   "likes": 208,
+   "views": 22759,
+   "images": [
+    "media/ig/DfYKzL_puGZ-0.webp"
+   ]
+  },
+  "DfVaY0AggyJ": {
+   "account": "fogo",
+   "date": "2026-11-04",
+   "type": "video",
+   "caption": "Does it take forever? Yes. Is it way more fun than a leaf blower? Also yes.",
+   "likes": 107,
+   "views": 15023,
+   "images": [
+    "media/ig/DfVaY0AggyJ-0.webp"
+   ]
+  },
+  "DfSdSZ6mXsq": {
+   "account": "fogo",
+   "date": "2026-11-03",
+   "type": "video",
+   "caption": "Real protein only this Fall! Try your choice of an 8-10 oz fire-roasted cut with continuous Market Table and Brazilian sides starting at $45* 🔥 \n\n*Prices vary by location",
+   "likes": 340,
+   "views": 23696,
+   "images": [
+    "media/ig/DfSdSZ6mXsq-0.webp"
+   ]
+  },
+  "DfKlsiqFjNc": {
+   "account": "fogo",
+   "date": "2026-10-31",
+   "type": "carousel",
+   "caption": "Don’t ghost your gaucho 👻 #happyhalloween",
+   "likes": 779,
+   "views": null,
+   "images": [
+    "media/ig/DfKlsiqFjNc-0.webp",
+    "media/ig/DfKlsiqFjNc-1.webp",
+    "media/ig/DfKlsiqFjNc-2.webp"
+   ]
+  },
+  "DfIfhyQGIsy": {
+   "account": "fogo",
+   "date": "2026-10-30",
+   "type": "carousel",
+   "caption": "Leaving Fogo with my ludicrously capacious to-go bag",
+   "likes": 815,
+   "views": null,
+   "images": [
+    "media/ig/DfIfhyQGIsy-0.webp",
+    "media/ig/DfIfhyQGIsy-1.webp",
+    "media/ig/DfIfhyQGIsy-2.webp",
+    "media/ig/DfIfhyQGIsy-3.webp"
+   ]
+  },
+  "DfphMP8CvN2": {
+   "account": "forever21",
+   "date": "2026-11-12",
+   "type": "video",
+   "caption": "Introducing a new collection worth making plans for 🪩",
+   "likes": 165,
+   "views": 11826,
+   "images": [
+    "media/ig/DfphMP8CvN2-0.webp"
+   ],
+   "video": "media/ig/DfphMP8CvN2.mp4",
+   "poster": "media/ig/DfphMP8CvN2-poster.webp"
+  },
+  "DfoXPi_lcOF": {
+   "account": "forever21",
+   "date": "2026-11-12",
+   "type": "video",
+   "caption": "Did you see that? Early Black Friday Sale. Use code at BFWARMUP40% check out 🎥💋",
+   "likes": 296,
+   "views": 92047,
+   "images": [
+    "media/ig/DfoXPi_lcOF-0.webp"
+   ]
+  },
+  "DfnbCyQF-6O": {
+   "account": "forever21",
+   "date": "2026-11-11",
+   "type": "carousel",
+   "caption": "Introducing the newest F21 looks with @rileysaurage 🪩\n\nShop now at @Walmart ✨",
+   "likes": 4467,
+   "views": null,
+   "images": [
+    "media/ig/DfnbCyQF-6O-0.webp",
+    "media/ig/DfnbCyQF-6O-1.webp",
+    "media/ig/DfnbCyQF-6O-2.webp"
+   ]
+  },
+  "Dfj9zq8F-KV": {
+   "account": "forever21",
+   "date": "2026-11-10",
+   "type": "image",
+   "caption": "Add to basket. Add to personality.",
+   "likes": 169,
+   "views": null,
+   "images": [
+    "media/ig/Dfj9zq8F-KV-0.webp"
+   ]
+  },
+  "DfjPkeRjlZL": {
+   "account": "forever21",
+   "date": "2026-11-10",
+   "type": "video",
+   "caption": "Mid-week attitude ✨",
+   "likes": 199,
+   "views": 50890,
+   "images": [
+    "media/ig/DfjPkeRjlZL-0.webp"
+   ]
+  },
+  "DfXlc0hiPGi": {
+   "account": "forever21",
+   "date": "2026-11-05",
+   "type": "video",
+   "caption": "What's your mood today? 💅",
+   "likes": 193,
+   "views": 52531,
+   "images": [
+    "media/ig/DfXlc0hiPGi-0.webp"
+   ]
+  },
+  "DfaCWE3l1bi": {
+   "account": "forever21",
+   "date": "2026-11-06",
+   "type": "carousel",
+   "caption": "City girl, casual era.",
+   "likes": 225,
+   "views": null,
+   "images": [
+    "media/ig/DfaCWE3l1bi-0.webp",
+    "media/ig/DfaCWE3l1bi-1.webp"
+   ]
+  },
+  "DfQNxZJF8Zt": {
+   "account": "forever21",
+   "date": "2026-11-02",
+   "type": "image",
+   "caption": "Currently in our rugby era.",
+   "likes": 191,
+   "views": null,
+   "images": [
+    "media/ig/DfQNxZJF8Zt-0.webp"
+   ]
+  },
+  "DfsICKeFjvp": {
+   "account": "hardrockcafescz",
+   "date": "2026-11-13",
+   "type": "carousel",
+   "caption": "Desde Alemania recibimos a Michael Hackert, un apasionado coleccionista de Hard Rock Cafe, quien celebró su visita #273 junto a nuestro equipo.\n\n¡Gracias por hacernos parte de tu recorrido! 💜\n\n#HardRockCafeScz #HardRockCafe #AllIsOne #SantaCruz",
+   "likes": 36,
+   "views": null,
+   "images": [
+    "media/ig/DfsICKeFjvp-0.webp",
+    "media/ig/DfsICKeFjvp-1.webp",
+    "media/ig/DfsICKeFjvp-2.webp",
+    "media/ig/DfsICKeFjvp-3.webp"
+   ]
+  },
+  "DfnWINsoBCg": {
+   "account": "hardrockcafescz",
+   "date": "2026-11-11",
+   "type": "video",
+   "caption": "🔥 DOS PLATOS. CERO REGLAS.\n\nLa SPICY DIABLO BURGER es perfecta para quienes se atreven con el picante y nuestras FAMOUS FAJITAS apuestan por el auténtico sabor Tex-Mex. \n\nDos propuestas con personalidad. ¿Con cuál te quedás? 👀\n\n#HardRockCafeScz #SpicyDiabloBurger #FamousFajitas #HardRockFood #VenturaMall",
+   "likes": 6,
+   "views": 323,
+   "images": [
+    "media/ig/DfnWINsoBCg-0.webp"
+   ],
+   "video": "media/ig/DfnWINsoBCg.mp4",
+   "poster": "media/ig/DfnWINsoBCg-poster.webp"
+  },
+  "Dfmx1TtIbOI": {
+   "account": "hardrockcafescz",
+   "date": "2026-11-11",
+   "type": "image",
+   "caption": "¡EL MEJOR FICHAJE DE LA TARDE! 🔥\n\nTu liga favorita, tus amigos en la mesa y tragos a Bs. 25. El plan ya está armado, solo falta que llegues. ⚽️\n\n📍 Te esperamos en Hard Rock Cafe Santa Cruz\n\n#HardRockCafeScz #GameDay #SantaCruz #Bolivia #Futbol",
+   "likes": 0,
+   "views": null,
+   "images": [
+    "media/ig/Dfmx1TtIbOI-0.webp"
+   ]
+  },
+  "Dfj-PwKI7SX": {
+   "account": "hardrockcafescz",
+   "date": "2026-11-10",
+   "type": "image",
+   "caption": "🎙️ TRIBUTO A CAMILO SESTO\n\nAmores imposibles, letras sin filtro y una voz que llevó cada emoción al límite. Los éxitos de Camilo Sesto llegan a Hard Rock Cafe con un tributo para cantar a todo pulmón.\n\n📅 Sábado 14 de noviembre | 21:00 hrs.\n📲 Reservas: 78050111\n🔗 https://wa.me/59178050111\n\n#HardRockCafeScz #CamiloSesto #Tributo #SantaCruz",
+   "likes": 3,
+   "views": null,
+   "images": [
+    "media/ig/Dfj-PwKI7SX-0.webp"
+   ]
+  },
+  "DfhsxINoWX4": {
+   "account": "hardrockcafescz",
+   "date": "2026-11-09",
+   "type": "image",
+   "caption": "🎤 TRIBUTO A LUIS MIGUEL\n\nCon el ritmo de sus boleros y sus grandes éxitos, el tributo a Luis Miguel llega a nuestro escenario con canciones para dedicar y cantar sin pedir permiso.\n\n📅 Viernes 13 de noviembre | 21:00 hrs.\n📍 Hard Rock Cafe Santa Cruz\n📲 Reservas: 78050111\n🔗 https://wa.me/59178050111\n\n#HardRockCafeScz #LuisMiguel #Tributo #SantaCruz",
+   "likes": 13,
+   "views": null,
+   "images": [
+    "media/ig/DfhsxINoWX4-0.webp"
+   ]
+  },
+  "DfhbRc4ll1m": {
+   "account": "hardrockcafescz",
+   "date": "2026-11-09",
+   "type": "carousel",
+   "caption": "🎸 The Beatles y The Rolling Stones se apoderaron de Hard Rock Cafe Santa Cruz en una noche de guitarras y canciones que todos llevamos en la memoria. \n\n¡Así se vivió este tributo junto a dos leyendas de la música! 💜\n\n#HardRockCafeScz #HardRockCafe #TheBeatles #TheRollingStones #Tributo",
+   "likes": 11,
+   "views": null,
+   "images": [
+    "media/ig/DfhbRc4ll1m-0.webp",
+    "media/ig/DfhbRc4ll1m-1.webp",
+    "media/ig/DfhbRc4ll1m-2.webp",
+    "media/ig/DfhbRc4ll1m-3.webp"
+   ]
+  },
+  "DfdkqH6AEym": {
+   "account": "hardrockcafescz",
+   "date": "2026-11-08",
+   "type": "carousel",
+   "caption": "💜 ¡LOS CLÁSICOS NUNCA FALLAN!\n\nBoris Navarro estuvo al mando de las mezclas, trayendo de vuelta esos temas que reconocés desde el primer segundo. 🎶\n\n¿Qué canción te hizo viajar en el tiempo? 👀\n\n#HardRockCafeScz #HardRockCafe #BorisNavarro #NocheDeClasicos",
+   "likes": 15,
+   "views": null,
+   "images": [
+    "media/ig/DfdkqH6AEym-0.webp",
+    "media/ig/DfdkqH6AEym-1.webp",
+    "media/ig/DfdkqH6AEym-2.webp",
+    "media/ig/DfdkqH6AEym-3.webp"
+   ]
+  },
+  "DfXOS5qICo3": {
+   "account": "hardrockcafescz",
+   "date": "2026-11-05",
+   "type": "image",
+   "caption": "🎸 TRIBUTO A THE BEATLES & THE ROLLING STONES\n\nGuitarras al máximo, actitud rebelde y dos bandas que demostraron que la música no sigue las reglas. 🔥\n\nLos himnos de The Beatles y The Rolling Stones se apoderan de Hard Rock Cafe.\n\n📅 Sábado 7 de noviembre | 21:00 hrs.\n📲 Reservas: 78050111\n🔗 https://wa.me/59178050111\n\n#HardRockCafeScz #TheBeatles #RollingStones #Tributo #SantaCruz",
+   "likes": 11,
+   "views": null,
+   "images": [
+    "media/ig/DfXOS5qICo3-0.webp"
+   ]
+  },
+  "DfVUrjFI2O7": {
+   "account": "hardrockcafescz",
+   "date": "2026-11-04",
+   "type": "video",
+   "caption": "🎤 UN CORSET QUE NO PASA DESAPERCIBIDO.\n\nEntre nuestra memorabilia destaca una pieza de Christina Aguilera. Un corset que refleja el estilo atrevido y la identidad visual de una de las voces más reconocidas del pop. 💜\n\n📍 Visítanos en Hard Rock Cafe Santa Cruz.\n\n#HardRockCafeScz #ChristinaAguilera #Memorabilia #VenturaMall #bolivia",
+   "likes": 34,
+   "views": 1520,
+   "images": [
+    "media/ig/DfVUrjFI2O7-0.webp"
+   ],
+   "video": "media/ig/DfVUrjFI2O7.mp4",
+   "poster": "media/ig/DfVUrjFI2O7-poster.webp"
+  },
+  "DfUezDEIlA-": {
+   "account": "hardrockcafescz",
+   "date": "2026-11-04",
+   "type": "image",
+   "caption": "🎶 NOCHE DE CLÁSICOS\n\nBoris Navarro llega a nuestro escenario con esos clásicos que nunca fallan, de los que arrancan con una nota y terminan con todo el público bailando.\n\n📅 Viernes 6 de noviembre | 21:00 hrs.\n📍 Hard Rock Cafe Santa Cruz\n📲 Reservas: 78191363\n\n#HardRockCafeScz #BorisNavarro #MusicaEnVivo #SantaCruz",
+   "likes": 3,
+   "views": null,
+   "images": [
+    "media/ig/DfUezDEIlA--0.webp"
+   ]
+  },
+  "Dfryar5E6lF": {
+   "account": "hugo_official",
+   "date": "2026-11-13",
+   "type": "image",
+   "caption": "With holiday season round the corner, it's time to get together in style and make the most of the moments that matter #RedMeansGO @lena @yeraylam @ottawakwami @mikarenabae",
+   "likes": 124,
+   "views": null,
+   "images": [
+    "media/ig/Dfryar5E6lF-0.webp"
+   ]
+  },
+  "DfmluJvBbae": {
+   "account": "hugo_official",
+   "date": "2026-11-11",
+   "type": "video",
+   "caption": "Life's a party. Dress up. Show up. Let loose. Sharp tailoring, elegant-everywhere dresses, and statement layers made for nights that turn into memories #RedMeansGO​",
+   "likes": 229,
+   "views": 16724,
+   "images": [
+    "media/ig/DfmluJvBbae-0.webp"
+   ],
+   "video": "media/ig/DfmluJvBbae.mp4",
+   "poster": "media/ig/DfmluJvBbae-poster.webp"
+  },
+  "DfkFuu2AOk2": {
+   "account": "hugo_official",
+   "date": "2026-11-10",
+   "type": "carousel",
+   "caption": "The excitement of something new. Embrace the unexpected with style that never stands still #RedMeansGO",
+   "likes": 167,
+   "views": null,
+   "images": [
+    "media/ig/DfkFuu2AOk2-0.webp",
+    "media/ig/DfkFuu2AOk2-1.webp",
+    "media/ig/DfkFuu2AOk2-2.webp"
+   ]
+  },
+  "DfhSCrIqRko": {
+   "account": "hugo_official",
+   "date": "2026-11-09",
+   "type": "video",
+   "caption": "Different perspectives. Unconventional thinking. Unstoppable ambition. HUGO x @highsnobietystyle find out what inspires four creative minds to challenge conventions and keep moving forward #RedMeansGO",
+   "likes": 117,
+   "views": 9919,
+   "images": [
+    "media/ig/DfhSCrIqRko-0.webp"
+   ]
+  },
+  "Dfe6hJwk7fv": {
+   "account": "hugo_official",
+   "date": "2026-11-08",
+   "type": "carousel",
+   "caption": "Style is personal. Expression is individual. Confidence is everything. Four creative forces, each making their own statement in everything they do @highsnobietystyle #RedMeansGO",
+   "likes": 167,
+   "views": null,
+   "images": [
+    "media/ig/Dfe6hJwk7fv-0.webp",
+    "media/ig/Dfe6hJwk7fv-1.webp"
+   ]
+  },
+  "DfZ6bOql8Nb": {
+   "account": "hugo_official",
+   "date": "2026-11-06",
+   "type": "carousel",
+   "caption": "@hugo_official is made for people who are going places. Creatives @terezamundilova, @cato.ink @temislayo and @nickcheo wear a collection designed to take you where you need to go—and everywhere you find yourself along the way. Diversions welcome.⁠\n⁠\nDiscover more at the link in bio.",
+   "likes": 686,
+   "views": null,
+   "images": [
+    "media/ig/DfZ6bOql8Nb-0.webp",
+    "media/ig/DfZ6bOql8Nb-1.webp",
+    "media/ig/DfZ6bOql8Nb-2.webp"
+   ]
+  },
+  "DfXhRjrkcwg": {
+   "account": "hugo_official",
+   "date": "2026-11-05",
+   "type": "carousel",
+   "caption": "What makes an outfit come to life? HUGO x entire studios #RedMeansGO",
+   "likes": 1121,
+   "views": null,
+   "images": [
+    "media/ig/DfXhRjrkcwg-0.webp",
+    "media/ig/DfXhRjrkcwg-1.webp",
+    "media/ig/DfXhRjrkcwg-2.webp"
+   ]
+  },
+  "DfU4zB0GZIy": {
+   "account": "hugo_official",
+   "date": "2026-11-04",
+   "type": "carousel",
+   "caption": "A sharper silhouette from every angle. Claim your seat in statement tailoring from HUGO x entire studios #RedMeansGO",
+   "likes": 227,
+   "views": null,
+   "images": [
+    "media/ig/DfU4zB0GZIy-0.webp",
+    "media/ig/DfU4zB0GZIy-1.webp",
+    "media/ig/DfU4zB0GZIy-2.webp"
+   ]
+  },
+  "DfQrUa4NeXH": {
+   "account": "joyeriacarrasco",
+   "date": "2026-11-03",
+   "type": "image",
+   "caption": "Emeralds, diamonds & a wild chic mood. 🐆",
+   "likes": 37,
+   "views": null,
+   "images": [
+    "media/ig/DfQrUa4NeXH-0.webp"
+   ]
+  },
+  "DfQqZg5JNz-": {
+   "account": "joyeriacarrasco",
+   "date": "2026-11-03",
+   "type": "image",
+   "caption": "Emeralds, diamonds & a wild chic mood. 🐆",
+   "likes": 21,
+   "views": null,
+   "images": [
+    "media/ig/DfQqZg5JNz--0.webp"
+   ]
+  },
+  "DcoU-KwEYa7": {
+   "account": "joyeriacarrasco",
+   "date": "2026-08-29",
+   "type": "carousel",
+   "caption": "Un momento que marca el inicio de una historia para siempre.\n\nUn diamante como protagonista, engastado para capturar la luz y acompañar una promesa única. ✨💍",
+   "likes": 3,
+   "views": null,
+   "images": [
+    "media/ig/DcoU-KwEYa7-0.webp",
+    "media/ig/DcoU-KwEYa7-1.webp"
+   ]
+  },
+  "DcR1UsHpOyP": {
+   "account": "joyeriacarrasco",
+   "date": "2026-08-20",
+   "type": "video",
+   "caption": "La alta joyería también se vive de cerca.\n\nDesde Italia, exploramos nuevas técnicas, gemas excepcionales y acabados que definen la evolución del diseño contemporáneo. 🇮🇹💎",
+   "likes": 195,
+   "views": 5402,
+   "images": [
+    "media/ig/DcR1UsHpOyP-0.webp"
+   ],
+   "video": "media/ig/DcR1UsHpOyP.mp4",
+   "poster": "media/ig/DcR1UsHpOyP-poster.webp"
+  },
+  "DcgVQgyEWan": {
+   "account": "joyeriacarrasco",
+   "date": "2026-08-26",
+   "type": "carousel",
+   "caption": "Dos alianzas, una misma promesa.\n\nDiseñadas para acompañar cada capítulo de una historia que acaba de comenzar. \n\nOro, diamantes y un vínculo para toda la vida. ✨",
+   "likes": 3,
+   "views": null,
+   "images": [
+    "media/ig/DcgVQgyEWan-0.webp",
+    "media/ig/DcgVQgyEWan-1.webp",
+    "media/ig/DcgVQgyEWan-2.webp"
+   ]
+  },
+  "DbmEfL7J6D8": {
+   "account": "joyeriacarrasco",
+   "date": "2026-08-03",
+   "type": "image",
+   "caption": "Oro blanco de 18k, diamantes y la exclusividad de un fancy yellow…",
+   "likes": 3,
+   "views": null,
+   "images": [
+    "media/ig/DbmEfL7J6D8-0.webp"
+   ]
+  },
+  "DbVlsw2OisA": {
+   "account": "joyeriacarrasco",
+   "date": "2026-07-28",
+   "type": "image",
+   "caption": "Anillos, pulsera y pendientes en diamantes naturales…⚜️",
+   "likes": 3,
+   "views": null,
+   "images": [
+    "media/ig/DbVlsw2OisA-0.webp"
+   ]
+  },
+  "DbGujAOJ9ms": {
+   "account": "joyeriacarrasco",
+   "date": "2026-07-22",
+   "type": "image",
+   "caption": "Oro blanco con zafiros y diamantes naturales",
+   "likes": 3,
+   "views": null,
+   "images": [
+    "media/ig/DbGujAOJ9ms-0.webp"
+   ]
+  },
+  "DblaNv2k7s7": {
+   "account": "kaos_ventura",
+   "date": "2026-08-03",
+   "type": "image",
+   "caption": "KAOS Ventura está creciendo ¡Súmate a nuestro equipo! 🥂\n\nEnvíanos tu CV al 78484038 o contáctate con nosotros en:\nhttps://wa.link/m1yu9w",
+   "likes": 20,
+   "views": null,
+   "images": [
+    "media/ig/DblaNv2k7s7-0.webp"
+   ]
+  },
+  "DaOnChKH5jq": {
+   "account": "kaos_ventura",
+   "date": "2026-06-30",
+   "type": "image",
+   "caption": "✨ Hay cervezas… y está Corona.\nDisfrútala bien fría en KAOS mientras vives todos los partidos del mundial con nosotros! 🍺",
+   "likes": 5,
+   "views": null,
+   "images": [
+    "media/ig/DaOnChKH5jq-0.webp"
+   ]
+  },
+  "DYpEdE0lg68": {
+   "account": "kaos_ventura",
+   "date": "2026-05-22",
+   "type": "image",
+   "caption": "🔥🍔 HAPPY LUNCH EN KAOS 🍔🔥\n\nPorque el almuerzo no tiene que ser rutinario 😮‍💨\nDe 12:00 a 17:00 ven por tus burgers favoritas, papas brutales, alitas y drinks a precios que están de locos 👀\n\n⚡ De lunes a viernes \n📍KAOS – Ventura Mall\n🍟 Buen ambiente + buena comida + modo KAOS",
+   "likes": 10,
+   "views": null,
+   "images": [
+    "media/ig/DYpEdE0lg68-0.webp"
+   ]
+  },
+  "DYFgpdRGvDR": {
+   "account": "kaos_ventura",
+   "date": "2026-05-08",
+   "type": "video",
+   "caption": "Hay noches normales… y después están las noches en KAOS 😏🔥\nL-Gante apareció, agarró el micrófono y explotó todo 🎤💣\nLos que estuvieron saben lo que se vivió 😎\n\n📞 Reservas: \n78484038\nhttps://wa.link/m1yu9w",
+   "likes": 16,
+   "views": 1323,
+   "images": [
+    "media/ig/DYFgpdRGvDR-0.webp"
+   ],
+   "video": "media/ig/DYFgpdRGvDR.mp4",
+   "poster": "media/ig/DYFgpdRGvDR-poster.webp"
+  },
+  "DXMqvTfDWwl": {
+   "account": "kaos_ventura",
+   "date": "2026-04-16",
+   "type": "video",
+   "caption": "Kaos: “José, queremos los miércoles acústico TT.\nJosé: 🤓",
+   "likes": 19,
+   "views": 2485,
+   "images": [
+    "media/ig/DXMqvTfDWwl-0.webp"
+   ],
+   "video": "media/ig/DXMqvTfDWwl.mp4",
+   "poster": "media/ig/DXMqvTfDWwl-poster.webp"
+  },
+  "DWU9rNjjkLn": {
+   "account": "kaos_ventura",
+   "date": "2026-03-26",
+   "type": "carousel",
+   "caption": "¡REPECHAJE CON LOS MEJORES! 🇧🇴 \n\n¡Los esperamos a todos el jueves 26 para alentar a nuestra selección! ¡Con nuestras promociones, pantalla gigante y muchas sorpresas más! 🍺🕺🏽\n\n¡VIVE LA EXPERIENCIA EN KAOS DEL VENTURA MALL! ❤️\n\n📞 Reservas:\n78484038\nhttps://wa.link/m1yu9w",
+   "likes": 6,
+   "views": null,
+   "images": [
+    "media/ig/DWU9rNjjkLn-0.webp",
+    "media/ig/DWU9rNjjkLn-1.webp"
+   ]
+  },
+  "DWO42TdFRzn": {
+   "account": "kaos_ventura",
+   "date": "2026-03-23",
+   "type": "image",
+   "caption": "Arrancamos la semana con un menú hecho a medida para tu paladar!\n\nDisfruta de nuestro menú ejecutivo! 🍲\n\nUna opción para salir de la rutina en los almuerzos, nuestros platos fueron desarrollados en base a un menú casero pensando en vos!❤️\n\nDisfrútalos de lunes a viernes, solamente en #KAOS_Boulevard_Ventura",
+   "likes": 8,
+   "views": null,
+   "images": [
+    "media/ig/DWO42TdFRzn-0.webp"
+   ]
+  },
+  "DUmjWE-DptS": {
+   "account": "kaos_ventura",
+   "date": "2026-02-11",
+   "type": "image",
+   "caption": "Este jueves es de Comadres… pero en KAOS se celebra DOBLE 💥\n2x1 Miércoles Jagger toda la noche 🔥 \n2x1 Jueves Caipirosca toda la noche 🍸🔥\nDJ LUCAKU en cabina poniendo el descontrol 🎧\n\nSi vas a salir, que sea a lo grande.\nSi vas a brindar, que sea en KAOS.\n\n📍 KAOS Ventura Mall\n📞 78484038\n\n#ComadresSeCelebraDoble #KaosVentura #JuevesDeKaos",
+   "likes": 8,
+   "views": null,
+   "images": [
+    "media/ig/DUmjWE-DptS-0.webp"
+   ]
+  },
+  "DUmht5TDsaV": {
+   "account": "kaos_ventura",
+   "date": "2026-02-11",
+   "type": "image",
+   "caption": "Miércoles Acústico en KAOS 🎶\nTodos los miércoles de febrero, las noche se llena de ritmo con jose_melgar91 en vivo. 🌙✨\nDisfruta de buena música, un gran ambiente y cocteles espectaculares. 🍹🔥\nNos vemos en KAOS. ¿Listo para sentir la música? 🎸🎤\n📍 Te esperamos en KAOS del Ventura Mall\n 📞 78484038\n\n#kaos #Miercoles #acústico #live #fyp #santacruz",
+   "likes": 3,
+   "views": null,
+   "images": [
+    "media/ig/DUmht5TDsaV-0.webp"
+   ]
+  },
+  "DUQxqvBDv2K": {
+   "account": "kaos_ventura",
+   "date": "2026-02-02",
+   "type": "video",
+   "caption": "¡El after office se vive mejor con Barkov! 🍸\n\n #vodkabarkov#barkov#casadiconti#nursrloficial #nurbolivia",
+   "likes": 29,
+   "views": 2061,
+   "images": [
+    "media/ig/DUQxqvBDv2K-0.webp"
+   ],
+   "video": "media/ig/DUQxqvBDv2K.mp4",
+   "poster": "media/ig/DUQxqvBDv2K-poster.webp"
+  },
+  "De12nVhjpGg": {
+   "account": "kidscollectionbo",
+   "date": "2026-10-23",
+   "type": "image",
+   "caption": "TE VESTIMOS POR 1 AÑO GRATIS! 😮‍💨 🚀😱✨😯🙌🏽🙂‍↕️\nPor la compra de 200bs adquiere un cupón 🤩\nPromoción válida desde el 23 de octubre 2026 al 6 de enero 2027 💙\nSorteo 9 de enero 2027 ☺️\nTe esperamos en todas nuestras sucursales 🥰\nEtiqueta a esa mamá o papá que tiene que participar 👌🏽\nCatálogos: https://wa.me/59175504591\n#OshkoshBgosh #Mayoral #KidsCollection",
+   "likes": 3,
+   "views": null,
+   "images": [
+    "media/ig/De12nVhjpGg-0.webp"
+   ]
+  },
+  "Dfhm--Qkl3u": {
+   "account": "kidscollectionbo",
+   "date": "2026-11-09",
+   "type": "video",
+   "caption": "🖤 BLACK FRIDAY 🖤\nPrendas desde 4.99$ 👀✨\n10% en cualquier coche Cybex 🔝😍\nTe esperamos! 🥰\nEnvíos a todo Bolivia 🇧🇴✈️! Catálogos: https://wa.me/59175504591\n#BlackFriday #KidsCollection",
+   "likes": 3,
+   "views": 10628,
+   "images": [
+    "media/ig/Dfhm--Qkl3u-0.webp"
+   ],
+   "video": "media/ig/Dfhm--Qkl3u.mp4",
+   "poster": "media/ig/Dfhm--Qkl3u-poster.webp"
+  },
+  "DfUj8NHij2I": {
+   "account": "kidscollectionbo",
+   "date": "2026-11-04",
+   "type": "video",
+   "caption": "Colección primavera/verano Mayoral 💛\nPrendas hermosas para ocasiones especiales 😍\nParticipa en nuestro sorteo por la compra de 200bs 😮‍💨\nTe vestimos por 1 año gratis 👌🏽\nSorteo 9 de enero 😊\nCatálogos: https://wa.me/59175504591\n#Mayoral #MayoralKids #KidsCollection",
+   "likes": 3,
+   "views": 8748,
+   "images": [
+    "media/ig/DfUj8NHij2I-0.webp"
+   ]
+  },
+  "DfseohLGua-": {
+   "account": "kidscollectionbo",
+   "date": "2026-11-13",
+   "type": "carousel",
+   "caption": "Diferentes formas de hacer terapia 😅🛍️ \nHay diferentes formas de desconectarse y disfrutar… y para una mamá, hacer shopping de cosas lindas para su bebé también puede ser terapia 😉😮‍💨\nCatálogos: https://wa.me/59175504591\n#KidsCollection #Therapy",
+   "likes": 3,
+   "views": null,
+   "images": [
+    "media/ig/DfseohLGua--0.webp",
+    "media/ig/DfseohLGua--1.webp",
+    "media/ig/DfseohLGua--2.webp"
+   ]
+  },
+  "Dfr1EUqRkka": {
+   "account": "kidscollectionbo",
+   "date": "2026-11-13",
+   "type": "video",
+   "caption": "¡En @kidscollectionbo podés ganar 1 año de ropa gratis! 🎉\n\nPor cada compra de Bs 200, recibís un cupón para participar. Y eso no es todo: aprovechá su Black Friday con prendas desde $us 4,99.\n\n📍 Encontralos en el 2do piso de Las Brisas.",
+   "likes": 234,
+   "views": 14126,
+   "images": [
+    "media/ig/Dfr1EUqRkka-0.webp"
+   ]
+  },
+  "DfpRvJjlaoe": {
+   "account": "kidscollectionbo",
+   "date": "2026-11-12",
+   "type": "image",
+   "caption": "Míos de Cybex 🖤\nEl cochecito compacto y súper elegante 🤩\nExplora las metrópolis con este cochecito, aprovechando sus características innovadoras 🔝 \nCatálogos: https://wa.me/59175504591\n#MiosCybex #Cybex #KidsCollection",
+   "likes": 2,
+   "views": null,
+   "images": [
+    "media/ig/DfpRvJjlaoe-0.webp"
+   ]
+  },
+  "DfnySv9m1QI": {
+   "account": "kidscollectionbo",
+   "date": "2026-11-12",
+   "type": "image",
+   "caption": "Funda de lactancia de Snuggle Me 🤍\nEsta funda ofrece comodidad y privacidad durante la toma, con un escote ajustable y un mordedor le silicona incorporado para un uso 2 en 1 👌🏽\nEstá confeccionada cor nuestra exclusiva muselina de algodón 100% orgánico: suave, transpirable y ligera para la delicada piel del bebé ☺️\nCatálogos: https://wa.me/59175504591\n#SnuggleMe #SnuggleMeKids #KidsCollection",
+   "likes": 3,
+   "views": null,
+   "images": [
+    "media/ig/DfnySv9m1QI-0.webp"
+   ]
+  },
+  "DfmrxnOjbhC": {
+   "account": "kidscollectionbo",
+   "date": "2026-11-11",
+   "type": "carousel",
+   "caption": "Tripp Trapp de Stokke 🧡\nEsta silla de comer se ha vuelto en un clásico escandinavo 😍\nLos cojines para esta silla no tienen sustancias nocivas, son naturalmente más amables con el medio ambiente y mejores para su hijo 🙌🏽\nCatálogos: https://wa.me/59175504591\n#TrippTrapp #Stokke #KidsCollection",
+   "likes": 3,
+   "views": null,
+   "images": [
+    "media/ig/DfmrxnOjbhC-0.webp",
+    "media/ig/DfmrxnOjbhC-1.webp",
+    "media/ig/DfmrxnOjbhC-2.webp"
+   ]
+  },
+  "DflDBOHGh9O": {
+   "account": "levis",
+   "date": "2026-11-10",
+   "type": "carousel",
+   "caption": "All fuzzed up. Welcome to sweater season at Levi's.",
+   "likes": 2136,
+   "views": null,
+   "images": [
+    "media/ig/DflDBOHGh9O-0.webp",
+    "media/ig/DflDBOHGh9O-1.webp",
+    "media/ig/DflDBOHGh9O-2.webp"
+   ]
+  },
+  "Dfk91VvhR_R": {
+   "account": "levis",
+   "date": "2026-11-10",
+   "type": "video",
+   "caption": "A little fuzz. A touch of festive flair. A lot of personality. Make your Levi’s® pieces one of a kind or create a special holiday gift with fuzzy patches, cozy fabrics, custom stitching and more at the Levi’s® Tailor Shop.",
+   "likes": 3831,
+   "views": 105708,
+   "images": [
+    "media/ig/Dfk91VvhR_R-0.webp"
+   ],
+   "video": "media/ig/Dfk91VvhR_R.mp4",
+   "poster": "media/ig/Dfk91VvhR_R-poster.webp"
+  },
+  "DfdNC1Fhfi2": {
+   "account": "levis",
+   "date": "2026-11-07",
+   "type": "video",
+   "caption": "A new home on Michigan Ave, a hometown welcome from @chancetherapper",
+   "likes": 2352,
+   "views": 117203,
+   "images": [
+    "media/ig/DfdNC1Fhfi2-0.webp"
+   ]
+  },
+  "DfZ4TI4mz6U": {
+   "account": "levis",
+   "date": "2026-11-06",
+   "type": "carousel",
+   "caption": "Just in time for postseason. The Levi’s® x Inter Miami CF ‘26 Collection is now available at the Inter Miami CF Team Store and select Miami-area Levi’s® stores.",
+   "likes": 29240,
+   "views": null,
+   "images": [
+    "media/ig/DfZ4TI4mz6U-0.webp",
+    "media/ig/DfZ4TI4mz6U-1.webp",
+    "media/ig/DfZ4TI4mz6U-2.webp"
+   ]
+  },
+  "DfVAxEUxmv9": {
+   "account": "levis",
+   "date": "2026-11-04",
+   "type": "video",
+   "caption": "Follow one puppet’s journey from sketch to big scream. See the artistry and craft that brought our cozy holiday horror to life.",
+   "likes": 3560,
+   "views": 194774,
+   "images": [
+    "media/ig/DfVAxEUxmv9-0.webp"
+   ]
+  },
+  "DfSeGKgGY31": {
+   "account": "levis",
+   "date": "2026-11-03",
+   "type": "carousel",
+   "caption": "This holiday, fear gets fuzzy. Go behind the screams of the warmest horror story ever told.\n\nIt took 4 hours to animate just 1 second of footage.\n\nEach tiny sweater is an exact replica of our full-sized version.\n\nRed tabs were applied with a magnifying glass.\n\nEvery outfit was wired so animators could control every movement.\n\nEach character had four faces (!!!) \nOne for each expression.\n\nEvery. single. hair. was placed by hand.\n\nNail gel, sugar, dust from the Dolomites, recycled egg cartons, apple juice boxes—just a few of the things that went into building the set.",
+   "likes": 4956,
+   "views": null,
+   "images": [
+    "media/ig/DfSeGKgGY31-0.webp",
+    "media/ig/DfSeGKgGY31-1.webp",
+    "media/ig/DfSeGKgGY31-2.webp"
+   ]
+  },
+  "DfQij_1Mdin": {
+   "account": "levis",
+   "date": "2026-11-02",
+   "type": "video",
+   "caption": "A tiny world. A terrifying amount of detail. See what went into making this fuzzy little holiday horror about sweaters.",
+   "likes": 1768,
+   "views": 81840,
+   "images": [
+    "media/ig/DfQij_1Mdin-0.webp"
+   ]
+  },
+  "DfQB3_7Bf97": {
+   "account": "levis",
+   "date": "2026-11-02",
+   "type": "video",
+   "caption": "The season’s coziest holiday horror is now showing.\n \n★★★★★ “Frightfully fuzzy.” – Fuzzy Weekly.",
+   "likes": 6288,
+   "views": 167371,
+   "images": [
+    "media/ig/DfQB3_7Bf97-0.webp"
+   ]
+  },
+  "DfrJwl7kfgj": {
+   "account": "mango",
+   "date": "2026-11-13",
+   "type": "video",
+   "caption": "Evening dressing, pared back to its essence. This is how spectacular our latest Capsule drop looks, now waiting for you at mango.com.",
+   "likes": 586,
+   "views": 180242,
+   "images": [
+    "media/ig/DfrJwl7kfgj-0.webp"
+   ],
+   "video": "media/ig/DfrJwl7kfgj.mp4",
+   "poster": "media/ig/DfrJwl7kfgj-poster.webp"
+  },
+  "DfoyE8KCPN0": {
+   "account": "mango",
+   "date": "2026-11-12",
+   "type": "carousel",
+   "caption": "Testing the outfit before going out. @stephaniebroek with her natural coolness knows exactly which poses and angles to choose. And the Selection collection never disappoints.",
+   "likes": 2327,
+   "views": null,
+   "images": [
+    "media/ig/DfoyE8KCPN0-0.webp",
+    "media/ig/DfoyE8KCPN0-1.webp",
+    "media/ig/DfoyE8KCPN0-2.webp"
+   ]
+  },
+  "DfjbW5gDs_s": {
+   "account": "mango",
+   "date": "2026-11-10",
+   "type": "carousel",
+   "caption": "With no plan or invitation, the best parties find you and take you by surprise. Dress for whatever might happen. Dress for the story at mango.com. \n\nPhotography by @nadialeecohen.",
+   "likes": 842,
+   "views": null,
+   "images": [
+    "media/ig/DfjbW5gDs_s-0.webp",
+    "media/ig/DfjbW5gDs_s-1.webp"
+   ]
+  },
+  "Dfg2kPajczZ": {
+   "account": "mango",
+   "date": "2026-11-09",
+   "type": "video",
+   "caption": "@alexconsani confesses all the secrets about her parties. The most iconic one she’s ever been to? The one she stars in for ‘Last Night’, our latest campaign. Enjoy it at mango.com.",
+   "likes": 3082,
+   "views": 1390556,
+   "images": [
+    "media/ig/Dfg2kPajczZ-0.webp"
+   ]
+  },
+  "DfeRwDak7ZZ": {
+   "account": "mango",
+   "date": "2026-11-08",
+   "type": "carousel",
+   "caption": "The festive season as seen by @nadialeecohen comes to life in ‘Last Night’, our new campaign. Don’t miss Nadia’s unique perspective at mango.com.",
+   "likes": 1541,
+   "views": null,
+   "images": [
+    "media/ig/DfeRwDak7ZZ-0.webp",
+    "media/ig/DfeRwDak7ZZ-1.webp",
+    "media/ig/DfeRwDak7ZZ-2.webp"
+   ]
+  },
+  "Dfbs_monJ6e": {
+   "account": "mango",
+   "date": "2026-11-07",
+   "type": "video",
+   "caption": "Do you know what happened last night? @dreelouisehemingway, @alexconsani, @priscilla.delgado and @carineroitfeld attended a truly exceptional party. Or perhaps it was just a dream? Discover more at mango.com.",
+   "likes": 2551,
+   "views": 368997,
+   "images": [
+    "media/ig/Dfbs_monJ6e-0.webp"
+   ]
+  },
+  "DfZIOhQAdfO": {
+   "account": "mango",
+   "date": "2026-11-06",
+   "type": "video",
+   "caption": "“Está perfecto” was @alexconsani’s verdict on the new party edition of the Selection collection when she first saw it on set. What are you waiting for? Check it out at mango.com",
+   "likes": 15683,
+   "views": 4866513,
+   "images": [
+    "media/ig/DfZIOhQAdfO-0.webp"
+   ]
+  },
+  "DfWjXIeEzB_": {
+   "account": "mango",
+   "date": "2026-11-05",
+   "type": "carousel",
+   "caption": "The most unexpected party of the season stars @alexconsani. In an eccentric and theatrical corner of Hollywood, the latest premium instalment of Selection adds just the right dose of sophistication. ⁣\n⁣\nPhotography by @nadialeecohen.",
+   "likes": 1389,
+   "views": null,
+   "images": [
+    "media/ig/DfWjXIeEzB_-0.webp",
+    "media/ig/DfWjXIeEzB_-1.webp"
+   ]
+  },
+  "Dfry6LSDSQK": {
+   "account": "manhattan.bolivia",
+   "date": "2026-11-13",
+   "type": "image",
+   "caption": "Polera básica de cuello redondo ideal para actividades operativas o de campo. \n\nEsta prenda es parte de nuestra exclusiva LÍNEA INSTITUCIONAL. Con más de 60 años en el mercado, ofrecemos uniformes de calidad en una amplia variedad de tejidos y diseños. Escríbenos hoy mismo para ver nuestro Catálogo Institucional y ¡hacer tu pedido!\nWhatsApp: +591 72047610",
+   "likes": 1,
+   "views": null,
+   "images": [
+    "media/ig/Dfry6LSDSQK-0.webp"
+   ]
+  },
+  "DfmpUwFnxQv": {
+   "account": "manhattan.bolivia",
+   "date": "2026-11-11",
+   "type": "image",
+   "caption": "Elige entre nuestra variedad de tejidos y modelos para un uniforme impecable y duradero.\n\nEsta prenda es parte de nuestra exclusiva LÍNEA INSTITUCIONAL. Con más de 60 años en el mercado, ofrecemos uniformes de calidad en una amplia variedad de tejidos y diseños. Escríbenos hoy mismo para ver nuestro Catálogo Institucional y ¡hacer tu pedido!\nWhatsApp: +591 72047610",
+   "likes": 3,
+   "views": null,
+   "images": [
+    "media/ig/DfmpUwFnxQv-0.webp"
+   ]
+  },
+  "Dfhfu6uFKJT": {
+   "account": "manhattan.bolivia",
+   "date": "2026-11-09",
+   "type": "image",
+   "caption": "Contamos con una amplia gama de tejidos transpirables y livianos que garantizan comodidad todo el día a tu personal.\nEsta prenda es parte de nuestra exclusiva LÍNEA INSTITUCIONAL. Con más de 60 años en el mercado, ofrecemos uniformes de calidad en una amplia variedad de tejidos y diseños. Escríbenos hoy mismo para ver nuestro Catálogo Institucional y ¡hacer tu pedido!\nWhatsApp: +591 72047610",
+   "likes": 0,
+   "views": null,
+   "images": [
+    "media/ig/Dfhfu6uFKJT-0.webp"
+   ]
+  },
+  "DfZxWuAjKUT": {
+   "account": "manhattan.bolivia",
+   "date": "2026-11-06",
+   "type": "image",
+   "caption": "Renueva la imagen de tu equipo con combinaciones modernas en la tapeta. Disponibles en una gran variedad de telas suaves, frescas y de alta resistencia al uso diario.\nEsta prenda es parte de nuestra exclusiva LÍNEA INSTITUCIONAL. Con más de 60 años en el mercado, ofrecemos uniformes de calidad en una amplia variedad de tejidos y diseños. Escríbenos hoy mismo para ver nuestro Catálogo Institucional y ¡hacer tu pedido!\nWhatsApp: +591 72047610",
+   "likes": 3,
+   "views": null,
+   "images": [
+    "media/ig/DfZxWuAjKUT-0.webp"
+   ]
+  },
+  "DfUnw1VFNDL": {
+   "account": "manhattan.bolivia",
+   "date": "2026-11-04",
+   "type": "image",
+   "caption": "El equilibrio perfecto entre comodidad y distinción. Elige entre nuestra gran variedad de telas la opción que mejor se adapte a tu institución, con acabados en cuello y puños a contraste.\n\nEsta prenda es parte de nuestra exclusiva LÍNEA INSTITUCIONAL. Con más de 60 años en el mercado, ofrecemos uniformes de calidad en una amplia variedad de tejidos y diseños. Escríbenos hoy mismo para ver nuestro Catálogo Institucional y ¡hacer tu pedido!\nWhatsApp: +591 72047610",
+   "likes": 4,
+   "views": null,
+   "images": [
+    "media/ig/DfUnw1VFNDL-0.webp"
+   ]
+  },
+  "DfPeLgwGrBc": {
+   "account": "manhattan.bolivia",
+   "date": "2026-11-02",
+   "type": "image",
+   "caption": "Aporta versatilidad y confort al uniforme de tu personal. Ofrecemos telas de alta resistencia, ideales para combinar con todo tipo de vestuario corporativo.\n\nEsta prenda es parte de nuestra exclusiva LÍNEA INSTITUCIONAL. Con más de 60 años en el mercado, ofrecemos uniformes de calidad en una amplia variedad de tejidos y diseños. Escríbenos hoy mismo para ver nuestro Catálogo Institucional y ¡hacer tu pedido!\nWhatsApp: +591 72047610",
+   "likes": 5,
+   "views": null,
+   "images": [
+    "media/ig/DfPeLgwGrBc-0.webp"
+   ]
+  },
+  "DfHvx0OISR-": {
+   "account": "manhattan.bolivia",
+   "date": "2026-10-30",
+   "type": "carousel",
+   "caption": "Destaca la imagen de tu equipo con elegantes detalles a contraste.\n\nEsta prenda es parte de nuestra exclusiva LÍNEA INSTITUCIONAL. Con más de 60 años en el mercado, ofrecemos uniformes de calidad en una amplia variedad de tejidos y diseños. Escríbenos hoy mismo para ver nuestro Catálogo Institucional y ¡hacer tu pedido!\nWhatsApp: +591 72047610",
+   "likes": 8,
+   "views": null,
+   "images": [
+    "media/ig/DfHvx0OISR--0.webp",
+    "media/ig/DfHvx0OISR--1.webp"
+   ]
+  },
+  "DfCmMYdiIR1": {
+   "account": "manhattan.bolivia",
+   "date": "2026-10-28",
+   "type": "image",
+   "caption": "Su confección en tela de caída fluida ofrece un calce cómodo, profesional y resistente al uso diario. Incluye la personalización con el logo de tu empresa.\nEsta prenda es parte de nuestra exclusiva LÍNEA INSTITUCIONAL. Con más de 60 años en el mercado, ofrecemos uniformes de calidad en una amplia variedad de tejidos y diseños. Escríbenos hoy mismo para ver nuestro Catálogo Institucional y ¡hacer tu pedido!\nWhatsApp: +591 72047610",
+   "likes": 7,
+   "views": null,
+   "images": [
+    "media/ig/DfCmMYdiIR1-0.webp"
+   ]
+  },
+  "Dfe0drCHIHu": {
+   "account": "mariposagiftshop.scz",
+   "date": "2026-11-08",
+   "type": "carousel",
+   "caption": "⛳ Para ese golfista que siempre está pensando en su próxima partida.\nDescubre un set que combina accesorios esenciales en una presentación práctica y elegante. \nDisponible en nuestras sucursales: \n📍Ventura Mall: Piso 1, local 4.\n78073040📲\n📍Patio Design: Piso 1, local 123. \n78150008📲\n#scz #golf #giftidea #detalleespecial #mariposagiftshop",
+   "likes": 3,
+   "views": null,
+   "images": [
+    "media/ig/Dfe0drCHIHu-0.webp",
+    "media/ig/Dfe0drCHIHu-1.webp",
+    "media/ig/Dfe0drCHIHu-2.webp"
+   ]
+  },
+  "DfUj1G4xVt2": {
+   "account": "mariposagiftshop.scz",
+   "date": "2026-11-04",
+   "type": "video",
+   "caption": "✨ Un abanico para cada personalidad, cada mood y cada momento.\nAhora solo queda una pregunta: ¿cuál es el tuyo?\n\nEscríbenos al y conoce todos los diseños disponibles:\n📍Ventura Mall: Piso 1, local 4.\n78073040📲\n📍Patio Design: Piso 1, local 123. \n78150008📲\n#scz #abanicos #detalles #mariposagiftshop",
+   "likes": 109,
+   "views": 19532,
+   "images": [
+    "media/ig/DfUj1G4xVt2-0.webp"
+   ],
+   "video": "media/ig/DfUj1G4xVt2.mp4",
+   "poster": "media/ig/DfUj1G4xVt2-poster.webp"
+  },
+  "DfTL7JQmvpy": {
+   "account": "mariposagiftshop.scz",
+   "date": "2026-11-04",
+   "type": "carousel",
+   "caption": "🐷✨ Crea una rutina de ahorro en casa y ayuda a los más pequeños a construir grandes hábitos desde hoy.\nEncuentra su alcancía ideal en Mariposa Gift Shop: \n📍Ventura Mall: Piso 1, local 4.\n78073040📲\n📍Patio Design: Piso 1, local 123. \n78150008📲\n#scz #ahorro #tips #alcancías #mariposagiftshop",
+   "likes": 4,
+   "views": null,
+   "images": [
+    "media/ig/DfTL7JQmvpy-0.webp",
+    "media/ig/DfTL7JQmvpy-1.webp",
+    "media/ig/DfTL7JQmvpy-2.webp"
+   ]
+  },
+  "DfKUP8lERkU": {
+   "account": "mariposagiftshop.scz",
+   "date": "2026-10-31",
+   "type": "carousel",
+   "caption": "Hay regalos que se quedan como recuerdo de un momento para siempre. 🤍\nLos colgadores de puerta son perfectos para darle la bienvenida a un nuevo integrante de la familia. 🍼\n\n📍Ventura Mall: Piso 1, local 4.\n📍Patio Design: Piso 1, local 123. \n\n#scz #reciennacido #detalleespecial #colgadordepuerta #giftidea mariposagiftshop",
+   "likes": 3,
+   "views": null,
+   "images": [
+    "media/ig/DfKUP8lERkU-0.webp",
+    "media/ig/DfKUP8lERkU-1.webp",
+    "media/ig/DfKUP8lERkU-2.webp"
+   ]
+  },
+  "DfDWG7dArYS": {
+   "account": "mariposagiftshop.scz",
+   "date": "2026-10-28",
+   "type": "video",
+   "caption": "Descubre nuestros tomatodos con suaves cubiertas de personajes tiernos y divertidos 5, que además cuentan con una funda de peluche con correa para acompañarte en cada aventura.\n📍Ventura Mall: Piso 1, local 4.\n📍Patio Design: Piso 1, local 123.\n#Verano #Tomatodos #Termo",
+   "likes": 6,
+   "views": 425,
+   "images": [
+    "media/ig/DfDWG7dArYS-0.webp"
+   ]
+  },
+  "DfAU_KoHD_k": {
+   "account": "mariposagiftshop.scz",
+   "date": "2026-10-27",
+   "type": "carousel",
+   "caption": "Hay accesorios que terminan acompañándote a todas partes.\nNo importa cuál sea tu rutina, siempre hay un diseño que encaja contigo y con tu día.\nEncuentra tu favorito en:\n📍Ventura Mall: Piso 1, local 4.\n78073040📲\n📍Patio Design: Piso 1, local 123. \n78073040📲\n#scz #tomatodos #mariposagiftshop",
+   "likes": 6,
+   "views": null,
+   "images": [
+    "media/ig/DfAU_KoHD_k-0.webp",
+    "media/ig/DfAU_KoHD_k-1.webp",
+    "media/ig/DfAU_KoHD_k-2.webp"
+   ]
+  },
+  "De7FDpZgp-Q": {
+   "account": "mariposagiftshop.scz",
+   "date": "2026-10-25",
+   "type": "video",
+   "caption": "Convierte cada reunión en una experiencia especial con nuestro elegante set de coctelería. 🍸\nPerfecto para quienes disfrutan creando sus propias mezclas, sorprendiendo a sus invitados o disfrutando de un buen cóctel en casa.\n📍Ventura Mall: Piso 1, local 4.\n78073040 📲\n📍Diseño de patios: Piso 1, local 123.\n78073040 📲\n#Cocteles #Cóctel",
+   "likes": 76,
+   "views": 1883,
+   "images": [
+    "media/ig/De7FDpZgp-Q-0.webp"
+   ]
+  },
+  "DepPHW9GjJ9": {
+   "account": "mariposagiftshop.scz",
+   "date": "2026-10-18",
+   "type": "carousel",
+   "caption": "Seamos sinceros... todos tenemos una forma diferente de elegir regalos. 😅\nAlgunos saben exactamente qué comprar, otros cambian de idea mil veces, y también están los que terminan llevándose algo para ellos mismos. 👀\n👇 Comenta y cuéntanos qué tipo de comprador eres.\n#scz #regalos #detalleespecial #mariposagiftshop",
+   "likes": 20,
+   "views": null,
+   "images": [
+    "media/ig/DepPHW9GjJ9-0.webp",
+    "media/ig/DepPHW9GjJ9-1.webp",
+    "media/ig/DepPHW9GjJ9-2.webp"
+   ]
+  },
+  "DfrwzoDkUHZ": {
+   "account": "oboticario",
+   "date": "2026-11-13",
+   "type": "carousel",
+   "caption": "O luxo de Lily L’Or Elixir ficou ainda mais irresistível. ✨\n\nAproveite o cupom LUXO e garanta 12% OFF + frete grátis em compras acima de R$ 100 em todos os lançamentos de Lily.\n\nUma oportunidade especial para descobrir a intensidade do Elixir e a sofisticação do creme acetinado com a mesma fragrância.\n\nAcesse o app do Boticário e aproveite só até 13/11!\n\nLily L’Or Elixir é um Eau de Parfum com ingredientes nobres e 2x mais óleo essencial em comparação com outros Eaux de Parfum de Lily.\n\n#LilyLOrElixir #Lily20Anos #OBoticário",
+   "likes": 3624,
+   "views": null,
+   "images": [
+    "media/ig/DfrwzoDkUHZ-0.webp",
+    "media/ig/DfrwzoDkUHZ-1.webp"
+   ]
+  },
+  "DfqapjBxA1G": {
+   "account": "oboticario",
+   "date": "2026-11-13",
+   "type": "video",
+   "caption": "#Publicidade Pensa numa mãe orgulhosa 🥰\nAlém da nova fase, Bruna ainda surpreendeu Carmita com seu bom gosto ao escolher o novo Lily L'Or Elixir do Boticário.\n\nUm LUXO de fragrância, com ingredientes nobres e até 12 horas de fixação ✨\n\nE você, ainda acha que a alta perfumaria só existe na França? 👀\nE pra quem prestou atenção na cena, teve até palavra secreta valendo cupom de desconto no app do @oboticario para os lançamentos de Lily. Pegou a referência?\n\n#LilyLOrElixir #Lily20Anos #OBoticário\n#QuemAmaCuida",
+   "likes": 11227,
+   "views": 547332,
+   "images": [
+    "media/ig/DfqapjBxA1G-0.webp"
+   ],
+   "video": "media/ig/DfqapjBxA1G.mp4",
+   "poster": "media/ig/DfqapjBxA1G-poster.webp"
+  },
+  "DfqJmdORgaN": {
+   "account": "oboticario",
+   "date": "2026-11-12",
+   "type": "video",
+   "caption": "E se um aroma que você conhece de olhos fechados ainda pudesse te surpreender?\n\nNa 3ª edição do Clube da Perfumaria a resposta começou pela mesa.\n\nIngredientes para provar. Fitas olfativas para sentir. \n\nCremoso, tostado, ácido, intenso… a cada combinação, uma nova percepção.\n\nEntre gastronomia e alta perfumaria, o gourmand ganhou outras camadas e mostrou que até o familiar pode esconder algo inesperado.\n\nUma noite para aguçar os sentidos. 💚\n\n#OBoticario #ClubeDaPerfumaria",
+   "likes": 337,
+   "views": 39659,
+   "images": [
+    "media/ig/DfqJmdORgaN-0.webp"
+   ]
+  },
+  "Dfp_qSETwPK": {
+   "account": "oboticario",
+   "date": "2026-11-12",
+   "type": "video",
+   "caption": "#publi l O acessório que te deixa marcante pode ser invisível. \n\nLily L’Or Elixir é um Eau de Parfum com ingredientes nobres e 2x mais óleo essencial em comparação com outros Eaux de Parfum de Lily.\n\nA combinação extraordinária entre elegância e intensidade. \n\nPara descobrir, acesse o site, app ou encontre a loja mais próxima. \n\n#LilyLOrElixir #Lily20Anos #OBoticário",
+   "likes": 1166,
+   "views": 83928,
+   "images": [
+    "media/ig/Dfp_qSETwPK-0.webp"
+   ]
+  },
+  "Dfpw4DNzrqX": {
+   "account": "oboticario",
+   "date": "2026-11-12",
+   "type": "video",
+   "caption": "#publi | Existem fragrâncias que vão além do olfato e transformam cada momento em uma experiência única. ✨\n\nLily L’Or Elixir, do Boticário, traduz a sofisticação em uma fragrância intensa, marcante e inesquecível. Descubra essa experiência!\n\nLily L’Or Elixir é um Eau de Parfum com ingredientes nobres e 2x mais óleo essencial em comparação com outros Eaux de Parfum de Lily.\n\n#LilyLOrElixir #Lily20Anos #OBoticário",
+   "likes": 1977,
+   "views": 134668,
+   "images": [
+    "media/ig/Dfpw4DNzrqX-0.webp"
+   ]
+  },
+  "DfpOdUiRyUt": {
+   "account": "oboticario",
+   "date": "2026-11-12",
+   "type": "video",
+   "caption": "Uma fragrância que desperta desejos e envolve os sentidos. 🍯✨\n\nCom notas de figo, ameixa e mel, Honey Craving, de Privée Sugardose, do Boticário, revela uma combinação intensa, sedutora e nada óbvia.\n\nJá disponível no site, mas corra que é edição limitada \n#PrivéeSugardose #OBoticário",
+   "likes": 8128,
+   "views": 298508,
+   "images": [
+    "media/ig/DfpOdUiRyUt-0.webp"
+   ]
+  },
+  "Dfo-HnHKAuw": {
+   "account": "oboticario",
+   "date": "2026-11-12",
+   "type": "video",
+   "caption": "Dá para querer comer menos açúcar e continuar amando o cheiro de um crème brûlée? Essa foi uma das conversas da 3ª edição do Clube da Perfumaria de O Boticário, dedicada ao gourmand na alta perfumaria, e acho fascinante perceber como um mesmo desejo pode migrar, por exemplo, do paladar para o olfato.\n\nEntre perfumaria de nicho, tendências de comportamento e uma aula de confeitaria deliciosa, falamos sobre como aromas tão familiares podem ser levados ao limite, ganhar contraste, intensidade e novas leituras. \n\nPrivée Sugardose, lançamento do @oboticario, leva a tendência dos neogourmands ao ext",
+   "likes": 339,
+   "views": 51316,
+   "images": [
+    "media/ig/Dfo-HnHKAuw-0.webp"
+   ]
+  },
+  "DfngPhhMmni": {
+   "account": "oboticario",
+   "date": "2026-11-11",
+   "type": "video",
+   "caption": "Tem prazer que sai do prato e continua no cheiro. \n\nDepois da 3ª edição do Clube da Perfumaria de O Boticário, uma pergunta ficou comigo: se a gente passa a consumir menos açúcar, o que acontece com a vontade de sentir esses aromas?\nA resposta passa por comportamento, memória e perfumaria.\n\nVem ver!\n#OBoticario #ClubeDaPerfumaria",
+   "likes": 5409,
+   "views": 128543,
+   "images": [
+    "media/ig/DfngPhhMmni-0.webp"
+   ]
+  },
+  "DecNFgfpFCQ": {
+   "account": "opticaspaukerbolivia",
+   "date": "2026-10-13",
+   "type": "video",
+   "caption": "Stellest llegó a Bolivia para controlar la miopía en tus niños💓☝🏻 \n\n#niños #miopia #salud #visual #bolivia🇧🇴",
+   "likes": 3,
+   "views": 8765,
+   "images": [
+    "media/ig/DecNFgfpFCQ-0.webp"
+   ],
+   "video": "media/ig/DecNFgfpFCQ.mp4",
+   "poster": "media/ig/DecNFgfpFCQ-poster.webp"
+  },
+  "DdcIFN5OETD": {
+   "account": "opticaspaukerbolivia",
+   "date": "2026-09-18",
+   "type": "video",
+   "caption": "🌟 Santa Cruz fue escenario de una noche dedicada a la innovación y al futuro de la visión infantil.\n\nProfesionales de la visión conocieron de cerca Stellest® de Essilor®, una nueva tecnología para el control de la progresión de la miopía infantil. 👓✨\n\nUn encuentro que marca el inicio de una nueva etapa junto a EssilorLuxottica, Ópticas Pauker y Laboratorio Óptico EasyLab.\n\n#Stellest #EasyLabBolivia #OpticasPauker #EssilorLuxottica #SantaCruz",
+   "likes": 18,
+   "views": 731,
+   "images": [
+    "media/ig/DdcIFN5OETD-0.webp"
+   ]
+  },
+  "DeIcaUUpKDS": {
+   "account": "opticaspaukerbolivia",
+   "date": "2026-10-06",
+   "type": "video",
+   "caption": "Transitions se convirtió en mi aliado✨ amo la facilidad y comodidad de contar con un producto que se adapta a mi día a día ☝🏻🗓️ \n¿Ya tenés tu lente transitions? Conseguí el original en Opticas Pauker💓 \n#transitionsgenss #opticaspauker #lentes #gafas #bolivia",
+   "likes": 55,
+   "views": 2374,
+   "images": [
+    "media/ig/DeIcaUUpKDS-0.webp"
+   ]
+  },
+  "DfsB1-poFT4": {
+   "account": "opticaspaukerbolivia",
+   "date": "2026-11-13",
+   "type": "carousel",
+   "caption": "Un diseño que no pasa desapercibido ✨\nClash de Cartier lleva la inspiración de la alta joyería a tus looks, con formas audaces y mucho carácter.\n\n#OpticasPauker #PaukerBolivia",
+   "likes": 7,
+   "views": null,
+   "images": [
+    "media/ig/DfsB1-poFT4-0.webp",
+    "media/ig/DfsB1-poFT4-1.webp",
+    "media/ig/DfsB1-poFT4-2.webp"
+   ]
+  },
+  "DfpoQl6pcZw": {
+   "account": "opticaspaukerbolivia",
+   "date": "2026-11-12",
+   "type": "video",
+   "caption": "Claramente 4 organizadores no son suficientes 🙂‍↔️",
+   "likes": 375,
+   "views": 14451,
+   "images": [
+    "media/ig/DfpoQl6pcZw-0.webp"
+   ]
+  },
+  "Dfmvw08tJPF": {
+   "account": "opticaspaukerbolivia",
+   "date": "2026-11-11",
+   "type": "video",
+   "caption": "Unas buenas gafas te hacen el outfit.",
+   "likes": 45,
+   "views": 1821,
+   "images": [
+    "media/ig/Dfmvw08tJPF-0.webp"
+   ]
+  },
+  "Dfmbntojm8g": {
+   "account": "opticaspaukerbolivia",
+   "date": "2026-11-11",
+   "type": "carousel",
+   "caption": "Porque ver bien y lucir increíble van de la mano: dale un toque chic y sofisticado a tu rutina con estas monturas de Pedro del Hierro",
+   "likes": 2,
+   "views": null,
+   "images": [
+    "media/ig/Dfmbntojm8g-0.webp",
+    "media/ig/Dfmbntojm8g-1.webp",
+    "media/ig/Dfmbntojm8g-2.webp"
+   ]
+  },
+  "Dfk_Q57O7rA": {
+   "account": "opticaspaukerbolivia",
+   "date": "2026-11-10",
+   "type": "image",
+   "caption": "Un toque de color, diseño impecable y toda la elegancia de Pedro del Hierro para acompañarte en cada plan ✨\n\n#0pticasPauker #PaukerBolivia #PedroDelHierro",
+   "likes": 8,
+   "views": null,
+   "images": [
+    "media/ig/Dfk_Q57O7rA-0.webp"
+   ]
+  },
+  "DfsCQjBgNgs": {
+   "account": "regionesbolivia",
+   "date": "2026-11-13",
+   "type": "video",
+   "caption": "TURISMO EN SANTA CRUZ?\nCENA-SHOW TURÍSTICA\nTodos los fines de semana\nen Regiones.\n\nSEPARA TU MESA HOY\nWhatsapp: 6224-2200\n\n#turismobolivia\n#regionesbolivia\n#santacruzdelasierra",
+   "likes": 25,
+   "views": 913,
+   "images": [
+    "media/ig/DfsCQjBgNgs-0.webp"
+   ],
+   "video": "media/ig/DfsCQjBgNgs.mp4",
+   "poster": "media/ig/DfsCQjBgNgs-poster.webp"
+  },
+  "DfpFFCvhBJT": {
+   "account": "regionesbolivia",
+   "date": "2026-11-12",
+   "type": "image",
+   "caption": "TURISMO EN SANTA CRUZ?\nCENA-SHOW TURÍSTICA\nTodos los fines de semana\nen Regiones.\n\nSEPARA TU MESA HOY\nWhatsapp: 6224-2200\n\n#turismobolivia\n#regionesbolivia\n#santacruzdelasierra",
+   "likes": 35,
+   "views": null,
+   "images": [
+    "media/ig/DfpFFCvhBJT-0.webp"
+   ]
+  },
+  "DfpDSAEBwU8": {
+   "account": "regionesbolivia",
+   "date": "2026-11-12",
+   "type": "video",
+   "caption": "TURISMO EN SANTA CRUZ?\nCENA-SHOW TURÍSTICA\nTodos los fines de semana\nen Regiones.\n\nSEPARA TU MESA HOY\nWhatsapp: 6224-2200\n\n#turismobolivia\n#regionesbolivia\n#santacruzdelasierra",
+   "likes": 33,
+   "views": 2571,
+   "images": [
+    "media/ig/DfpDSAEBwU8-0.webp"
+   ],
+   "video": "media/ig/DfpDSAEBwU8.mp4",
+   "poster": "media/ig/DfpDSAEBwU8-poster.webp"
+  },
+  "DfpCAlPOFUR": {
+   "account": "regionesbolivia",
+   "date": "2026-11-12",
+   "type": "video",
+   "caption": "PICANTE DE POLLO (VALLES) \nTradicional picante de los valles bolivianos, preparado con pollo y salsa de ají rojo acompañado con arroz, papa, chuño blanco y ensalada criolla.\n\nPICANTE DE LENGUA (VALLES) \nSabrosa lengua de res cocida lentamente, servida en salsa picante tradicional de ají amarillo acompañada con arroz, papa, chuño blanco y ensalada criolla.\n\nPICANTE MIXTO (VALLES) \nMixto de lengua de res y pollo, servidos en salsa picante tradicional de ají acompañados con arroz, papa, chuño blanco y ensalada criolla.",
+   "likes": 21,
+   "views": 4051,
+   "images": [
+    "media/ig/DfpCAlPOFUR-0.webp"
+   ],
+   "video": "media/ig/DfpCAlPOFUR.mp4",
+   "poster": "media/ig/DfpCAlPOFUR-poster.webp"
+  },
+  "DfhHEbjBjcC": {
+   "account": "regionesbolivia",
+   "date": "2026-11-09",
+   "type": "video",
+   "caption": "TURISMO EN SANTA CRUZ?\nCENA-SHOW TURÍSTICA\nTodos los fines de semana\nen Regiones.\n\nSEPARA TU MESA HOY\nWhatsapp: 6224-2200\n\n#turismobolivia\n#regionesbolivia\n#santacruzdelasierra",
+   "likes": 129,
+   "views": 12474,
+   "images": [
+    "media/ig/DfhHEbjBjcC-0.webp"
+   ]
+  },
+  "DfhF_dRhCKD": {
+   "account": "regionesbolivia",
+   "date": "2026-11-09",
+   "type": "image",
+   "caption": "2X1\nFUNCIÓN ESPECIAL\nEste MIÉRCOLES 11 NOV una nueva cena-show.\nHORA: 8:00 PM\n\nSEPARA TU MESA HOY.\nRESERVAS: +591 62242200\n\n#turismobolivia\n#regionesbolivia\n#santacruzdelasierra",
+   "likes": 39,
+   "views": null,
+   "images": [
+    "media/ig/DfhF_dRhCKD-0.webp"
+   ]
+  },
+  "Dfccv5KBt64": {
+   "account": "regionesbolivia",
+   "date": "2026-11-07",
+   "type": "video",
+   "caption": "CENA-SHOW TURÍSTICA\nTodos los fines de semana\nen Regiones.\n\nSEPARA TU MESA HOY\nWhatsapp: 6224-2200\n\n#turismobolivia\n#regionesbolivia\n#santacruzdelasierra",
+   "likes": 267,
+   "views": 15127,
+   "images": [
+    "media/ig/Dfccv5KBt64-0.webp"
+   ]
+  },
+  "DfcbQiTNHOw": {
+   "account": "regionesbolivia",
+   "date": "2026-11-07",
+   "type": "video",
+   "caption": "ALGUNAS SOPAS en Bolivia\nAquí en Regiones tienes las versiones mas tradicionales.\n\nREGIONES\nRestaurante Turístico\nen el Ventura Mall\n\nSEPARA TU MESA HOY\n\n#regionesbolivia\n#turismobolívia \n#venturamallscz",
+   "likes": 37,
+   "views": 1700,
+   "images": [
+    "media/ig/DfcbQiTNHOw-0.webp"
+   ]
+  },
+  "DfVaEXuh2Lk": {
+   "account": "regionesbolivia",
+   "date": "2026-11-04",
+   "type": "video",
+   "caption": "CENA-SHOW TURÍSTICA\nTodos los fines de semana\nen Regiones.\n\nSEPARA TU MESA HOY\nWhatsapp: 6224-2200\n\n#turismobolivia\n#regionesbolivia\n#santacruzdelasierra\n1 min",
+   "likes": 244,
+   "views": 106203,
+   "images": [
+    "media/ig/DfVaEXuh2Lk-0.webp"
+   ]
+  },
+  "DfVZtiBNWX-": {
+   "account": "regionesbolivia",
+   "date": "2026-11-04",
+   "type": "video",
+   "caption": "CENA-SHOW TURÍSTICA\nTodos los fines de semana\nen Regiones.\n\nSEPARA TU MESA HOY\nWhatsapp: 6224-2200\n\n#turismobolivia\n#regionesbolivia\n#santacruzdelasierra",
+   "likes": 564,
+   "views": 49576,
+   "images": [
+    "media/ig/DfVZtiBNWX--0.webp"
+   ]
+  },
+  "B8AI7pmp2tF": {
+   "account": "republicascz",
+   "date": "2020-01-31",
+   "type": "image",
+   "caption": "Todos los medios están pendientes de la Nueva República!\nSeguiremos informando.\n#republicascz #venturamall #nuevarepublica",
+   "likes": 13,
+   "views": null,
+   "images": [
+    "media/ig/B8AI7pmp2tF-0.webp"
+   ]
+  },
+  "B73seZQJMCw": {
+   "account": "republicascz",
+   "date": "2020-01-28",
+   "type": "image",
+   "caption": "Porque la gente necesitaba renovación, estamos refundando una nueva @republicascz \nNuevas autoridades y nuevas medidas.\nSeguiremos informando...\n#republicascz #venturamall #nuevarepublica",
+   "likes": 49,
+   "views": null,
+   "images": [
+    "media/ig/B73seZQJMCw-0.webp"
+   ]
+  },
+  "B5YuWjHJwVv": {
+   "account": "republicascz",
+   "date": "2019-11-27",
+   "type": "carousel",
+   "caption": "🍔❤️🍺\n@chris_outsidetheoffice 📸\n#republicascz #promorepublica",
+   "likes": 13,
+   "views": null,
+   "images": [
+    "media/ig/B5YuWjHJwVv-0.webp",
+    "media/ig/B5YuWjHJwVv-1.webp"
+   ]
+  },
+  "B5I9fe0pcQ_": {
+   "account": "republicascz",
+   "date": "2019-11-21",
+   "type": "image",
+   "caption": "📸 @patmefe87 🍔❤️\n#republicascz #venturamall #santacruzdelasierra #bolivia #vivasantacruz",
+   "likes": 10,
+   "views": null,
+   "images": [
+    "media/ig/B5I9fe0pcQ_-0.webp"
+   ]
+  },
+  "B5I0vAyphcF": {
+   "account": "republicascz",
+   "date": "2019-11-21",
+   "type": "image",
+   "caption": "📸 @wishyouwerebeef 🍔❤️🍺\n#republicascz #burger #burguesas #chopp #santacruzbolivia #soysantacruzdelasierra",
+   "likes": 19,
+   "views": null,
+   "images": [
+    "media/ig/B5I0vAyphcF-0.webp"
+   ]
+  },
+  "B5BhW2rpFpe": {
+   "account": "republicascz",
+   "date": "2019-11-18",
+   "type": "image",
+   "caption": "🎉🎂🥂\n@marialauraasuarezc @sherys.frater \n#republicascz #celebrate #frater #santacruzbolivia #venturamall",
+   "likes": 23,
+   "views": null,
+   "images": [
+    "media/ig/B5BhW2rpFpe-0.webp"
+   ]
+  },
+  "B4-LJ5zJx25": {
+   "account": "republicascz",
+   "date": "2019-11-17",
+   "type": "image",
+   "caption": "PROMO BURGER+CHOPP ✨🍔🍺✨ 45 Bs. \nTodas nuestras Burguesas en Promo! Criolla, Chida, Parrillera, Anticuchera y Clásica.\n\nBurguesa 180 gr. con Papas + Chopp\nDel 15 al 30 de Noviembre\n> República Ventura Mall <\n☎️ 4-023101\n\n#republicascz #amigos #burguesa #chopp #bolivia #santacruzbolivia #soysantacruzbolivia #venturamall #findesemana #promoventura",
+   "likes": 10,
+   "views": null,
+   "images": [
+    "media/ig/B4-LJ5zJx25-0.webp"
+   ]
+  },
+  "B441MdXJ9RU": {
+   "account": "republicascz",
+   "date": "2019-11-15",
+   "type": "image",
+   "caption": "PROMO BURGER+CHOPP ✨🍔🍺✨ 45 Bs. \nTodas nuestras Burguesas en Promo! Criolla, Chida, Parrillera, Anticuchera y Clásica.\n\nBurguesa 180 gr. con Papas + Chopp\nDel 15 al 30 de Noviembre\n> República Ventura Mall <\n☎️ 4-023101\n\n#republicascz #amigos #burguesa #chopp #bolivia #santacruzbolivia #soysantacruzbolivia #venturamall #findesemana #promoventura",
+   "likes": 11,
+   "views": null,
+   "images": [
+    "media/ig/B441MdXJ9RU-0.webp"
+   ]
+  },
+  "B3SDQzIpfj2": {
+   "account": "republicascz",
+   "date": "2019-10-06",
+   "type": "image",
+   "caption": "En días nublados 🌥 a quien no le apetece una tradicional sopa de maní ☝🏽.\nDate un gustito.\nDe pollo, carne o vegetariana.🥕\nPedila en nuestra sucursal en #venturamallscz .",
+   "likes": 9,
+   "views": null,
+   "images": [
+    "media/ig/B3SDQzIpfj2-0.webp"
+   ]
+  },
+  "B3FeSbapRz3": {
+   "account": "republicascz",
+   "date": "2019-10-01",
+   "type": "image",
+   "caption": "PROMO FIT!\nFILETE DE POLLO A PLANCHA\nTodo octubre en República Ventura Mall, Filete de pollo a la plancha + Papas + Ensalada fresca + Limonada por 35 Bs.\n\nRepública Ventura Mall 📍\n#republicascz #promosantacruz #promofitness #venturamall #",
+   "likes": 19,
+   "views": null,
+   "images": [
+    "media/ig/B3FeSbapRz3-0.webp"
+   ]
+  },
+  "DfmpXSbk6X5": {
+   "account": "route66_bolivia",
+   "date": "2026-11-11",
+   "type": "video",
+   "caption": "🎩✨ ¡Las noches de jueves se llenan de magia en Route 66! 🪄\nViví una experiencia diferente, donde la buena comida, los cócteles y las increíbles sorpresas de nuestro mago se combinan para crear momentos inolvidables. 🤩🍹\n\n✨ ¡Dejate sorprender y disfrutá de una noche llena de diversión y entretenimiento!\n\n🗓️ Todos los jueves, desde las 20:30 horas.\n📍 Boulevard Ventura Mall, Santa Cruz.\n\n#Route66 #NocheDeMagia #ShowDeMagia #JuevesDeMagia #ExperienciasÚnicas #SantaCruz",
+   "likes": 7,
+   "views": 507,
+   "images": [
+    "media/ig/DfmpXSbk6X5-0.webp"
+   ],
+   "video": "media/ig/DfmpXSbk6X5.mp4",
+   "poster": "media/ig/DfmpXSbk6X5-poster.webp"
+  },
+  "Dfk1vA8FRJY": {
+   "account": "route66_bolivia",
+   "date": "2026-11-10",
+   "type": "video",
+   "caption": "🍸✨ ¡Cada cóctel tiene una historia que contar en Route 66!\nDescubrí nuestra selección de Cócteles de autor, creados para sorprender tu paladar con combinaciones únicas y sabores irresistibles. 🍹🤩\n\n🥂 Ya sea para acompañar tus platos favoritos o disfrutar de un momento especial en nuestro bar, siempre hay un cóctel perfecto para vos.\n\n✨ ¡Brindá por los buenos momentos en Route 66!\n📍 Boulevard Ventura Mall, Santa Cruz.\n\n#Route66 #CoctelesDeAutor #CocktailLovers #ExperienciaGastronómica #Bar #SantaCruz",
+   "likes": 6,
+   "views": 298,
+   "images": [
+    "media/ig/Dfk1vA8FRJY-0.webp"
+   ],
+   "video": "media/ig/Dfk1vA8FRJY.mp4",
+   "poster": "media/ig/Dfk1vA8FRJY-poster.webp"
+  },
+  "DfajXDsAvEL": {
+   "account": "route66_bolivia",
+   "date": "2026-11-06",
+   "type": "video",
+   "caption": "🦋🍸 ¡Un cóctel que parece magia en cada copa! ✨\nDescubrí nuestro Mariposa Gin, una combinación sorprendente que cambia de color ante tus ojos y convierte cada sorbo en una experiencia única. 💜💙\n\n🍹 Dejá que el sabor y la magia te sorprendan en Route 66.\n📍 Te esperamos en Boulevard Ventura Mall.\n\n#Route66 #MariposaGin #Coctelería #CocktailLovers #SantaCruz",
+   "likes": 9,
+   "views": 1033,
+   "images": [
+    "media/ig/DfajXDsAvEL-0.webp"
+   ],
+   "video": "media/ig/DfajXDsAvEL.mp4",
+   "poster": "media/ig/DfajXDsAvEL-poster.webp"
+  },
+  "DfX3gH2iffN": {
+   "account": "route66_bolivia",
+   "date": "2026-11-05",
+   "type": "image",
+   "caption": "🍝🍕 ¡Los sábados se disfrutan con mucho sabor en Route 66! 🤩✨\nDisfrutá de nuestro delicioso Buffet por solo 120 Bs, con una variedad de platos para que tu fin de semana sea aún más especial. 🍽️\n\n🥤 ¡Incluye bebida de cortesía!\n📅 Todos los sábados de noviembre.\n\n🙌 ¡Vení con tu familia o amigos y disfrutá de una experiencia llena de sabor!\n\n📍 Te esperamos en Boulevard Ventura Mall.\n\n#Route66 #SábadosDeBuffet #Buffet #Gastronomía #SantaCruz",
+   "likes": 4,
+   "views": null,
+   "images": [
+    "media/ig/DfX3gH2iffN-0.webp"
+   ]
+  },
+  "DfSuZmiDjFf": {
+   "account": "route66_bolivia",
+   "date": "2026-11-03",
+   "type": "image",
+   "caption": "🔥🍽️ ¡Un clásico boliviano que conquista con cada bocado!\nNuestro Pique Macho combina carnes jugosas, papas doraditas, chorizo y vegetales frescos en una explosión de sabores irresistible. 🤤🍟\n\n🍻 El plato perfecto para compartir, acompañado de una cerveza bien fría y el mejor ambiente.\n\n📍 Te esperamos en Boulevard Ventura Mall.\n\n#Route66 #PiqueMacho #GastronomíaBoliviana #BuenSabor #SantaCruz",
+   "likes": 8,
+   "views": null,
+   "images": [
+    "media/ig/DfSuZmiDjFf-0.webp"
+   ]
+  },
+  "DfKlXh6jDjo": {
+   "account": "route66_bolivia",
+   "date": "2026-10-31",
+   "type": "video",
+   "caption": "🔥🍽️ ¡Comé todo lo que quieras por solo Bs 120!\nTodos los sábados de noviembre, Route 66 te espera con un delicioso buffet para que compartás tus platos favoritos y una bebida de cortesía incluida. 🍹✨\n\n😋 ¡Vení con hambre y preparate para un sábado lleno de sabor!\n\n📍 Boulevard Ventura Mall.\n\n#Route66 #Buffet #BuffetDeNoviembre #Gastronomía #SantaCruz",
+   "likes": 84,
+   "views": 9409,
+   "images": [
+    "media/ig/DfKlXh6jDjo-0.webp"
+   ]
+  },
+  "DfICGmlDGnM": {
+   "account": "route66_bolivia",
+   "date": "2026-10-30",
+   "type": "image",
+   "caption": "🍫🍨 ¡El placer de un buen postre en cada bocado! 🤎\nNuestro Ultimate Chocolate Brownie combina el intenso sabor del chocolate con una deliciosa bola de helado, salsa de chocolate y caramelo. ¡Una tentación irresistible! 🤤✨\n\n😍 Porque siempre hay espacio para algo dulce.\n\n📍 Visítanos en el Boulevard Ventura Mall.\n\n#Route66 #UltimateChocolateBrownie #ChocolateLovers #PostresIrresistibles #DulceTentación #SantaCruz",
+   "likes": 5,
+   "views": null,
+   "images": [
+    "media/ig/DfICGmlDGnM-0.webp"
+   ]
+  },
+  "De98IyhhkqK": {
+   "account": "route66_bolivia",
+   "date": "2026-10-26",
+   "type": "image",
+   "caption": "🍸✨ Las mejores noches comienzan con un buen cóctel.\n\nEn Route 66, cada brindis es una excusa perfecta para disfrutar, compartir y pasarla bien. 🥂\n\n¡Te esperamos para vivir una noche diferente!\n\n#Route66 #Cocktails #SantaCruz",
+   "likes": 1,
+   "views": null,
+   "images": [
+    "media/ig/De98IyhhkqK-0.webp"
+   ]
+  },
+  "De1jrmWx4zV": {
+   "account": "route66_bolivia",
+   "date": "2026-10-23",
+   "type": "image",
+   "caption": "🍓✨ ¡Un dulce momento siempre viene bien!\n\nDisfrutá nuestro delicioso cheesecake, con una textura cremosa, base crocante y una irresistible salsa de frutos rojos. 🍰❤️\n\n¡Date un gusto y vení a disfrutarlo en Route 66! 😍\n\n#Route66 #Cheesecake #Postres #SantaCruz",
+   "likes": 6,
+   "views": null,
+   "images": [
+    "media/ig/De1jrmWx4zV-0.webp"
+   ]
+  },
+  "DejqJfpRfPC": {
+   "account": "route66_bolivia",
+   "date": "2026-10-16",
+   "type": "video",
+   "caption": "🍝 ¡Este 25 de octubre celebramos el Día Mundial de la Pasta en Route 66!\n\nDisfrutá de nuestro buffet especial por solo Bs 120, con linguini Alfredo, ñoquis en salsa rosa, lasaña, albóndigas, pollo a la BBQ, pizzas y deliciosas ensaladas. 🍕🍽️\n\n📅 Domingo 25 de octubre\n🕦 De 11:30 a 15:00 h, hasta agotar stock.\n📍Boulevard Ventura Mall.\n\n🍝 ¡Vení con tu familia o amigos y repetí tus favoritos!\n\n#Route66 #DíaMundialDeLaPasta #BuffetDePastas #SantaCruz #Gastronomía",
+   "likes": 29,
+   "views": 4537,
+   "images": [
+    "media/ig/DejqJfpRfPC-0.webp"
+   ]
+  },
+  "Dfm4RqMlG_l": {
+   "account": "venturamalloficial",
+   "date": "2026-11-11",
+   "type": "video",
+   "caption": "¿Cuándo fue la última vez que revisaste tu glucosa? 🩸 \n\nEste viernes 13 de noviembre, Spacio Médico te invitan a una jornada de toma gratuita de glucosa.\n\n🕚 De 11:00 a 15:00 hrs\n✅ Rápida, segura y sin costo\n📍 Spacio Médico · Ventura Mall, Nivel 2.\n\nConocer tus niveles de glucosa es el primer paso para prevenir. Acércate, mídete y cuídate. 💙 Con el respaldo de Sinocare, líder global en dispositivos de diagnóstico.\n#DíaMundialDeLaDiabetes #SpacioMédico #Prevención #SaludMetabólica #Glucosa #SantaCruz",
+   "likes": 1,
+   "views": 804,
+   "images": [
+    "media/ig/Dfm4RqMlG_l-0.webp"
+   ],
+   "video": "media/ig/Dfm4RqMlG_l.mp4",
+   "poster": "media/ig/Dfm4RqMlG_l-poster.webp"
+  },
+  "DfS4f9UME6l": {
+   "account": "spaciomedico.bo",
+   "date": "2026-11-03",
+   "type": "video",
+   "caption": "💙 Los hombres también pueden sufrir escapes de orina, molestias durante las relaciones sexuales y dolor pélvico.\n\nSon problemas que afectan a la calidad de vida y que pueden tratarse.\n\nEn noviembre, Mes de la Salud Masculina, en REHAB INSTITUT queremos ayudarte a cuidar tu salud con un 10% DE DESCUENTO en tu primera visita médica.\n\nPorque cuidar de tu salud también es cosa de hombres. 💙\n\n📍 SPACIO MÉDICO (Ventura Mall, segundo nivel)\n📲 ¡Agenda tu valoración!\n\n#hombres #saludpelvica #incontinenciaurinaria #santacruzdelasierrabolivia #scz",
+   "likes": 40,
+   "views": 1034,
+   "images": [
+    "media/ig/DfS4f9UME6l-0.webp"
+   ]
+  },
+  "DfIglCcDq4b": {
+   "account": "spaciomedico.bo",
+   "date": "2026-10-30",
+   "type": "image",
+   "caption": "💛 Este sábado 31 de octubre te esperamos en Spacio Médico para una jornada de VACUNACIÓN GRATUITA.\n\nContaremos con vacunas contra la influenza, poliomielitis, sarampión, VPH y otras enfermedades, para seguir protegiendo tu salud y la de tu familia.\n\n📅 Sábado 31 de octubre \n🕘 De 09:00 a 13:00 h \n📍 Spacio Médico – Ventura Mall, Nivel 2.\n\n📲 Para más información, escribinos al WhatsApp 74937373\n\n#SpacioMédico #VacunaciónGratuita #Prevención #SaludFamiliar #VenturaMall",
+   "likes": 19,
+   "views": null,
+   "images": [
+    "media/ig/DfIglCcDq4b-0.webp"
+   ]
+  },
+  "DfHnswkk2aY": {
+   "account": "spaciomedico.bo",
+   "date": "2026-10-30",
+   "type": "video",
+   "caption": "🎬 En Spacio Médico, el Cine Debate crea un espacio para reflexionar, compartir opiniones y resolver dudas junto a profesionales, acercando la salud mental a las familias y a los pacientes.\n\n💬 Porque hablar, escuchar y comprender también es cuidar nuestra salud.\n📍 Spacio Médico – Ventura Mall, Nivel 2.\n\n#SpacioMédico #CineDebate #SaludMental #BienestarIntegral #HablemosDeSalud",
+   "likes": 5,
+   "views": 1085,
+   "images": [
+    "media/ig/DfHnswkk2aY-0.webp"
+   ]
+  },
+  "DfDeaQyR-TN": {
+   "account": "spaciomedico.bo",
+   "date": "2026-10-28",
+   "type": "video",
+   "caption": "📍 ¡Llegar a PhysioCenter en Ventura Mall es más fácil de lo que imaginas! 💙\n\nSi tienes una cita con nosotros, te mostramos la ruta para llegar fácilmente a nuestro consultorio, ubicado en el 2.º piso de Ventura Mall, en Espacio Médico.\n\n♿ Contamos con una ruta por ascensor para que tu llegada sea más cómoda.\n\n📝 Recuerda registrarte en la recepción de Espacio Médico antes de ingresar.\n\n¡Guarda este video para tu próxima visita y llega sin complicaciones! ✨\n\n📍 PhysioCenter – Ventura Mall, 2.º piso.\nTu recuperación comienza aquí.\n\n#PhysioCenter #VenturaMall #Fisioterapia #Rehabilitación #Sant",
+   "likes": 20,
+   "views": 1140,
+   "images": [
+    "media/ig/DfDeaQyR-TN-0.webp"
+   ]
+  },
+  "De-eKtWmzxQ": {
+   "account": "spaciomedico.bo",
+   "date": "2026-10-26",
+   "type": "video",
+   "caption": "Así vivimos Hablemos con confianza, un conversatorio donde abrimos un espacio para hablar sin tabúes sobre tirzepatida, salud íntima y bienestar femenino, con información médica, orientación profesional y la libertad de expresar nuestras dudas. 🌸\n\nGracias a todas las personas que fueron parte de este encuentro y nos recordaron que cuando compartimos información confiable, tomamos decisiones más conscientes sobre nuestra salud. ✨\n\nEn Spacio Médico, seguimos creando espacios para escucharte, informarte y acompañarte en cada etapa de tu bienestar.\n\n📍 Ventura Mall, Nivel 2.\n#SpacioMédico #Hablem",
+   "likes": 27,
+   "views": 1439,
+   "images": [
+    "media/ig/De-eKtWmzxQ-0.webp"
+   ]
+  },
+  "De-dlOHDks9": {
+   "account": "spaciomedico.bo",
+   "date": "2026-10-26",
+   "type": "carousel",
+   "caption": "Así vivimos Hablemos con confianza, un conversatorio donde abrimos un espacio para hablar sin tabúes sobre tirzepatida, salud íntima y bienestar femenino, con información médica, orientación profesional y la libertad de expresar nuestras dudas. 🌸\n\nGracias a todas las personas que fueron parte de este encuentro y nos recordaron que cuando compartimos información confiable, tomamos decisiones más conscientes sobre nuestra salud. ✨\n\nEn Spacio Médico, seguimos creando espacios para escucharte, informarte y acompañarte en cada etapa de tu bienestar.\n\n📍 Ventura Mall, Nivel 2.\n#SpacioMédico #Hablem",
+   "likes": 12,
+   "views": null,
+   "images": [
+    "media/ig/De-dlOHDks9-0.webp",
+    "media/ig/De-dlOHDks9-1.webp",
+    "media/ig/De-dlOHDks9-2.webp"
+   ]
+  },
+  "DezH6GwjIox": {
+   "account": "spaciomedico.bo",
+   "date": "2026-10-22",
+   "type": "video",
+   "caption": "🎀 ¿Y vos? ¿Cuándo fue la última vez que te dedicaste un momento para cuidar de vos? 💗\n\nEntre el trabajo, la familia y las mil cosas del día a día, muchas veces dejamos nuestra salud para después.\n\nPero siempre hay un momento para priorizarnos. ✨ Aproveché mi paseo por Ventura Mall para realizarme mi mamografía y densitometría ósea.\n\n🌸 Este Octubre Rosa, regalate tiempo, prevención y amor propio. Porque cuidar de vos también es cuidar a quienes más querés.\n\n💕 ¿Y vos, ya agendaste tus controles? Spacio Médico te acompañamos a cuidar tu salud.\n\n📲 Agendá tu cita al 74937373.\n📍 Ventura Mall, ",
+   "likes": 12,
+   "views": 1215,
+   "images": [
+    "media/ig/DezH6GwjIox-0.webp"
+   ]
+  },
+  "Dfs5dyOAM6-": {
+   "account": "textilon.oficial",
+   "date": "2026-11-14",
+   "type": "carousel",
+   "caption": "Amiga toca sacar tu wishlist de todos tus básicos favs de @textilon.oficial, por que TODA la tienda está con un 30% de descuento 🤯💥 \n.\n.\n.\n#textilon",
+   "likes": 56,
+   "views": null,
+   "images": [
+    "media/ig/Dfs5dyOAM6--0.webp",
+    "media/ig/Dfs5dyOAM6--1.webp",
+    "media/ig/Dfs5dyOAM6--2.webp"
+   ]
+  },
+  "DfsC6K8lpzw": {
+   "account": "textilon.oficial",
+   "date": "2026-11-13",
+   "type": "carousel",
+   "caption": "Hay combinaciones que siempre funcionan. 🤎\n\nUn jean, una polera y un sweater azul de cuello redondo. De esos looks cómodos y fáciles de combinar que siempre se sienten bien y se convierten en favoritos.\n\nY qué mejor momento para encontrar los tuyos que este Black Friday: 30% OFF en toda la tienda Textilón. 🖤\n\nUna buena excusa para renovar tus básicos y encontrar nuevas prendas favoritas! ✨",
+   "likes": 225,
+   "views": null,
+   "images": [
+    "media/ig/DfsC6K8lpzw-0.webp",
+    "media/ig/DfsC6K8lpzw-1.webp",
+    "media/ig/DfsC6K8lpzw-2.webp"
+   ]
+  },
+  "DfiSegToTys": {
+   "account": "textilon.oficial",
+   "date": "2026-11-09",
+   "type": "video",
+   "caption": "TODO CON EL 30% de descuento, QUE? 👁️👄👁️ \n.\n.\n.\n.\n.\n.\n.\n#textilon",
+   "likes": 36,
+   "views": 2744,
+   "images": [
+    "media/ig/DfiSegToTys-0.webp"
+   ],
+   "video": "media/ig/DfiSegToTys.mp4",
+   "poster": "media/ig/DfiSegToTys-poster.webp"
+  },
+  "Dfp8ccOjlsZ": {
+   "account": "textilon.oficial",
+   "date": "2026-11-12",
+   "type": "image",
+   "caption": "✨Haz una pausa. Respira. Disfruta de ti.  Hay pequeños placeres que hacen la diferencia, como llegar a casa, ponerte cómoda y regalarte un momento sin prisas.\n\nEncuentra tus nuevos pijamas favoritos en Textilón.\n\n#CALMA #Textilón #Bolivia #PrimaveraVerano2026 #NuevaColección #Pijamas",
+   "likes": 8,
+   "views": null,
+   "images": [
+    "media/ig/Dfp8ccOjlsZ-0.webp"
+   ]
+  },
+  "Dfp8QskjlrY": {
+   "account": "textilon.oficial",
+   "date": "2026-11-12",
+   "type": "image",
+   "caption": "Tu plan favorito también puede ser quedarte en casa. ✨Una día tranquilo, tu serie favorita y esa pijama que no quieres quitarte.\n\nEncuentra tus nuevos pijamas favoritos en Textilón.\n\n#CALMA #Textilón #Bolivia #PrimaveraVerano2026 #NuevaColección #Pijamas",
+   "likes": 7,
+   "views": null,
+   "images": [
+    "media/ig/Dfp8QskjlrY-0.webp"
+   ]
+  },
+  "Dfp7_8wjq4F": {
+   "account": "textilon.oficial",
+   "date": "2026-11-12",
+   "type": "image",
+   "caption": "Un poco de suavidad para terminar el día. ✨ Pijamas con diseños encantadores, detalles que enamoran y la comodidad perfecta para disfrutar de tus momentos en casa.\n\nEncuentra tus nuevos pijamas favoritos en Textilón.\n\n#CALMA #Textilón #Bolivia #PrimaveraVerano2026 #NuevaColección #Pijamas",
+   "likes": 9,
+   "views": null,
+   "images": [
+    "media/ig/Dfp7_8wjq4F-0.webp"
+   ]
+  },
+  "DfifPWhPSBP": {
+   "account": "textilon.oficial",
+   "date": "2026-11-09",
+   "type": "video",
+   "caption": "Quisimos conocer de cerca las opiniones de quienes vivieron nuestra presentación de CALMA en @sczweek\n\n¿Qué diseños conquistaron sus miradas? Descubre lo que nos contaron 😉\n\n#Textilón #Bolivia #Calma #SCZWeek #Pasarela",
+   "likes": 19,
+   "views": 1150,
+   "images": [
+    "media/ig/DfifPWhPSBP-0.webp"
+   ]
+  },
+  "DfifoB7DQHH": {
+   "account": "textilon.oficial",
+   "date": "2026-11-09",
+   "type": "carousel",
+   "caption": "TEXTILÓN \n\n@textilon.oficial \n\nSanta Cruz Week Primavera Verano 2026\nCapital de la moda en Bolivia\nPh @Sergio_chuquimia \n\n#TEXTILON  #sczweek #santacruzweek #capitaldelamodaenbolivia",
+   "likes": 3,
+   "views": null,
+   "images": [
+    "media/ig/DfifoB7DQHH-0.webp",
+    "media/ig/DfifoB7DQHH-1.webp",
+    "media/ig/DfifoB7DQHH-2.webp"
+   ]
+  },
+  "DfXbJB8sCPi": {
+   "account": "vaca_morena",
+   "date": "2026-11-05",
+   "type": "video",
+   "caption": "Esta es la parte que la mayoría de las personas no ven, los procesos, el orden y la disciplina. \n\nPorque cuando es tiempo de servir, todo tiene que estar en su punto.",
+   "likes": 20,
+   "views": 969,
+   "images": [
+    "media/ig/DfXbJB8sCPi-0.webp"
+   ],
+   "video": "media/ig/DfXbJB8sCPi.mp4",
+   "poster": "media/ig/DfXbJB8sCPi-poster.webp"
+  },
+  "DezU0OQAPqX": {
+   "account": "vaca_morena",
+   "date": "2026-10-22",
+   "type": "video",
+   "caption": "Ese momento exacto en el que solo un pensamiento ronda tu cabeza.... milanesa, milanesa, milanesa.",
+   "likes": 19,
+   "views": 761,
+   "images": [
+    "media/ig/DezU0OQAPqX-0.webp"
+   ],
+   "video": "media/ig/DezU0OQAPqX.mp4",
+   "poster": "media/ig/DezU0OQAPqX-poster.webp"
+  },
+  "DeCtO9LgFWE": {
+   "account": "vaca_morena",
+   "date": "2026-10-03",
+   "type": "video",
+   "caption": "La vida es demasiado corta, mejor pedí un buen corte. 🥩🔥",
+   "likes": 101,
+   "views": 3149,
+   "images": [
+    "media/ig/DeCtO9LgFWE-0.webp"
+   ],
+   "video": "media/ig/DeCtO9LgFWE.mp4",
+   "poster": "media/ig/DeCtO9LgFWE-poster.webp"
+  },
+  "Dd94Vf2lCaQ": {
+   "account": "vaca_morena",
+   "date": "2026-10-01",
+   "type": "video",
+   "caption": "Lado incorrecto, bebida correcta 🍹\n¡Muuujito, nuestro cóctel de autor, para iniciar tu noche de la manera correcta!✨",
+   "likes": 23,
+   "views": 637,
+   "images": [
+    "media/ig/Dd94Vf2lCaQ-0.webp"
+   ]
+  },
+  "Dd4lrsKzSkm": {
+   "account": "vaca_morena",
+   "date": "2026-09-29",
+   "type": "video",
+   "caption": "Tomahawk, jugoso, suave y con carácter.\nViví la experiencia en Vaca Morena con uno de los mejores cortes 🥩.\n.\n.\n.\n.\n📍Vaca Morena Equipetrol \n📍Vaca Morena Ventura Mall",
+   "likes": 22,
+   "views": 1174,
+   "images": [
+    "media/ig/Dd4lrsKzSkm-0.webp"
+   ]
+  },
+  "DdEhS0XtHmY": {
+   "account": "vaca_morena",
+   "date": "2026-09-09",
+   "type": "video",
+   "caption": "​Si nunca viniste a Vaca Morena, esto es lo que te estás perdiendo. Y si ya sos de la casa, sabés exactamente de lo que hablamos. 🍷🥩\n\n​El servicio está listo y la mesa está puesta.\n📍Ventura Mall\n📍 Equipetrol",
+   "likes": 101,
+   "views": 6231,
+   "images": [
+    "media/ig/DdEhS0XtHmY-0.webp"
+   ]
+  },
+  "Dc6clt9hPRD": {
+   "account": "vaca_morena",
+   "date": "2026-09-05",
+   "type": "video",
+   "caption": "¿Que pasa cuando un cliente cancela un pedido en Vaca Morena? 🤔",
+   "likes": 69,
+   "views": 2935,
+   "images": [
+    "media/ig/Dc6clt9hPRD-0.webp"
+   ]
+  },
+  "Dcb2M00Kqkh": {
+   "account": "vaca_morena",
+   "date": "2026-08-24",
+   "type": "video",
+   "caption": "Una visión necesita manos, y muchas hacen Vaca Morena 🙌✨️",
+   "likes": 20,
+   "views": 1277,
+   "images": [
+    "media/ig/Dcb2M00Kqkh-0.webp"
+   ]
+  },
+  "Db53QS-kYFg": {
+   "account": "vaca_morena",
+   "date": "2026-08-11",
+   "type": "carousel",
+   "caption": "Hay cosas que simplemente no conocemos.",
+   "likes": 48,
+   "views": null,
+   "images": [
+    "media/ig/Db53QS-kYFg-0.webp",
+    "media/ig/Db53QS-kYFg-1.webp",
+    "media/ig/Db53QS-kYFg-2.webp",
+    "media/ig/Db53QS-kYFg-3.webp"
+   ]
+  },
+  "DbbUo58CVV9": {
+   "account": "vaca_morena",
+   "date": "2026-07-30",
+   "type": "carousel",
+   "caption": "Antes del churrasco, hay un ritual.\nTabla de achuras. Empanadas a cuchillo. La mesa que se llena antes de que llegue lo principal.\nAsí se empieza en Vaca Morena.\n🔥🥟\n¿Cuál es tu entrada favorita? Contanos en los comentarios.",
+   "likes": 17,
+   "views": null,
+   "images": [
+    "media/ig/DbbUo58CVV9-0.webp",
+    "media/ig/DbbUo58CVV9-1.webp",
+    "media/ig/DbbUo58CVV9-2.webp"
+   ]
+  },
+  "DfsjwfrhLKd": {
+   "account": "venturamalloficial",
+   "date": "2026-11-13",
+   "type": "video",
+   "caption": "🚨 MANGO MAN Y KIDS EN OUTLET EXPRESS\n\nToda la tienda con 70% OFF.\n\nEs el momento de renovar tus básicos, encontrar nuevos favoritos y llevarte ese look que estabas buscando.\n\n📍 Atrio Principal | Ventura Mall.",
+   "likes": 6,
+   "views": 757,
+   "images": [
+    "media/ig/DfsjwfrhLKd-0.webp"
+   ],
+   "video": "media/ig/DfsjwfrhLKd.mp4",
+   "poster": "media/ig/DfsjwfrhLKd-poster.webp"
+  },
+  "Dfr9hhtKC-8": {
+   "account": "venturamalloficial",
+   "date": "2026-11-13",
+   "type": "video",
+   "caption": "Aprovechá el Mid Season Sale de Springfield y encontrá tus favoritos con descuentos de hasta el 40%🛍️✨",
+   "likes": 6,
+   "views": 726,
+   "images": [
+    "media/ig/Dfr9hhtKC-8-0.webp"
+   ],
+   "video": "media/ig/Dfr9hhtKC-8.mp4",
+   "poster": "media/ig/Dfr9hhtKC-8-poster.webp"
+  },
+  "Dfr0DW_gECQ": {
+   "account": "venturamalloficial",
+   "date": "2026-11-13",
+   "type": "image",
+   "caption": "❤️ Un toque de color que proyecta una imagen profesional.\n\nLas poleras tipo polo en tono rojo de Manhattan son una opción versátil para equipos de trabajo, con diseños para damas y varones. Confeccionadas en piqué de calidad, ofrecen comodidad, buena caída y resistencia para el uso diario.\n\nCon más de 60 años de experiencia, Manhattan presenta su Línea Institucional con variedad de tejidos y diseños.\n\n📲 Solicitá el catálogo por WhatsApp: 72047610\n\n📍 Manhattan – Ventura Mall, Local 52.\n\n#Manhattan #LíneaInstitucional #Uniformes #VenturaMall",
+   "likes": 1,
+   "views": null,
+   "images": [
+    "media/ig/Dfr0DW_gECQ-0.webp"
+   ]
+  },
+  "DfqILz-jnrP": {
+   "account": "venturamalloficial",
+   "date": "2026-11-12",
+   "type": "carousel",
+   "caption": "BLACK FRIDAY en ARMANI EXCHANGE\n\nAprovechá hasta 50% OFF en prendas seleccionadas y elegí tus favoritos.\nNo dejés pasar esta oportunidad. Visitá nuestra tienda y comprá hoy tu próximo look.\n\n📍 Ventura Mall | Nivel 1, Local 11.\n#ArmaniExchange #BlackFriday #VenturaMall",
+   "likes": 20,
+   "views": null,
+   "images": [
+    "media/ig/DfqILz-jnrP-0.webp",
+    "media/ig/DfqILz-jnrP-1.webp",
+    "media/ig/DfqILz-jnrP-2.webp",
+    "media/ig/DfqILz-jnrP-3.webp",
+    "media/ig/DfqILz-jnrP-4.webp",
+    "media/ig/DfqILz-jnrP-5.webp"
+   ]
+  },
+  "Dfp4sDXDj42": {
+   "account": "venturamalloficial",
+   "date": "2026-11-12",
+   "type": "carousel",
+   "caption": "En Fogo de Chão, cada visita es una experiencia de auténtico churrasco brasileño, fuego y sabor. \n\n🔥 Donde el fuego se convierte en experiencia. ¿Ya tenés tu próximo plan?\n\n📲 Reservá: 74621200 \n📍 Ventura Mall – Santa Cruz\n🌐 fogodechao.bo",
+   "likes": 14,
+   "views": null,
+   "images": [
+    "media/ig/Dfp4sDXDj42-0.webp",
+    "media/ig/Dfp4sDXDj42-1.webp",
+    "media/ig/Dfp4sDXDj42-2.webp",
+    "media/ig/Dfp4sDXDj42-3.webp"
+   ]
+  },
+  "DfpeFtYjicV": {
+   "account": "venturamalloficial",
+   "date": "2026-11-12",
+   "type": "image",
+   "caption": "🎶 Los clásicos del pop tienen una cita este viernes en Ruta Boulevard.\n\nEl Grupo KLASS llega al Área Verde con un repertorio de pop en inglés y español, para cantar, recordar y disfrutar de esas canciones que nunca pasan de moda. ✨\n\nAcompañá la noche con buena gastronomía y el encanto del Boulevard de Luz.\n\n📍 Área Verde\n🕘 Desde las 21:00\n\n¡Este viernes, la música se vive en Ventura Mall!\n\n#RutaBoulevard #BoulevardDeLuz #GrupoKLASS #VenturaMall",
+   "likes": 2,
+   "views": null,
+   "images": [
+    "media/ig/DfpeFtYjicV-0.webp"
+   ]
+  },
+  "DfpaR0zjnfK": {
+   "account": "venturamalloficial",
+   "date": "2026-11-12",
+   "type": "carousel",
+   "caption": "BLACK FRIDAY HAS ARRIVED AT BOSS.\n\nEs el momento de elegir tus favoritos y renovar tu estilo con 50% OFF EN TODA LA TIENDA. No esperés más. La oportunidad de llevar BOSS a tu guardarropa es ahora.\n\n📍 BOSS · Ventura Mall, Nivel 1, Local 57.",
+   "likes": 18,
+   "views": null,
+   "images": [
+    "media/ig/DfpaR0zjnfK-0.webp",
+    "media/ig/DfpaR0zjnfK-1.webp",
+    "media/ig/DfpaR0zjnfK-2.webp",
+    "media/ig/DfpaR0zjnfK-3.webp",
+    "media/ig/DfpaR0zjnfK-4.webp",
+    "media/ig/DfpaR0zjnfK-5.webp"
+   ]
+  },
+  "DfpZ0s2FC42": {
+   "account": "venturamalloficial",
+   "date": "2026-11-12",
+   "type": "video",
+   "caption": "🖤🔥 ¡El Black Friday de Baby Corp llegó con descuentos para aprovechar!\n\nEncontrá hasta 70% OFF en artículos seleccionados, 50% OFF en tus marcas favoritas y descuentos desde 10% en todas las líneas. 🤩\n\n¡Es el momento perfecto para elegir eso que necesitás para los más pequeños!\n\n📅 Del 5 al 15 de noviembre.\n📍 Disponible en Ventura Mall y Ventura Sur.\n\n#BabyCorpBolivia #BlackFriday #Descuentos #VenturaMall #VenturaSur",
+   "likes": 5,
+   "views": 1109,
+   "images": [
+    "media/ig/DfpZ0s2FC42-0.webp"
+   ],
+   "video": "media/ig/DfpZ0s2FC42.mp4",
+   "poster": "media/ig/DfpZ0s2FC42-poster.webp"
+  },
+  "DfpPQjliZO6": {
+   "account": "venturamalloficial",
+   "date": "2026-11-12",
+   "type": "image",
+   "caption": "🩱✨ ¡Las rayas son las protagonistas de la temporada!\n\nDale un toque fresco y divertido a tus looks de piscina con los diseños de la nueva colección de moda de baño.\n\n📍 Ventura Mall, Nivel 1, Local 21 \n📲 75026985",
+   "likes": 0,
+   "views": null,
+   "images": [
+    "media/ig/DfpPQjliZO6-0.webp"
+   ]
+  },
+  "Dfn42btjO9H": {
+   "account": "venturamalloficial",
+   "date": "2026-11-12",
+   "type": "image",
+   "caption": "👔 La comodidad también forma parte de una buena imagen corporativa.\n\nManhattan ofrece una amplia variedad de tejidos livianos y transpirables, pensados para brindar comodidad durante toda la jornada laboral.\n\nCon más de 60 años de experiencia, su Línea Institucional combina calidad, funcionalidad y diseños para cada equipo de trabajo.\n\n📲 Solicitá el catálogo institucional por WhatsApp: 72047610\n\nEncontrá Manhattan en Ventura Mall, Local 52.\n\n#Manhattan #UniformesInstitucionales #VenturaMall",
+   "likes": 2,
+   "views": null,
+   "images": [
+    "media/ig/Dfn42btjO9H-0.webp"
+   ]
+  },
+  "DfnqsxIkUf9": {
+   "account": "venturamalloficial",
+   "date": "2026-11-11",
+   "type": "video",
+   "caption": "🖤✨ ¡El Black Friday continúa en Kids Collection!\n\nEncontrá prendas desde $us 4,99 y aprovechá un 10% de descuento en cualquier coche Cybex. 😍\n\nAdemás, ¡llevan sus productos hasta donde estés! Realizan envíos a todo Bolivia. 🇧🇴✈️\n\nConsultá el catálogo y descubrí todas las opciones por WhatsApp:\n📲 https://wa.me/59175504591\n\n#BlackFriday #KidsCollection #VenturaMall",
+   "likes": 4,
+   "views": 470,
+   "images": [
+    "media/ig/DfnqsxIkUf9-0.webp"
+   ],
+   "video": "media/ig/DfnqsxIkUf9.mp4",
+   "poster": "media/ig/DfnqsxIkUf9-poster.webp"
+  },
+  "DfnoFaRFIRk": {
+   "account": "venturamalloficial",
+   "date": "2026-11-11",
+   "type": "video",
+   "caption": "🖤🔥 ¡El Black Friday llegó a Forever 21!\n\nEs momento de renovar tus looks y encontrar esos favoritos que le darán un nuevo aire a tu clóset.\n\nAprovechá los descuentos del 40%, 50% y 60% OFF en Forever 21, en Ventura Mall. 🛍️\n\n#Forever21Bolivia #BlackFriday #VenturaMall",
+   "likes": 7,
+   "views": 1674,
+   "images": [
+    "media/ig/DfnoFaRFIRk-0.webp"
+   ],
+   "video": "media/ig/DfnoFaRFIRk.mp4",
+   "poster": "media/ig/DfnoFaRFIRk-poster.webp"
+  },
+  "DfnmuCTkdjC": {
+   "account": "venturamalloficial",
+   "date": "2026-11-11",
+   "type": "video",
+   "caption": "Este jueves, hacé de tu almuerzo una experiencia Fogo.🔥 \n\nDisfrutá nuestro Rodizio Ejecutivo*y aprovechá una experiencia completa de auténtico sabor brasileño:\n\n🥩 Cortes premium servidos a la espada\n🥗 Market Table\n🍽️ Acompañamientos calientes \n🥤 Refill de gaseosas\n\nTodo lo que necesitás para transformar tu pausa del mediodía en un almuerzo lleno de sabor, variedad y el inconfundible ritual del fuego.\n\n📌 Disponible solo al mediodía, mencionando esta promoción al reservar. \n📲 Reservas: 74621200 \n🌐 fogodechao.bo",
+   "likes": 5,
+   "views": 1341,
+   "images": [
+    "media/ig/DfnmuCTkdjC-0.webp"
+   ],
+   "video": "media/ig/DfnmuCTkdjC.mp4",
+   "poster": "media/ig/DfnmuCTkdjC-poster.webp"
+  },
+  "Dfner4ADhBK": {
+   "account": "venturamalloficial",
+   "date": "2026-11-11",
+   "type": "image",
+   "caption": "Es momento de renovar tu look con HUGO. No dejes pasar la oportunidad.\n50% OFF EN TODA LA TIENDA.\n📍 Ventura Mall | Piso 1\n#HUGO #BlackFriday",
+   "likes": 1,
+   "views": null,
+   "images": [
+    "media/ig/Dfner4ADhBK-0.webp"
+   ]
+  },
+  "Dfm3OJshPWf": {
+   "account": "venturamalloficial",
+   "date": "2026-11-11",
+   "type": "video",
+   "caption": "Hay oportunidades que merecen aprovecharse.\n\nLlega Black Friday a Mango con descuentos del 50% y 20% en referencias seleccionadas.\n\nEncuentra tus próximos favoritos antes de que termine la campaña.\n\n📅 Del 7 al 30 de noviembre.",
+   "likes": 4,
+   "views": 490,
+   "images": [
+    "media/ig/Dfm3OJshPWf-0.webp"
+   ],
+   "video": "media/ig/Dfm3OJshPWf.mp4",
+   "poster": "media/ig/Dfm3OJshPWf-poster.webp"
+  },
+  "DflHJ_3x2zk": {
+   "account": "venturamalloficial",
+   "date": "2026-11-10",
+   "type": "video",
+   "caption": "Retamos a esta persona a terminar sus papas fritas en 60 segundos para llevarse un combo completo. ¿Lo logró? No exactamente… ¡pero igual se llevó su premio! 🍔🥤\n\n¿Te gustaría ser el próximo en participar? Síguenos y estate atento a nuestras redes, porque tenemos más dinámicas y sorpresas para vos. 👀",
+   "likes": 3,
+   "views": 3380,
+   "images": [
+    "media/ig/DflHJ_3x2zk-0.webp"
+   ],
+   "video": "media/ig/DflHJ_3x2zk.mp4",
+   "poster": "media/ig/DflHJ_3x2zk-poster.webp"
+  },
+  "DflFT4NpjlN": {
+   "account": "venturamalloficial",
+   "date": "2026-11-10",
+   "type": "video",
+   "caption": "BLACK FRIDAY EN BOSS.\n\nNo dejés pasar la oportunidad de llevar tu estilo al siguiente nivel. Aprovechá el 50% OFF EN TODA LA TIENDA y elegí tus favoritos.\n📍 BOSS · Ventura Mall, Nivel 1, Local 57.",
+   "likes": 7,
+   "views": 766,
+   "images": [
+    "media/ig/DflFT4NpjlN-0.webp"
+   ],
+   "video": "media/ig/DflFT4NpjlN.mp4",
+   "poster": "media/ig/DflFT4NpjlN-poster.webp"
+  },
+  "DflEf6_AC1D": {
+   "account": "venturamalloficial",
+   "date": "2026-11-10",
+   "type": "image",
+   "caption": "☀️🌴 ¡El sol invita a estrenar nuevos looks!\n\nLa nueva colección de moda de baño llega con propuestas llenas de estilo y actitud, ideales para disfrutar cada día de piscina.\n\n📍 Ventura Mall, Nivel 1, Local 21\n📲 75026985",
+   "likes": 2,
+   "views": null,
+   "images": [
+    "media/ig/DflEf6_AC1D-0.webp"
+   ]
+  },
+  "Dfk0MyABbHF": {
+   "account": "venturamalloficial",
+   "date": "2026-11-10",
+   "type": "video",
+   "caption": "BLACK FRIDAY | ARMANI EXCHANGE\n\nTu estilo, ahora con una oportunidad que no podés dejar pasar HASTA 50% OFF en prendas seleccionadas.\n\nRenová tu look y llevate esas piezas que hacen la diferencia.\n📍 Ventura Mall — Nivel 1, Local #11.\n🔗 Encontrá tus favoritos:\nhttps://wa.me/c/59171656674",
+   "likes": 4,
+   "views": 1049,
+   "images": [
+    "media/ig/Dfk0MyABbHF-0.webp"
+   ],
+   "video": "media/ig/Dfk0MyABbHF.mp4",
+   "poster": "media/ig/Dfk0MyABbHF-poster.webp"
+  },
+  "DfkoltNisy6": {
+   "account": "venturamalloficial",
+   "date": "2026-11-10",
+   "type": "carousel",
+   "caption": "☀️🇮🇹 Un verano con espíritu mediterráneo.\n\nSpringfield presenta su colección Primavera-Verano ’26 en Santa Cruz Week, inspirada en el encanto de Italia, con el lino como protagonista de looks frescos, naturales y relajados.\n\nDescubrí la nueva colección y dejate llevar por el estilo del verano en Springfield, en Ventura Mall.\n\n#SpringfieldBolivia #SCZWeek #PV26 #VenturaMall",
+   "likes": 6,
+   "views": null,
+   "images": [
+    "media/ig/DfkoltNisy6-0.webp",
+    "media/ig/DfkoltNisy6-1.webp",
+    "media/ig/DfkoltNisy6-2.webp",
+    "media/ig/DfkoltNisy6-3.webp",
+    "media/ig/DfkoltNisy6-4.webp",
+    "media/ig/DfkoltNisy6-5.webp"
+   ]
+  },
+  "DfkoksPDYnm": {
+   "account": "venturamalloficial",
+   "date": "2026-11-10",
+   "type": "carousel",
+   "caption": "🐷✨ Cada pequeño tiene una personalidad única, ¡y su alcancía también puede tenerla!\n\nEn Mariposa Gift Shop encontrás alcancías en distintos diseños, ideales para acompañar a los más pequeños mientras aprenden a ahorrar de una forma divertida.\n\n¿Cuál será su favorita? 💕\n\n📍 Mariposa Gift Shop – Ventura Mall, Piso 1, Local #4 \n📲 71375733",
+   "likes": 9,
+   "views": null,
+   "images": [
+    "media/ig/DfkoksPDYnm-0.webp",
+    "media/ig/DfkoksPDYnm-1.webp",
+    "media/ig/DfkoksPDYnm-2.webp",
+    "media/ig/DfkoksPDYnm-3.webp",
+    "media/ig/DfkoksPDYnm-4.webp",
+    "media/ig/DfkoksPDYnm-5.webp"
+   ]
+  },
+  "Dfkc3EdieT_": {
+   "account": "venturamalloficial",
+   "date": "2026-11-10",
+   "type": "carousel",
+   "caption": "❤️ ¡Ventura Sur ya abrió sus puertas!\n\nAyer compartimos un encuentro especial con los medios de comunicación, donde anunciamos una gran noticia: ¡Ventura Sur ya está abierto al público! 🎉\n\nUn nuevo espacio para encontrarnos, disfrutar y vivir grandes momentos juntos.\n\nY esto recién comienza. ✨ Nos estamos preparando para nuestra gran inauguración oficial este 28 de noviembre, con muchas sorpresas por descubrir.\n\n📍 ¡Te esperamos en Ventura Sur!",
+   "likes": 775,
+   "views": null,
+   "images": [
+    "media/ig/Dfkc3EdieT_-0.webp",
+    "media/ig/Dfkc3EdieT_-1.webp",
+    "media/ig/Dfkc3EdieT_-2.webp",
+    "media/ig/Dfkc3EdieT_-3.webp",
+    "media/ig/Dfkc3EdieT_-4.webp",
+    "media/ig/Dfkc3EdieT_-5.webp"
+   ]
+  },
+  "Dfkb-1VjQ37": {
+   "account": "venturamalloficial",
+   "date": "2026-11-10",
+   "type": "image",
+   "caption": "BREAK THE RULES. 🔴\n\nEste Black Friday, no hay excusas.\n🔥 50% OFF EN TODA LA TIENDA HUGO.\nTus prendas favoritas, a mitad de precio.\nYOUR STYLE. YOUR MOVE.\n📍 HUGO | Ventura Mall, Piso 1.\n#HUGO #BlackFriday #50OFF #HUGOVenturaMall",
+   "likes": 4,
+   "views": null,
+   "images": [
+    "media/ig/Dfkb-1VjQ37-0.webp"
+   ]
+  },
+  "DfkZKQCINN2": {
+   "account": "venturamalloficial",
+   "date": "2026-11-10",
+   "type": "image",
+   "caption": "EL BLACK FRIDAY SE PUSO PICANTE. 🔥🌶️\n\nHasta 60% OFF para los que saben que el estilo no se negocia, pero el precio sí. 😎\n\n👀 Tus próximos Chilli te están esperando. ¡No los dejés escapar!\n\n📍 Ventura Mall | Santa Cruz\n🛒 chillibeans.bo\n\n#BlackFriday #ChilliBeans",
+   "likes": 4,
+   "views": null,
+   "images": [
+    "media/ig/DfkZKQCINN2-0.webp"
+   ]
+  },
+  "DfkTpgtD2TG": {
+   "account": "venturamalloficial",
+   "date": "2026-11-10",
+   "type": "video",
+   "caption": "🖤🔥 ¡El Black Friday llegó a Kids Collection!\n\nEncontrá prendas desde $us 4,99 para renovar el clóset de los más pequeños y aprovechá un 10% de descuento en cualquier coche Cybex. 🙌✨\n\nDescubrí todas las opciones y consultá el catálogo por WhatsApp:\n📲 https://wa.me/59175504591\n\n#BlackFriday #KidsCollection #VenturaMall",
+   "likes": 3,
+   "views": 618,
+   "images": [
+    "media/ig/DfkTpgtD2TG-0.webp"
+   ],
+   "video": "media/ig/DfkTpgtD2TG.mp4",
+   "poster": "media/ig/DfkTpgtD2TG-poster.webp"
+  },
+  "DfkSEEdp0sI": {
+   "account": "venturamalloficial",
+   "date": "2026-11-10",
+   "type": "video",
+   "caption": "🚨 MANGO MAN EN OUTLET EXPRESS\n\n¡Sí, leíste bien! Toda la tienda con 70% OFF.\n\nEs el momento de renovar tus básicos, encontrar nuevos favoritos y llevarte ese look que estabas buscando.\n\n📍 Atrio Principal | Ventura Mall.",
+   "likes": 5,
+   "views": 740,
+   "images": [
+    "media/ig/DfkSEEdp0sI-0.webp"
+   ],
+   "video": "media/ig/DfkSEEdp0sI.mp4",
+   "poster": "media/ig/DfkSEEdp0sI-poster.webp"
+  },
+  "DfkQ9j_liQ4": {
+   "account": "venturamalloficial",
+   "date": "2026-11-10",
+   "type": "carousel",
+   "caption": "ICONIC STYLE. BETTER PRICES.\n\nCalvin Klein, con hasta 70% OFF.\n\nUna oportunidad para elegir tus esenciales favoritos.\n\nBLACK DAYS.",
+   "likes": 51,
+   "views": null,
+   "images": [
+    "media/ig/DfkQ9j_liQ4-0.webp",
+    "media/ig/DfkQ9j_liQ4-1.webp",
+    "media/ig/DfkQ9j_liQ4-2.webp",
+    "media/ig/DfkQ9j_liQ4-3.webp",
+    "media/ig/DfkQ9j_liQ4-4.webp",
+    "media/ig/DfkQ9j_liQ4-5.webp"
+   ]
+  },
+  "DfkQWi9oJBp": {
+   "account": "venturamalloficial",
+   "date": "2026-11-10",
+   "type": "carousel",
+   "caption": "🖤 ¡BLACK FRIDAY LLEGÓ A MANGO!\n\nEs el momento perfecto para renovar tu clóset y elegir tus favoritos.\n\nDisfruta de:\n✨ 50% OFF en referencias seleccionadas.\n✨ 20% OFF en otras referencias seleccionadas.\n\n📅 Promoción válida del 7 al 30 de noviembre de 2026.\n\n¡Te esperamos en Mango! No dejes pasar esta oportunidad.\n\nDescuentos no acumulables a otras ofertas, promociones o descuentos.",
+   "likes": 10,
+   "views": null,
+   "images": [
+    "media/ig/DfkQWi9oJBp-0.webp",
+    "media/ig/DfkQWi9oJBp-1.webp",
+    "media/ig/DfkQWi9oJBp-2.webp",
+    "media/ig/DfkQWi9oJBp-3.webp",
+    "media/ig/DfkQWi9oJBp-4.webp",
+    "media/ig/DfkQWi9oJBp-5.webp"
+   ]
+  },
+  "DfkGPwYEw7A": {
+   "account": "venturamalloficial",
+   "date": "2026-11-10",
+   "type": "carousel",
+   "caption": "✨ El verano se viste de glamour con women’secret.\n\nLa colección Sunset Glam Primavera-Verano ’26 combina moda de baño con prendas versátiles para crear looks frescos, actuales y llenos de estilo. ☀️\n\nDescubrí esta propuesta y explorá nuevas formas de combinar tus favoritos en women’secret, en Ventura Mall.",
+   "likes": 12,
+   "views": null,
+   "images": [
+    "media/ig/DfkGPwYEw7A-0.webp",
+    "media/ig/DfkGPwYEw7A-1.webp",
+    "media/ig/DfkGPwYEw7A-2.webp",
+    "media/ig/DfkGPwYEw7A-3.webp",
+    "media/ig/DfkGPwYEw7A-4.webp",
+    "media/ig/DfkGPwYEw7A-5.webp"
+   ]
+  },
+  "DfkFqjxlBHp": {
+   "account": "venturamalloficial",
+   "date": "2026-11-10",
+   "type": "image",
+   "caption": "💕✨ ¡Renová tus esenciales y disfrutá de mayor comodidad todos los días!\n\nEn Textilón encontrás una variedad de prendas de ropa interior, con opciones para cada estilo y preferencia.\n\n🖤 BLACK DAYS: 30% OFF en toda la tienda.\n📲 Contacto: https://wa.me/59175011152\n\n#Textilón #Bolivia #BlackDays #Descuentos #RopaInterior",
+   "likes": 1,
+   "views": null,
+   "images": [
+    "media/ig/DfkFqjxlBHp-0.webp"
+   ]
+  },
+  "Dfhie0Am-qb": {
+   "account": "venturamalloficial",
+   "date": "2026-11-09",
+   "type": "image",
+   "caption": "¡EL BLACK FRIDAY LLEGÓ A BOSS!\nEs momento de renovar tu estilo y aprovechar una oportunidad imperdible. 🔥\n50% OFF EN TODA LA TIENDA\nTus prendas favoritas, tu próximo look y mucho más, con descuentos que no podés dejar pasar.\n📍 Ventura Mall – Nivel 1, Local #57.\n#BOSS #BlackFriday #50OFF #FashionDeals #Shopping",
+   "likes": 2,
+   "views": null,
+   "images": [
+    "media/ig/Dfhie0Am-qb-0.webp"
+   ]
+  },
+  "Dffe_dOCJNt": {
+   "account": "venturamalloficial",
+   "date": "2026-11-08",
+   "type": "carousel",
+   "caption": "📖✨ Tu próximo viaje puede comenzar desde la cocina.\n\nDescubrí Japón, Perú e Italia a través de sus recetas, tradiciones y sabores que han conquistado generaciones. 🍣🌶️🍝\n\nExplorá esta colección de libros de cocina y encontrá inspiración para llevar nuevos sabores a tu mesa.\n\n📍 Mariposa Gift Shop – Ventura Mall, Piso 1, Local 4 \n📲 71375733\n\n#VenturaMall #MariposaGiftShop #LibrosDeCocina #Gastronomía",
+   "likes": 3,
+   "views": null,
+   "images": [
+    "media/ig/Dffe_dOCJNt-0.webp",
+    "media/ig/Dffe_dOCJNt-1.webp",
+    "media/ig/Dffe_dOCJNt-2.webp",
+    "media/ig/Dffe_dOCJNt-3.webp",
+    "media/ig/Dffe_dOCJNt-4.webp"
+   ]
+  },
+  "Dfe8EyFCZUG": {
+   "account": "venturamalloficial",
+   "date": "2026-11-08",
+   "type": "image",
+   "caption": "🖤✨ Los básicos que siempre van con vos, ahora con descuento.\n\nLas Polos de Textilón combinan comodidad, sencillez y autenticidad para acompañarte en cada momento.\n\n🔥 BLACK DAYS: 30% OFF en toda la tienda.\n📲 Contacto: https://wa.me/59175011152\n\n#Textilón #Bolivia #BlackDays #Descuentos #Básicos",
+   "likes": 4,
+   "views": null,
+   "images": [
+    "media/ig/Dfe8EyFCZUG-0.webp"
+   ]
+  },
+  "DfdWHEaEou1": {
+   "account": "venturamalloficial",
+   "date": "2026-11-07",
+   "type": "image",
+   "caption": "👖✨ Un clásico que siempre encuentra su lugar en tu clóset.\n\nEl corte Straight Fit de Springfield mantiene una silueta recta desde la cadera hasta el bajo, ideal para quienes buscan comodidad, estilo y versatilidad en un mismo jean.\n\nUn fit que combina con diferentes looks y nunca pasa de moda.",
+   "likes": 2,
+   "views": null,
+   "images": [
+    "media/ig/DfdWHEaEou1-0.webp"
+   ]
+  },
+  "DfczNg5n-hC": {
+   "account": "venturamalloficial",
+   "date": "2026-11-07",
+   "type": "image",
+   "caption": "BLACK FRIDAY. NO LIMITS. 🔴\nTu estilo. Tus reglas. A mitad de precio.\n50% OFF EN TODA LA TIENDA. Ternos, camisas, polos, pantalones y mucho más.\nEl momento de renovar tu estilo es AHORA. No te quedés fuera.\n📍 HUGO | Ventura Mall, Piso 1.\n#HUGO #BlackFriday #HUGOVenturaMall #50OFF",
+   "likes": 4,
+   "views": null,
+   "images": [
+    "media/ig/DfczNg5n-hC-0.webp"
+   ]
+  },
+  "Dfcy4LTCXt9": {
+   "account": "venturamalloficial",
+   "date": "2026-11-07",
+   "type": "image",
+   "caption": "👐🎨 ¡Manos a la masa en Ventura Kids!\n\nEste domingo, los pequeños se convertirán en auténticos creadores: prepararán su propia plastilina casera, elegirán sus colores favoritos y dejarán volar su imaginación creando todo lo que puedan imaginar. 🌈✨\n\n📅 Domingo 8 de noviembre\n🕓 16:00 Hrs.\n📍 Atrio Principal, Ventura Mall\n\n¡Una tarde para amasar, crear y divertirse! 💚",
+   "likes": 11,
+   "views": null,
+   "images": [
+    "media/ig/Dfcy4LTCXt9-0.webp"
+   ]
+  },
+  "DfcwRLkjgNx": {
+   "account": "venturamalloficial",
+   "date": "2026-11-07",
+   "type": "image",
+   "caption": "BLACK FRIDAY | ARMANI EXCHANGE\n\nEl momento de llevar tu estilo al siguiente nivel HASTA 50% OFF en prendas seleccionadas y encuentra esas piezas que marcan la diferencia.\n\n📍 Ventura Mall - Nivel 1 – Local #11\n#ArmaniExchange #BlackFriday #AXStyle #Hasta50Off #FashionDeals",
+   "likes": 6,
+   "views": null,
+   "images": [
+    "media/ig/DfcwRLkjgNx-0.webp"
+   ]
+  },
+  "DfcvzC-mtWs": {
+   "account": "venturamalloficial",
+   "date": "2026-11-07",
+   "type": "image",
+   "caption": "¡EL BLACK FRIDAY LLEGÓ A BOSS!\n\nEs momento de renovar tu estilo y aprovechar una oportunidad imperdible. 🔥\n50% OFF EN TODA LA TIENDA\n\nTus prendas favoritas, tu próximo look y mucho más, con descuentos que no podés dejar pasar.\n\n📍 Ventura Mall – Nivel 1, Local #57.\n#BOSS #BlackFriday #50OFF #FashionDeals #Shopping",
+   "likes": 8,
+   "views": null,
+   "images": [
+    "media/ig/DfcvzC-mtWs-0.webp"
+   ]
+  },
+  "DfcqBVtjmGi": {
+   "account": "venturamalloficial",
+   "date": "2026-11-07",
+   "type": "image",
+   "caption": "¡BLACK FRIDAY YA ESTÁ AQUÍ! 🖤\n\nEs el momento perfecto para elegir esas prendas que tanto te gustan.\n\nEncuentra descuentos del 50% y 20% OFF en referencias seleccionadas.\n\nNo dejes pasar esta oportunidad.\n\n📅 Del 7 al 30 de noviembre.\nTe esperamos en Ventura Mall",
+   "likes": 7,
+   "views": null,
+   "images": [
+    "media/ig/DfcqBVtjmGi-0.webp"
+   ]
+  },
+  "DfcYRBhDrAd": {
+   "account": "venturamalloficial",
+   "date": "2026-11-07",
+   "type": "image",
+   "caption": "🎶 Este sábado, la música nos invita a compartir una noche especial.\n\nLos Hnos. Barbery llegan a la Costanera con todo su talento y energía para llenar de ritmo el Boulevard de Luz. ✨\n\nDisfrutá de música en vivo, buena gastronomía y ese ambiente que hace especial cada encuentro.\n\n📍 Costanera\n🕘 Desde las 21:00\n\n¡Viví el sábado en Ruta Boulevard! 🌿\n\n#RutaBoulevard #BoulevardDeLuz #HnosBarbery #VenturaMall",
+   "likes": 4,
+   "views": null,
+   "images": [
+    "media/ig/DfcYRBhDrAd-0.webp"
+   ]
+  },
+  "DfcWJbNDPkI": {
+   "account": "venturamalloficial",
+   "date": "2026-11-07",
+   "type": "image",
+   "caption": "Jude Bellingham, un ícono de la ropa interior Calvin Klein. \nComodidad flexible en una suave mezcla de algodón elástico.\n\n📍 Ventura Mall, nivel 1, local #41.\n🔗 Catálogo: https://wa.me/c/59171376740",
+   "likes": 121,
+   "views": null,
+   "images": [
+    "media/ig/DfcWJbNDPkI-0.webp"
+   ]
+  },
+  "DfbUIfdDVTz": {
+   "account": "venturamalloficial",
+   "date": "2026-11-07",
+   "type": "carousel",
+   "caption": "🌟 ¡El Boulevard se enciende y la diversión comienza!\nViví Ruta Boulevard en Ventura Mall, una noche para compartir, disfrutar y dejarte sorprender con todo lo que tenemos preparado. 🎶🍹\n✨ ¡Armá tu plan, invitá a tus amigos y nos vemos en el Boulevard!\n#RutaBoulevard #VenturaMall #VivíLaExperiencia #SantaCruz",
+   "likes": 135,
+   "views": null,
+   "images": [
+    "media/ig/DfbUIfdDVTz-0.webp",
+    "media/ig/DfbUIfdDVTz-1.webp",
+    "media/ig/DfbUIfdDVTz-2.webp",
+    "media/ig/DfbUIfdDVTz-3.webp",
+    "media/ig/DfbUIfdDVTz-4.webp"
+   ]
+  },
+  "DfaVZSbjCgo": {
+   "account": "venturamalloficial",
+   "date": "2026-11-06",
+   "type": "carousel",
+   "caption": "🥤🤩 ¡Si los conocés, seguro ya tenés un favorito!\n\nCada integrante de esta divertida colección tiene una personalidad y un estilo único que lo hace especial. ✨\n\n¿Cuál es el tuyo? ¡Elegí tu favorito y descubrilo en Mariposa Gift Shop! 💕\n\n📍 Ventura Mall – Nivel 1, Local 4 \n📲 71375733\n\n#VenturaMall #MariposaGiftShop #GiftShop",
+   "likes": 29,
+   "views": null,
+   "images": [
+    "media/ig/DfaVZSbjCgo-0.webp",
+    "media/ig/DfaVZSbjCgo-1.webp",
+    "media/ig/DfaVZSbjCgo-2.webp",
+    "media/ig/DfaVZSbjCgo-3.webp",
+    "media/ig/DfaVZSbjCgo-4.webp",
+    "media/ig/DfaVZSbjCgo-5.webp"
+   ]
+  },
+  "DfaB85ijlIm": {
+   "account": "venturamalloficial",
+   "date": "2026-11-06",
+   "type": "image",
+   "caption": "✨ Este viernes, dejá que la música ilumine tu noche.\n\nÁngel Royo llega al Área Verde de Ruta Boulevard para compartir una velada llena de ritmo, buena música y momentos para disfrutar. 🎤🌿\n\nUna noche para reunirse, disfrutar de buena gastronomía y vivir el encanto del Boulevard de Luz.\n\n📍 Área Verde\n🕘 Desde las 21:00\n\n¡El viernes se disfruta en Ruta Boulevard!✨\n\n#RutaBoulevard #BoulevardDeLuz #ÁngelRoyo #VenturaMall",
+   "likes": 2,
+   "views": null,
+   "images": [
+    "media/ig/DfaB85ijlIm-0.webp"
+   ]
+  },
+  "DfZ2WdqDsvY": {
+   "account": "venturamalloficial",
+   "date": "2026-11-06",
+   "type": "image",
+   "caption": "🎉 ¡ARRANCARON LOS BLACK DAYS! Encopntrá tu pijama favorita y disfrutá de momentos llenos de comodidad.\n\n¡Toda la tienda con 30% de descuento!\n📲 Contacto: https://wa.me/59175011152\n\n#Textilón #Bolivia #BlackDays #Descuentos #Pijamas",
+   "likes": 2,
+   "views": null,
+   "images": [
+    "media/ig/DfZ2WdqDsvY-0.webp"
+   ]
+  }
+ },
+ "tiktok": [
+  {
+   "id": "6898050256341060865",
+   "date": "2020-11-22",
+   "desc": "NO PODES PERDERTE EL \"BLACK FRIYEAH\" DESDE EL 26 AL 29 NOV. #Blackfriyeah #ventureando  #teamtok #Venturamalloficial @catabarba",
+   "plays": 1049228,
+   "likes": 82962,
+   "video": "media/tt/6898050256341060865.mp4",
+   "poster": "media/tt/6898050256341060865.webp"
+  },
+  {
+   "id": "6902597828615458049",
+   "date": "2020-12-05",
+   "desc": "POV: Tus papas te dejan solo en casa en navidad 😳 @fabru_blacutt #teamtokventura #venturamalloficial #fyp",
+   "plays": 1677973,
+   "likes": 205156,
+   "video": "media/tt/6902597828615458049.mp4",
+   "poster": "media/tt/6902597828615458049.webp"
+  },
+  {
+   "id": "6904691271093308673",
+   "date": "2020-12-10",
+   "desc": "POV: Tienes 70.000 pesos para gastar 🤑@fabru_blacutt #venturamalloficial #ventureando #fyp",
+   "plays": 1710931,
+   "likes": 199266,
+   "video": "media/tt/6904691271093308673.mp4",
+   "poster": "media/tt/6904691271093308673.webp"
+  },
+  {
+   "id": "6928090280767900933",
+   "date": "2021-02-11",
+   "desc": "POV: Puedes crear a tu novia ideal 💡@fabru_blacutt #ventureando #venturamalloficial",
+   "plays": 756175,
+   "likes": 103006,
+   "video": "media/tt/6928090280767900933.mp4",
+   "poster": "media/tt/6928090280767900933.webp"
+  },
+  {
+   "id": "6944065963855727877",
+   "date": "2021-03-26",
+   "desc": "Segui los tips para tenerla contenta después de una escapada a samaipata 🥴@catabarba #venturamalloficial #ventureando",
+   "plays": 972794,
+   "likes": 92712,
+   "video": "media/tt/6944065963855727877.mp4",
+   "poster": "media/tt/6944065963855727877.webp"
+  },
+  {
+   "id": "6961475321661017349",
+   "date": "2021-05-12",
+   "desc": "POV: Puedes escoger tu tiempo de vida... @fabru_blacutt #ventureando #venturamalloficial",
+   "plays": 735328,
+   "likes": 68062,
+   "video": "media/tt/6961475321661017349.mp4",
+   "poster": "media/tt/6961475321661017349.webp"
+  },
+  {
+   "id": "6962612338063166726",
+   "date": "2021-05-15",
+   "desc": "Todos tenemos una tóxica dentro cuando no nos llevan a conocer un restaurante 🤪😜   @charliechaplin95 #ventureando #venturamalloficial",
+   "plays": 945933,
+   "likes": 70636,
+   "video": "media/tt/6962612338063166726.mp4",
+   "poster": "media/tt/6962612338063166726.webp"
+  },
+  {
+   "id": "6970329034647440646",
+   "date": "2021-06-05",
+   "desc": "POV: Tú y tu mejor amiga hicieron una promesa que no pudieron cumplir… @fabru_blacutt #ventureando #venturamalloficial",
+   "plays": 890429,
+   "likes": 119240,
+   "video": "media/tt/6970329034647440646.mp4",
+   "poster": "media/tt/6970329034647440646.webp"
+  },
+  {
+   "id": "6984583672468884742",
+   "date": "2021-07-14",
+   "desc": "@fabru_blacutt POV: Tú y tu alma gemela reciben del otro lo que hacen caer. #Ventureando #Gelatiamo #Miniso #Praga",
+   "plays": 3339665,
+   "likes": 451090,
+   "video": "media/tt/6984583672468884742.mp4",
+   "poster": "media/tt/6984583672468884742.webp"
+  },
+  {
+   "id": "7351062261806517510",
+   "date": "2024-03-27",
+   "desc": "@OFFCORSS.Bolivia hara que te robes todas las miradas con su nueva colección #ventureando #ropadeniños #Viral #adolescentes #offcorss ",
+   "plays": 1852483,
+   "likes": 80352,
+   "video": "media/tt/7351062261806517510.mp4",
+   "poster": "media/tt/7351062261806517510.webp"
+  },
+  {
+   "id": "7690796308281429256",
+   "date": "2026-09-29",
+   "desc": "El mejor plan? No tener planes ☁️\nMañanas sin prisa, pijamas suaves y todo el tiempo del mundo para estar cómoda.\nEncuentra tus favoritos en @Women'secret @Andreaschmitzb ",
+   "plays": 1475,
+   "likes": 27,
+   "video": null,
+   "poster": "media/tt/7690796308281429256.webp"
+  },
+  {
+   "id": "7691530889594981639",
+   "date": "2026-10-01",
+   "desc": "@BOSS es el aliado para todas tus actividades en el día a día @Valentin Barrientos ",
+   "plays": 33800,
+   "likes": 1933,
+   "video": null,
+   "poster": "media/tt/7691530889594981639.webp"
+  },
+  {
+   "id": "7697108071105023238",
+   "date": "2026-10-16",
+   "desc": "Ya conociste la primera tienda de @Aeropostale? Usa el mejor material para armar esos básicos de impacto @Anahí 🤍 🌟",
+   "plays": 30500,
+   "likes": 2152,
+   "video": null,
+   "poster": "media/tt/7697108071105023238.webp"
+  },
+  {
+   "id": "7698204739409956112",
+   "date": "2026-10-19",
+   "desc": "Outfit para cada ocasión solo en Deluxe @Andreaschmitzb ",
+   "plays": 1320,
+   "likes": 41,
+   "video": null,
+   "poster": "media/tt/7698204739409956112.webp"
+  },
+  {
+   "id": "7699208757946895622",
+   "date": "2026-10-21",
+   "desc": "🔥 ¡LLEGÓ EL OUTLET EXPRESS DE CALVIN KLEIN! 🔥\nTus favoritos te esperan con ¡hasta 70% OFF! 🖤❤️ Renueva tu estilo con prendas icónicas y aprovecha descuentos que no querrás dejar pasar.\n📍 Te esperamos en el atrio principal de Ventura Mall.\n¡Corre por tus favoritos antes de que se agoten! 🏃‍♀️💨\n#CalvinKlein #OutletExpress #Hasta70Off #VenturaMall #CKStyle",
+   "plays": 843,
+   "likes": 15,
+   "video": null,
+   "poster": "media/tt/7699208757946895622.webp"
+  },
+  {
+   "id": "7699220624291466514",
+   "date": "2026-10-21",
+   "desc": "Sabías esto? Y lo mejor de todo!! Que los encontras en ventura @Anahí 🤍 @LEVI'S ",
+   "plays": 27600,
+   "likes": 1568,
+   "video": null,
+   "poster": "media/tt/7699220624291466514.webp"
+  },
+  {
+   "id": "7700814391259761927",
+   "date": "2026-10-26",
+   "desc": "La nueva colección de @Mango te hace sentir como esta canción @jimenaantelot ",
+   "plays": 1225,
+   "likes": 68,
+   "video": null,
+   "poster": "media/tt/7700814391259761927.webp"
+  },
+  {
+   "id": "7702190696136150290",
+   "date": "2026-10-29",
+   "desc": "Unas buenas gafas siempre te elevan el look @Agustinbajda7 @Ópticas Pauker 😎",
+   "plays": 1097,
+   "likes": 22,
+   "video": null,
+   "poster": "media/tt/7702190696136150290.webp"
+  },
+  {
+   "id": "7705912235612278034",
+   "date": "2026-11-08",
+   "desc": "Brillar sin esfuerzo✨ @Andreaschmitzb usa un outfit simple pero elevado con joyas de @Carrasco 💚🩵💎¿sos team esmeraldas o diamantes?  Comenta tu favorita ",
+   "plays": 1202,
+   "likes": 46,
+   "video": null,
+   "poster": "media/tt/7705912235612278034.webp"
+  }
+ ],
+ "mall": {
+  "mall-1": "media/mall/mall-1.webp",
+  "mall-2": "media/mall/mall-2.webp",
+  "mall-3": "media/mall/mall-3.webp",
+  "mall-4to-anillo": "media/mall/mall-4to-anillo.webp",
+  "mall-cordon": "media/mall/mall-cordon.webp",
+  "mall-equipetrol": "media/mall/mall-equipetrol.webp",
+  "mall-interior": "media/mall/mall-interior.webp",
+  "mall-torre-duo": "media/mall/mall-torre-duo.webp"
+ }
+}

@@ -2,7 +2,7 @@
 // If the API is unavailable (no key configured, offline), it answers from the
 // same verified data locally and always offers the WhatsApp funnel.
 import gsap from 'gsap';
-import { mall, brands, boulevard, events } from './data.js';
+import { mall, stores as brands, restaurants as boulevard, events } from './data.js';
 
 const $ = (s, el = document) => el.querySelector(s);
 const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
@@ -14,10 +14,10 @@ function localAnswer(q) {
   const t = norm(q);
   const store = brands.find((b) => t.includes(norm(b.name).replace(/’/g, "'")) || t.includes(norm(b.name)));
   if (store) {
-    return `${store.name} está en Ventura Mall${store.where ? `, ${store.where}` : ''}.${store.whatsapp ? ` Podés escribirles por WhatsApp al +${store.whatsapp}.` : ''}`;
+    return `${store.name} está en Ventura Mall${store.where ? `, ${store.where}` : ''}.${store.whatsapp ? ` Podés escribirles por WhatsApp al +${store.whatsapp}.` : ''} Mirá su página: ${location.origin}/tiendas/${store.slug}`;
   }
   const rest = boulevard.find((r) => t.includes(norm(r.name)));
-  if (rest) return `${rest.name} (${rest.cuisine}) está en el Boulevard de Ventura Mall.${rest.wa ? ' Tocá "Reservar" en la sección Boulevard o abrí el botón de WhatsApp para escribirles.' : ''}`;
+  if (rest) return `${rest.name} (${rest.cuisine}) está en el Boulevard de Ventura Mall.${rest.wa ? ' Podés reservar por WhatsApp desde su página:' : ' Más info:'} ${location.origin}/boulevard/${rest.slug}`;
   if (/horari|hora|abre|abier|cierra/.test(t)) return mall.hours.map((h) => `• ${h.label}: ${h.value}`).join('\n');
   if (/donde|direcc|ubica|llegar|mapa/.test(t)) return `Estamos en ${mall.address}, ${mall.city}. En la sección "Visítanos" tenés el mapa y el botón "Cómo llegar".`;
   if (/reserv|boulevard|restaur|comer|cena|almuerzo/.test(t)) return `En el Boulevard tenés ${boulevard.map((r) => r.name).join(', ')}. Abrí el botón verde de WhatsApp → "Reservar en el Boulevard" y elegí el restaurante.`;

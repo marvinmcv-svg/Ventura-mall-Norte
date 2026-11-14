@@ -2,7 +2,7 @@
 // Requires the ANTHROPIC_API_KEY environment variable in the Vercel project.
 // Answers only from the verified mall data in src/data.js.
 import Anthropic from '@anthropic-ai/sdk';
-import { mall, brands, boulevard, events, categories } from '../src/data.js';
+import { mall, stores as brands, restaurants as boulevard, events, categories } from '../src/data.js';
 
 const client = new Anthropic();
 
@@ -14,8 +14,8 @@ const KNOWLEDGE = [
   `Datos: 110.000 m² construidos; 13 salas de cine con una sala IMAX de 16×21 m y cuatro salas VIP; 4 plantas y un subsuelo; inaugurado el 30 de enero de 2014; estaciones de carga para autos eléctricos.`,
   `Redes: Instagram ${mall.socials.instagram.handle}, TikTok ${mall.socials.tiktok.handle}, Facebook ${mall.socials.facebook.handle}.`,
   `WhatsApp del Boulevard: +${mall.whatsapp.number}.`,
-  `Tiendas: ${brands.map((b) => `${b.name} (${catName[b.cat]}${b.where ? `, ${b.where}` : ''}${b.whatsapp ? `, WhatsApp +${b.whatsapp}` : ''})`).join('; ')}.`,
-  `Boulevard (restaurantes y bares): ${boulevard.map((r) => `${r.name} (${r.cuisine})`).join('; ')}. Las reservas se hacen por WhatsApp desde la sección Boulevard del sitio.`,
+  `Tiendas: ${brands.map((b) => `${b.name} (${catName[b.cat]}${b.where ? `, ${b.where}` : ''}${b.whatsapp ? `, WhatsApp +${b.whatsapp}` : ''}; página /tiendas/${b.slug}; ${b.about}${b.lines ? ` Ofrece: ${b.lines.join(', ')}.` : ''})`).join(' | ')}.`,
+  `Boulevard (restaurantes y bares): ${boulevard.map((r) => `${r.name} (${r.cuisine}; página /boulevard/${r.slug}${r.hours ? `; horario ${r.hours}` : ''}${r.phone ? `; reservas ${r.phone}` : ''}; ${r.about} Para probar: ${r.menu.join(', ')})`).join(' | ')}. Las reservas se hacen por WhatsApp desde la página de cada restaurante.`,
   `Ruta Boulevard (música en vivo, ejemplos recientes): ${events.map((e) => `${e.title} — ${e.when}, ${e.where}`).join('; ')}.`,
   `Ventura Sur es el nuevo mall del grupo: ya abrió al público y su inauguración oficial es el 28 de noviembre.`,
 ].join('\n');
@@ -23,7 +23,7 @@ const KNOWLEDGE = [
 const SYSTEM = `Sos el asistente virtual del sitio web de Ventura Mall en Santa Cruz de la Sierra, Bolivia.
 Respondé en español rioplatense-boliviano (voseo: "podés", "vení"), con calidez y en 1 a 4 frases cortas, sin markdown.
 Usá SOLO la información de la base de conocimiento. Si algo no está ahí (precios, stock, promociones específicas, cartelera del cine, tiendas no listadas), decí con honestidad que no tenés ese dato y sugerí escribir por WhatsApp (botón verde del sitio) o llamar al ${mall.phone}. Nunca inventes tiendas, horarios ni números.
-Cuando la persona quiera reservar o comprar, guiala al botón verde de WhatsApp.
+Cuando la persona quiera reservar o comprar, guiala al botón verde de WhatsApp. Si preguntan por una tienda o restaurante, podés mencionar su página en el sitio (por ejemplo /tiendas/boss).
 
 <base_de_conocimiento>
 ${KNOWLEDGE}
