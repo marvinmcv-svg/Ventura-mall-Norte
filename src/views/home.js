@@ -1,6 +1,6 @@
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { mall, categories, stores, restaurants, events, experiences, tiktoks, mallReels, catById, url, post, postImage, mallPhoto, logoOf, coverOf } from '../content.js';
+import { mall, categories, stores, restaurants, events, experiences, heroSlides, tiktoks, mallReels, catById, url, post, postImage, refImage, mallPhoto, logoOf, coverOf } from '../content.js';
 import { $, $$, esc, img, icons, reduced, bindTilt, bindVideos, videoCard, logoBadge, fmtNum, waLink } from '../ui.js';
 import { storeCard, restaurantCard } from './cards.js';
 import { splitChars, splitWords } from '../split.js';
@@ -21,14 +21,15 @@ function tiktokMix() {
 
 export function homeView() {
   const fmt = new Intl.NumberFormat('es-BO');
-  const heroBg = mallPhoto('mall-4to-anillo') || mallPhoto('mall-1');
   const factsBg = mallPhoto('mall-interior') || mallPhoto('mall-2');
   const tts = tiktokMix();
   const reels = mallReels.slice(0, 10);
 
   const html = `
   <section class="hero" aria-label="Inicio">
-    ${heroBg ? `<div class="hero__bg" style="background-image:url('${heroBg}')" aria-hidden="true"></div>` : ''}
+    <div class="hero__slides" aria-hidden="true">
+      ${heroSlides.map((h, i) => `<figure class="hero__slide"><img src="${url(h.src)}" alt="" style="object-position:${h.pos}" ${i ? 'loading="lazy"' : 'fetchpriority="high"'} decoding="async" /></figure>`).join('')}
+    </div>
     <canvas class="hero__canvas" aria-hidden="true"></canvas>
     <div class="hero__glow" aria-hidden="true"></div>
     <h1 class="sr-only">Ventura Mall — Santa Cruz de la Sierra</h1>
@@ -46,6 +47,12 @@ export function homeView() {
         <a class="btn btn--ghost btn--sm" href="/boulevard" data-magnetic><span>El Boulevard</span></a>
       </div>
       <div class="hero__scroll"><span>Scroll</span><i></i></div>
+    </div>
+    <div class="hero__carousel" data-hero-fade>
+      <p class="hero__caption" aria-live="polite"><span>01</span><b>${esc(heroSlides[0].caption)}</b></p>
+      <div class="hero__dots" role="tablist" aria-label="Fotos del mall">
+        ${heroSlides.map((h, i) => `<button role="tab" aria-selected="${!i}" aria-label="${esc(h.caption)}" data-slide="${i}"><i></i></button>`).join('')}
+      </div>
     </div>
   </section>
 
@@ -81,11 +88,16 @@ export function homeView() {
         ${categories.map((c) => {
           const n = c.id === 'gastronomia' ? restaurants.length + stores.filter((s) => s.cat === c.id).length : stores.filter((s) => s.cat === c.id).length;
           const href = c.href || `/tiendas?cat=${c.id}`;
+          const members = c.id === 'gastronomia' ? [...restaurants, ...stores.filter((s) => s.cat === c.id)] : stores.filter((s) => s.cat === c.id);
+          const shown = members.slice(0, 6);
           return `<a class="cat" href="${href}" data-cursor="Ver">
             <div class="cat__media" data-tilt>
               <span class="cat__num">${c.kicker}</span>
               <span class="cat__count">${n} locales</span>
-              ${img(postImage(c.cover), c.name) || '<div class="cat__fallback"></div>'}
+              ${img(refImage(c.cover), c.name) || '<div class="cat__fallback"></div>'}
+              <div class="cat__logos" title="${esc(members.map((m) => m.name).join(' · '))}">
+                ${shown.map((m) => logoBadge(logoOf(m), m.name, 'cat__logo')).join('')}${members.length > shown.length ? `<span class="cat__more">+${members.length - shown.length}</span>` : ''}
+              </div>
               <i class="glare" aria-hidden="true"></i>
             </div>
             <h3>${esc(c.name)}</h3>
@@ -245,16 +257,83 @@ export function homeView() {
         gsap.set(heroChars, { yPercent: 110 });
         gsap.set(heroFade, { opacity: 0, y: 20 });
         const d = first ? 2.3 : 0.4;
-        gsap.fromTo('.hero__bg', { scale: 1.25, opacity: 0 }, { scale: 1.06, opacity: 1, duration: 2.4, ease: 'expo.out', delay: d - 0.6 });
+        gsap.fromTo('.hero__slides', { scale: 1.2, opacity: 0 }, { scale: 1, opacity: 1, duration: 2.4, ease: 'expo.out', delay: d - 0.6 });
         gsap.to(heroChars, { yPercent: 0, duration: 1.2, ease: 'expo.out', stagger: 0.03, delay: d });
         gsap.to(heroFade, { opacity: 1, y: 0, duration: 1, ease: 'power3.out', stagger: 0.1, delay: d + 0.3 });
         setupScroll(main, ring);
       } else {
-        gsap.set('.hero__bg', { opacity: 1 });
+        gsap.set('.hero__slides', { opacity: 1 });
       }
+      cleanups.push(heroCarousel(main, first));
       return () => cleanups.forEach((c) => c?.());
     },
   };
+}
+
+/**
+ * Hero carousel: slow crossfade with a Ken Burns drift, one photo every ~6.5s.
+ * Pauses while the hero is off-screen or the tab is hidden; dots jump to a photo.
+ */
+function heroCarousel(main, first) {
+  const slides = $$('.hero__slide', main);
+  const dots = $$('[data-slide]', main);
+  const cap = $('.hero__caption', main);
+  if (slides.length < 2) return null;
+  const HOLD = reduced ? 9 : 6.5; // seconds each photo stays
+  const FADE = reduced ? 0.01 : 1.8;
+  let cur = 0;
+  let timer = null;
+  let drift = null;
+  let visible = true;
+  const kenBurns = (el, i) => {
+    if (drift) drift.kill();
+    if (reduced) return;
+    const dir = i % 2 ? 1 : -1;
+    drift = gsap.fromTo($('img', el), { scale: 1.16, xPercent: -2 * dir }, { scale: 1.02, xPercent: 2 * dir, duration: HOLD + FADE + 1, ease: 'none' });
+  };
+  const progress = (i) => {
+    dots.forEach((d, k) => {
+      d.setAttribute('aria-selected', String(k === i));
+      gsap.killTweensOf($('i', d));
+      gsap.set($('i', d), { scaleX: k < i ? 1 : 0 });
+    });
+    if (!reduced) gsap.fromTo($('i', dots[i]), { scaleX: 0 }, { scaleX: 1, duration: HOLD, ease: 'none' });
+  };
+  const caption = (i) => {
+    cap.innerHTML = `<span>${String(i + 1).padStart(2, '0')}</span><b>${esc(heroSlides[i].caption)}</b>`;
+    if (!reduced) gsap.fromTo(cap.children, { yPercent: 100, opacity: 0 }, { yPercent: 0, opacity: 1, duration: 0.9, ease: 'expo.out', stagger: 0.06 });
+  };
+  const stop = () => { if (timer) timer.kill(); timer = null; };
+  const schedule = () => { stop(); timer = gsap.delayedCall(HOLD, () => go(cur + 1)); };
+  function go(n) {
+    n = (n + slides.length) % slides.length;
+    if (n === cur) return schedule();
+    const prev = slides[cur];
+    const next = slides[n];
+    gsap.set(prev, { zIndex: 1 });
+    gsap.set(next, { zIndex: 2 });
+    gsap.fromTo(next, { opacity: 0 }, { opacity: 1, duration: FADE, ease: 'power2.inOut', onComplete: () => gsap.set(prev, { opacity: 0 }) });
+    kenBurns(next, n);
+    cur = n;
+    progress(n);
+    caption(n);
+    if (visible && !document.hidden) schedule();
+  }
+  gsap.set(slides, { opacity: 0, zIndex: 0 });
+  gsap.set(slides[0], { opacity: 1, zIndex: 2 });
+  kenBurns(slides[0], 0);
+  // the first photo gets extra time while the intro plays
+  const start = gsap.delayedCall(first ? 2.4 : 0.4, () => { progress(0); schedule(); });
+  dots.forEach((d) => d.addEventListener('click', () => go(+d.dataset.slide)));
+  const io = new IntersectionObserver(([e]) => {
+    visible = e.isIntersecting;
+    if (visible && !document.hidden) schedule(); else stop();
+    if (drift) drift[visible ? 'resume' : 'pause']();
+  });
+  io.observe($('.hero', main));
+  const onVis = () => (document.hidden ? stop() : visible && schedule());
+  document.addEventListener('visibilitychange', onVis);
+  return () => { start.kill(); stop(); if (drift) drift.kill(); io.disconnect(); document.removeEventListener('visibilitychange', onVis); };
 }
 
 function socialButtons() {
@@ -298,7 +377,7 @@ export function initRails(main) {
 
 function setupScroll(main, ring) {
   gsap.to('.hero__content', { yPercent: -40, opacity: 0, ease: 'none', scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom top', scrub: true } });
-  gsap.to('.hero__bg', { yPercent: 14, ease: 'none', scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom top', scrub: true } });
+  gsap.to('.hero__slides', { yPercent: 14, ease: 'none', scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom top', scrub: true } });
 
   // manifesto: words light up as you read
   gsap.to(splitWords($('[data-words]', main)), { opacity: 1, stagger: 0.05, ease: 'none', scrollTrigger: { trigger: '.manifesto', start: 'top 75%', end: 'bottom 55%', scrub: true } });
@@ -327,8 +406,8 @@ function setupScroll(main, ring) {
     const htween = gsap.to(track, { x: () => -dist(), ease: 'none', scrollTrigger: { trigger: '.hscroll', pin: '.hscroll__pin', start: 'top top', end: () => '+=' + dist(), scrub: 1, invalidateOnRefresh: true } });
     gsap.to('.hscroll__progress i', { scaleX: 1, ease: 'none', scrollTrigger: { trigger: '.hscroll', start: 'top top', end: () => '+=' + dist(), scrub: true, invalidateOnRefresh: true } });
     $$('.cat', main).forEach((card) => {
-      const im = $('img', card);
-      if (im) gsap.fromTo(im, { xPercent: -8 }, { xPercent: 8, ease: 'none', scrollTrigger: { trigger: card, containerAnimation: htween, start: 'left right', end: 'right left', scrub: true } });
+      const im = $('.cat__media > img', card);
+      if (im) gsap.fromTo(im, { xPercent: -3 }, { xPercent: 3, ease: 'none', scrollTrigger: { trigger: card, containerAnimation: htween, start: 'left right', end: 'right left', scrub: true } });
     });
   });
 

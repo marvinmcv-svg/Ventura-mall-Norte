@@ -43,11 +43,11 @@ export const mall = {
 };
 
 export const categories = [
-  { id: 'moda', name: 'Moda', kicker: '01', blurb: 'BOSS, HUGO, Armani Exchange, Calvin Klein, Mango, Levi’s y más.', cover: 'DfpaR0zjnfK' },
-  { id: 'belleza', name: 'Belleza, Joyas & Óptica', kicker: '02', blurb: 'O Boticário, Joyería Carrasco, Chilli Beans, Ópticas Pauker y women’secret.', cover: 'DfkGPwYEw7A' },
-  { id: 'ninos', name: 'Niños & Regalos', kicker: '03', blurb: 'Kids Collection, Baby Corp y Mariposa Gift Shop.', cover: 'DfkoksPDYnm' },
-  { id: 'gastronomia', name: 'Gastronomía', kicker: '04', blurb: 'El Boulevard: Fogo de Chão, Hard Rock Cafe, Fiesta Perú, Regiones y más.', cover: 'Dfp4sDXDj42', href: '/boulevard' },
-  { id: 'servicios', name: 'Salud & Servicios', kicker: '05', blurb: 'Spacio Médico, bancos, telefónicas y agencias de viaje.', cover: 'Dfm4RqMlG_l' },
+  { id: 'moda', name: 'Moda', kicker: '01', blurb: 'BOSS, HUGO, Armani Exchange, Calvin Klein, Mango, Levi’s y más.', cover: 'DfkQWi9oJBp:2' },
+  { id: 'belleza', name: 'Belleza, Joyas & Óptica', kicker: '02', blurb: 'O Boticário, Joyería Carrasco, Chilli Beans, Ópticas Pauker y women’secret.', cover: 'DfQrUa4NeXH:0' },
+  { id: 'ninos', name: 'Niños & Regalos', kicker: '03', blurb: 'Kids Collection, Baby Corp y Mariposa Gift Shop.', cover: 'DfpRvJjlaoe:0' },
+  { id: 'gastronomia', name: 'Gastronomía', kicker: '04', blurb: 'El Boulevard: Fogo de Chão, Hard Rock Cafe, Fiesta Perú, Regiones y más.', cover: 'Dfp4sDXDj42:3', href: '/boulevard' },
+  { id: 'servicios', name: 'Salud & Servicios', kicker: '05', blurb: 'Spacio Médico, bancos, telefónicas y agencias de viaje.', cover: 'De-dlOHDks9:0' },
 ];
 
 // ── Stores ───────────────────────────────────────────────────
@@ -186,6 +186,17 @@ export const restaurants = [
 ];
 
 // ── Events (Ruta Boulevard) ─────────────────────────────────
+// Hero carousel: curated for a cinematic open — arrival from the air, the
+// façade, the atrium, then the Boulevard at night. `src` is a media path.
+export const heroSlides = [
+  { src: 'media/mall/mall-2.webp', caption: 'Ventura Mall desde el aire', pos: '50% 60%' },
+  { src: 'media/mall/mall-1.webp', caption: 'Av. San Martín & 4to Anillo', pos: '50% 45%' },
+  { src: 'media/mall/mall-interior.webp', caption: 'El atrio principal', pos: '50% 55%' },
+  { src: 'media/ig/DfbUIfdDVTz-3.webp', caption: 'Ruta Boulevard · noches en el Boulevard', pos: '50% 45%' },
+  { src: 'media/ig/DfhbRc4ll1m-0.webp', caption: 'Música en vivo · Hard Rock Cafe', pos: '50% 40%' },
+  { src: 'media/mall/mall-torre-duo.webp', caption: 'Equipetrol Norte, Santa Cruz', pos: '50% 55%' },
+];
+
 export const events = [
   { title: 'Grupo KLASS', when: 'Viernes · 21:00', where: 'Área Verde', text: 'Clásicos del pop en inglés y español.', post: 'DfpeFtYjicV' },
   { title: 'Hnos. Barbery', when: 'Sábado · 21:00', where: 'Costanera', text: 'Música en vivo en el Boulevard de Luz.', post: 'DfcYRBhDrAd' },
@@ -210,4 +221,14 @@ export const funnel = [
   { id: 'evento', label: 'Eventos y Ruta Boulevard', icon: '🎶', href: `https://wa.me/${mall.whatsapp.number}`, msg: 'Hola, quiero información sobre los eventos de Ruta Boulevard en Ventura Mall.' },
   { id: 'tiendas', label: 'Consultar a una tienda', icon: '🛍️', ask: '¿Qué tienda?', options: stores.filter((s) => s.whatsapp || s.catalog).map((s) => ({ label: s.name, href: s.whatsapp ? `https://wa.me/${s.whatsapp}` : s.catalog, msg: `Hola ${s.name}, tengo una consulta (vengo desde venturamall.bo).` })) },
   { id: 'general', label: 'Información general', icon: 'ℹ️', href: mall.phoneHref, note: `Llamá al ${mall.phone} o escribí a ${mall.email}` },
+];
+
+// Legal & help pages (content in src/views/legal.js). Last reviewed date shown on each page.
+export const legalUpdated = '16 de noviembre de 2026';
+export const legalPages = [
+  { slug: 'terminos', title: 'Términos y condiciones' },
+  { slug: 'privacidad', title: 'Política de privacidad' },
+  { slug: 'cookies', title: 'Política de cookies' },
+  { slug: 'aviso-legal', title: 'Aviso legal' },
+  { slug: 'accesibilidad', title: 'Accesibilidad' },
 ];

@@ -10,6 +10,8 @@ export const account = (h) => (h && M.accounts[h]) || null;
 export const logoOf = (x) => (x?.noLogo ? null : url(account(x?.ig)?.logo));
 export const mallLogo = () => url(account('venturamalloficial')?.logo);
 export const postImage = (code, i = 0) => url(post(code)?.images?.[i] || post(code)?.poster);
+/** 'CODE:i' reference -> image url */
+export const refImage = (ref) => { if (!ref) return null; const [c, i] = ref.split(':'); return postImage(c, +i || 0); };
 export const mallPhoto = (k) => url(M.mall[k]);
 export const tiktoks = M.tiktok;
 export const tiktokById = (id) => M.tiktok.find((t) => t.id === id) || null;

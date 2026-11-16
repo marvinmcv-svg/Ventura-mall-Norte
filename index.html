@@ -102,12 +102,20 @@
         <nav class="footer__nav" aria-label="Redes" data-footer-socials></nav>
       </div>
       <div class="footer__mark" aria-hidden="true"><span data-footer-mark>VENTURA</span></div>
+      <nav class="footer__links" aria-label="Legal">
+        <a href="/legal/terminos">Términos y condiciones</a>
+        <a href="/legal/privacidad">Privacidad</a>
+        <a href="/legal/cookies">Cookies</a>
+        <a href="/legal/aviso-legal">Aviso legal</a>
+        <a href="/legal/accesibilidad">Accesibilidad</a>
+        <a href="/ayuda">Preguntas frecuentes</a>
+      </nav>
       <p class="footer__legal">© <span data-year></span> Ventura Mall. Todos los derechos reservados. Fotos y videos: @venturamalloficial, las cuentas oficiales de cada tienda y restaurante, y <a href="https://commons.wikimedia.org/wiki/Category:Ventura_Mall,_Santa_Cruz_de_la_Sierra" target="_blank" rel="noopener">Wikimedia Commons</a> (CC BY-SA).</p>
     </footer>
 
     <!-- Floating contact: WhatsApp funnel + AI assistant -->
     <div class="fab" data-fab>
-      <button class="fab__btn fab__btn--chat" data-open-chat aria-label="Abrir asistente virtual">
+      <button class="fab__btn fab__btn--chat" data-open-chat aria-label="Hablar con Marvin, el recepcionista virtual">
         <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M4 5h16v11H8l-4 4z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><circle cx="9" cy="10.5" r="1" fill="currentColor"/><circle cx="12" cy="10.5" r="1" fill="currentColor"/><circle cx="15" cy="10.5" r="1" fill="currentColor"/></svg>
       </button>
       <button class="fab__btn fab__btn--wa" data-open-funnel aria-label="Contactar por WhatsApp">
@@ -123,15 +131,15 @@
       <div class="panel__body" data-funnel-body></div>
     </div>
 
-    <div class="panel panel--chat" data-chat role="dialog" aria-modal="false" aria-label="Asistente de Ventura Mall" hidden>
+    <div class="panel panel--chat" data-chat role="dialog" aria-modal="false" aria-label="Marvin, recepcionista virtual de Ventura Mall" hidden>
       <header class="panel__head">
-        <div><b>Asistente Ventura</b><span>Horarios, tiendas, Boulevard y eventos</span></div>
+        <div class="panel__id"><span class="marvin-avatar" aria-hidden="true">M</span><div><b>Marvin</b><span>Recepcionista virtual · horarios, tiendas, menús y eventos</span></div></div>
         <button class="panel__close" data-close aria-label="Cerrar">×</button>
       </header>
       <div class="chat__log" data-chat-log aria-live="polite"></div>
       <div class="chat__chips" data-chat-chips></div>
       <form class="chat__form" data-chat-form>
-        <input type="text" placeholder="Escribí tu pregunta…" data-chat-input autocomplete="off" maxlength="500" aria-label="Tu pregunta" />
+        <input type="text" placeholder="Preguntale a Marvin…" data-chat-input autocomplete="off" maxlength="500" aria-label="Tu pregunta" />
         <button type="submit" aria-label="Enviar">→</button>
       </form>
     </div>

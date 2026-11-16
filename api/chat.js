@@ -1,70 +1,98 @@
-// Vercel serverless function: Ventura Mall assistant powered by Claude.
-// Requires the ANTHROPIC_API_KEY environment variable in the Vercel project.
-// Answers only from the verified mall data in src/data.js.
+// Vercel serverless function: Marvin, the AI receptionist of Ventura Mall.
+// Requires the ANTHROPIC_API_KEY environment variable in the Vercel project
+// (Settings → Environment Variables). Without it the endpoint returns 503 and
+// the site falls back to local answers.
+//
+// Marvin answers only from api/_knowledge.js, generated at build time by
+// scripts/build-knowledge.mjs from the site's verified data and the real posts
+// of every store and restaurant (dishes, prices, promos, hours).
 import Anthropic from '@anthropic-ai/sdk';
-import { mall, stores as brands, restaurants as boulevard, events, categories } from '../src/data.js';
+import { KNOWLEDGE } from './_knowledge.js';
 
 const client = new Anthropic();
 
-const catName = Object.fromEntries(categories.map((c) => [c.id, c.name]));
-const KNOWLEDGE = [
-  `Nombre: ${mall.name} (Ventura Norte). Lema: "${mall.tagline}" ${mall.hashtag}.`,
-  `Dirección: ${mall.address}, ${mall.city}. Teléfono: ${mall.phone}. Email: ${mall.email}.`,
-  `Horarios: ${mall.hours.map((h) => `${h.label}: ${h.value}`).join(' | ')}.`,
-  `Datos: 110.000 m² construidos; 13 salas de cine con una sala IMAX de 16×21 m y cuatro salas VIP; 4 plantas y un subsuelo; inaugurado el 30 de enero de 2014; estaciones de carga para autos eléctricos.`,
-  `Redes: Instagram ${mall.socials.instagram.handle}, TikTok ${mall.socials.tiktok.handle}, Facebook ${mall.socials.facebook.handle}.`,
-  `WhatsApp del Boulevard: +${mall.whatsapp.number}.`,
-  `Tiendas: ${brands.map((b) => `${b.name} (${catName[b.cat]}${b.where ? `, ${b.where}` : ''}${b.whatsapp ? `, WhatsApp +${b.whatsapp}` : ''}; página /tiendas/${b.slug}; ${b.about}${b.lines ? ` Ofrece: ${b.lines.join(', ')}.` : ''})`).join(' | ')}.`,
-  `Boulevard (restaurantes y bares): ${boulevard.map((r) => `${r.name} (${r.cuisine}; página /boulevard/${r.slug}${r.hours ? `; horario ${r.hours}` : ''}${r.phone ? `; reservas ${r.phone}` : ''}; ${r.about} Para probar: ${r.menu.join(', ')})`).join(' | ')}. Las reservas se hacen por WhatsApp desde la página de cada restaurante.`,
-  `Ruta Boulevard (música en vivo, ejemplos recientes): ${events.map((e) => `${e.title} — ${e.when}, ${e.where}`).join('; ')}.`,
-  `Ventura Sur es el nuevo mall del grupo: ya abrió al público y su inauguración oficial es el 28 de noviembre.`,
-].join('\n');
+// Stable prefix (cached): persona + rules + knowledge. Nothing time-dependent here.
+const SYSTEM = `Sos Marvin, el recepcionista virtual de Ventura Mall en Santa Cruz de la Sierra, Bolivia. Atendés el chat del sitio web.
 
-const SYSTEM = `Sos el asistente virtual del sitio web de Ventura Mall en Santa Cruz de la Sierra, Bolivia.
-Respondé en español rioplatense-boliviano (voseo: "podés", "vení"), con calidez y en 1 a 4 frases cortas, sin markdown.
-Usá SOLO la información de la base de conocimiento. Si algo no está ahí (precios, stock, promociones específicas, cartelera del cine, tiendas no listadas), decí con honestidad que no tenés ese dato y sugerí escribir por WhatsApp (botón verde del sitio) o llamar al ${mall.phone}. Nunca inventes tiendas, horarios ni números.
-Cuando la persona quiera reservar o comprar, guiala al botón verde de WhatsApp. Si preguntan por una tienda o restaurante, podés mencionar su página en el sitio (por ejemplo /tiendas/boss).
+Cómo hablás:
+- En español con voseo cruceño ("podés", "vení", "fijate"), cálido, claro y con buena onda, como un buen recepcionista.
+- Respuestas cortas: 1 a 4 frases. Si listás cosas (platos, horarios, tiendas), usá viñetas con "• " y como máximo 6 ítems.
+- Texto plano, sin markdown (nada de **, #, tablas ni enlaces con corchetes). Cuando sirva, mencioná la página del sitio como ruta, por ejemplo /boulevard/fiesta-peru o /tiendas/boss.
+- Si te preguntan tu nombre o quién sos: sos Marvin, el recepcionista virtual de Ventura Mall.
+
+Qué sabés y qué no:
+- Usá SOLO la información de <base_de_conocimiento>. Nunca inventes tiendas, platos, precios, horarios, teléfonos ni promociones.
+- Menús: contá los platos, bebidas y precios que aparecen en las publicaciones de cada restaurante. Aclará que es lo que publicaron (no la carta completa) y, para la carta completa o precios actuales, sugerí escribirles por WhatsApp o ver su Instagram.
+- Promociones y precios salen de publicaciones con fecha: decí de cuándo es la publicación si la promo puede haber vencido.
+- Para saber si algo está abierto ahora, usá la fecha y hora actual de Santa Cruz que te paso aparte y los horarios de la base.
+- Si algo no está en la base (cartelera del cine, stock, tiendas no listadas, estacionamiento, objetos perdidos, etc.), decilo con honestidad y ofrecé el contacto: teléfono +591 3 3432121, info@venturamall.bo, o el botón verde de WhatsApp del sitio.
+- Para reservar en un restaurante, dales su WhatsApp o teléfono de la base o el botón verde "Reservar".
+- Solo hablás de Ventura Mall y lo que hay en él. Si te piden otra cosa, redirigí con amabilidad.
+- No pidas ni guardes datos personales (documentos, tarjetas, contraseñas). Si alguien los comparte, decile que no hace falta.
 
 <base_de_conocimiento>
 ${KNOWLEDGE}
 </base_de_conocimiento>`;
 
+const DAYS = ['domingo', 'lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado'];
+function santaCruzNow() {
+  const bo = new Date(Date.now() - 4 * 3600 * 1000); // Bolivia: UTC-4, no DST
+  const date = bo.toISOString().slice(0, 10);
+  const time = bo.toISOString().slice(11, 16);
+  return `Ahora en Santa Cruz de la Sierra es ${DAYS[bo.getUTCDay()]} ${date}, ${time} hs.`;
+}
+
+const MAX_TURNS = 16;
+const MAX_CHARS = 1200;
+
 export default async function handler(req, res) {
   if (req.method !== 'POST') return res.status(405).json({ error: 'method_not_allowed' });
   if (!process.env.ANTHROPIC_API_KEY) return res.status(503).json({ error: 'not_configured' });
 
-  const raw = Array.isArray(req.body?.messages) ? req.body.messages.slice(-12) : [];
+  const raw = Array.isArray(req.body?.messages) ? req.body.messages.slice(-MAX_TURNS) : [];
   const messages = raw
-    .filter((m) => (m.role === 'user' || m.role === 'assistant') && typeof m.content === 'string')
-    .map((m) => ({ role: m.role, content: m.content.slice(0, 1000) }));
-  if (!messages.length || messages[0].role !== 'user') return res.status(400).json({ error: 'bad_request' });
+    .filter((m) => (m.role === 'user' || m.role === 'assistant') && typeof m.content === 'string' && m.content.trim())
+    .map((m) => ({ role: m.role, content: m.content.slice(0, MAX_CHARS) }));
+  while (messages.length && messages[0].role !== 'user') messages.shift();
+  if (!messages.length || messages[messages.length - 1].role !== 'user') return res.status(400).json({ error: 'bad_request' });
 
   try {
     const response = await client.beta.messages.create({
       model: 'claude-opus-5-5',
-      max_tokens: 1024,
-      output_config: { effort: 'low' },
+      max_tokens: 4000,
+      output_config: { effort: 'low' }, // quick, conversational answers
+      // If the model declines for a safety reason, retry on a fallback model in the same call.
       betas: ['server-side-fallback-2026-07-01'],
       fallbacks: 'default',
-      system: [{ type: 'text', text: SYSTEM, cache_control: { type: 'ephemeral' } }],
+      system: [
+        { type: 'text', text: SYSTEM, cache_control: { type: 'ephemeral' } },
+        // volatile: after the cache breakpoint so the knowledge base stays cached
+        { type: 'text', text: santaCruzNow() },
+      ],
       messages,
     });
+
     if (response.stop_reason === 'refusal') {
-      return res.status(200).json({ reply: `No puedo ayudarte con eso. Para cualquier consulta sobre el mall escribinos por WhatsApp o llamá al ${mall.phone}.` });
+      return res.status(200).json({ reply: 'Disculpá, con eso no te puedo ayudar. Si es algo del mall, escribinos por WhatsApp (botón verde) o llamá al +591 3 3432121.' });
     }
     const reply = response.content
       .filter((b) => b.type === 'text')
       .map((b) => b.text)
       .join('')
+      .replace(/\*\*(.+?)\*\*/g, '$1')
       .trim();
-    return res.status(200).json({ reply });
+    return res.status(200).json({ reply: reply || 'Perdón, no te entendí bien. ¿Me lo preguntás de otra forma?' });
   } catch (error) {
     if (error instanceof Anthropic.RateLimitError) return res.status(429).json({ error: 'rate_limited' });
+    if (error instanceof Anthropic.AuthenticationError) {
+      console.error('Marvin: invalid ANTHROPIC_API_KEY');
+      return res.status(503).json({ error: 'not_configured' });
+    }
     if (error instanceof Anthropic.APIError) {
-      console.error('Claude API error', error.status, error.message);
+      console.error('Marvin: Claude API error', error.status, error.message);
       return res.status(502).json({ error: 'upstream' });
     }
-    console.error(error);
+    console.error('Marvin:', error);
     return res.status(500).json({ error: 'internal' });
   }
 }

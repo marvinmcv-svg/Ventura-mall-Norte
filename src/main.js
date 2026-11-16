@@ -32,6 +32,8 @@ route(/^\/tiendas$/, async () => (await import('./views/directory.js')).director
 route(/^\/tiendas\/([\w-]+)$/, async (slug) => (await import('./views/place.js')).placeView('store', slug));
 route(/^\/boulevard$/, async () => (await import('./views/boulevard.js')).boulevardView());
 route(/^\/boulevard\/([\w-]+)$/, async (slug) => (await import('./views/place.js')).placeView('restaurant', slug));
+route(/^\/legal\/([\w-]+)$/, async (slug) => (await import('./views/legal.js')).legalView(slug));
+route(/^\/ayuda$/, async () => (await import('./views/legal.js')).helpView());
 const notFound = async () => (await import('./views/boulevard.js')).notFoundView();
 
 // ── Brand: the mall's own logo (the red "V" from @venturamalloficial) ──
@@ -121,6 +123,25 @@ document.addEventListener('keydown', (e) => e.key === 'Escape' && closePanels())
   });
 })();
 initChat({ closePanels });
+
+// ── Cookie notice (informative; the site sets no tracking cookies) ──
+(function cookieNotice() {
+  let seen = false;
+  try { seen = localStorage.getItem('vm-cookies-ok') === '1'; } catch { /* storage blocked */ }
+  if (seen) return;
+  const el = document.createElement('div');
+  el.className = 'cookie';
+  el.setAttribute('role', 'region');
+  el.setAttribute('aria-label', 'Aviso de cookies');
+  el.innerHTML = `<p>No usamos cookies de seguimiento. El mapa, las tipografías y algunos videos son de terceros y pueden usar las suyas. <a href="/legal/cookies">Más info</a></p><button class="btn btn--sm" type="button">Entendido</button>`;
+  document.body.appendChild(el);
+  setTimeout(() => el.classList.add('is-in'), 2600);
+  el.querySelector('button').addEventListener('click', () => {
+    try { localStorage.setItem('vm-cookies-ok', '1'); } catch { /* ignore */ }
+    el.classList.remove('is-in');
+    setTimeout(() => el.remove(), 600);
+  });
+})();
 
 // ── Cursor ───────────────────────────────────────────────────
 if (finePointer) {
