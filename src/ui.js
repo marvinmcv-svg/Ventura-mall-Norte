@@ -6,8 +6,22 @@ export const $$ = (s, el = document) => [...el.querySelectorAll(s)];
 export const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 export const finePointer = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
 export const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
-export const img = (src, alt = '', cls = '', eager = false) =>
-  src ? `<img src="${src}" alt="${esc(alt)}"${eager ? ' fetchpriority="high"' : ' loading="lazy"'} decoding="async"${cls ? ` class="${cls}"` : ''} />` : '';
+// Phones: narrow screen or touch-only. Used to skip effects that cost more than they give there.
+export const isPhone = window.matchMedia('(max-width: 760px), (hover: none) and (pointer: coarse)').matches;
+
+/** Phone-sized variant of a media image (generated next to the original as -sm.webp). */
+export const small = (src) => (src && /\/media\/(ig|mall)\/[^/]+\.webp$/.test(src) && !/-sm\.webp$/.test(src) ? src.replace(/\.webp$/, '-sm.webp') : null);
+/** srcset for a media image: 640w (ig) / 1200w (mall) variant + the original. */
+export const srcset = (src) => {
+  const sm = small(src);
+  if (!sm) return '';
+  return /\/mall\//.test(src) ? `${sm} 1200w, ${src} 1920w` : `${sm} 640w, ${src} 1200w`;
+};
+/** Background images: the phone-sized variant on phones (only for the 1920px building photos). */
+export const bgSrc = (src) => (isPhone && /\/media\/mall\//.test(src || '') ? small(src) || src : src);
+
+export const img = (src, alt = '', cls = '', eager = false, sizes = '(max-width: 760px) 50vw, 360px') =>
+  src ? `<img src="${src}"${srcset(src) ? ` srcset="${srcset(src)}" sizes="${sizes}"` : ''} alt="${esc(alt)}"${eager ? ' fetchpriority="high"' : ' loading="lazy"'} decoding="async"${cls ? ` class="${cls}"` : ''} />` : '';
 export const waLink = (href, msg) => (msg && /wa\.me\//.test(href) && !/\/c\//.test(href) ? `${href}?text=${encodeURIComponent(msg)}` : href);
 export const fmtNum = (n) => (n >= 1e6 ? `${(n / 1e6).toFixed(1).replace('.0', '')}M` : n >= 1e3 ? `${Math.round(n / 1e3)}K` : String(n ?? ''));
 
@@ -37,8 +51,8 @@ export const logoBadge = (src, name, cls = '') => (src ? `<img class="logo-badge
 export function videoCard(v, { cls = '', label = '', autoplay = 'visible' } = {}) {
   const embed = !v.src && v.embed ? ` data-embed="${v.embed}"` : '';
   return `<figure class="vcard ${cls}${embed ? ' vcard--embed' : ''}" data-vcard data-autoplay="${autoplay}"${embed}>
-    ${v.poster ? `<img class="vcard__poster" src="${v.poster}" alt="" loading="lazy" decoding="async" />` : ''}
-    ${v.src ? `<video muted loop playsinline preload="none" ${v.poster ? `poster="${v.poster}"` : ''} data-src="${v.src}"></video>` : ''}
+    ${v.poster ? `<img class="vcard__poster" src="${v.poster}"${srcset(v.poster) ? ` srcset="${srcset(v.poster)}" sizes="(max-width: 760px) 70vw, 300px"` : ''} alt="" loading="lazy" decoding="async" />` : ''}
+    ${v.src ? `<video muted loop playsinline preload="none" data-src="${v.src}"></video>` : ''}
     <span class="vcard__shade" aria-hidden="true"></span>
     ${label ? `<figcaption class="vcard__cap">${label}</figcaption>` : ''}
     ${v.src ? `<button class="vcard__sound" aria-label="Activar sonido">${icons.mute}</button>` : ''}
@@ -48,6 +62,7 @@ export function videoCard(v, { cls = '', label = '', autoplay = 'visible' } = {}
 }
 
 /** Wire every video card in scope: lazy-load src, play while visible. */
+let activeAuto = null;
 export function bindVideos(scope = document) {
   const cards = $$('[data-vcard]', scope).filter((c) => !c.dataset.bound);
   const io = new IntersectionObserver((entries) => entries.forEach((e) => {
@@ -56,7 +71,11 @@ export function bindVideos(scope = document) {
     if (!v) return;
     if (e.isIntersecting) {
       if (!v.src) v.src = v.dataset.src;
-      if (!reduced && card.dataset.autoplay === 'visible') v.play().then(() => card.classList.add('is-playing')).catch(() => {});
+      if (!reduced && card.dataset.autoplay === 'visible') {
+        if (activeAuto && activeAuto !== v && activeAuto.muted) activeAuto.pause();
+        activeAuto = v;
+        v.play().then(() => card.classList.add('is-playing')).catch(() => {});
+      }
     } else { v.pause(); }
   }), { threshold: 0.35, rootMargin: '120px 0px' });
   cards.forEach((card) => {
@@ -177,6 +196,30 @@ export function openLightbox(items, index = 0) {
   lb.classList.add('is-open');
   document.documentElement.classList.add('has-lightbox');
   $('.lightbox__close', lb).focus();
+}
+
+/**
+ * Scroll reveal that can't get stuck: IntersectionObserver + CSS transition.
+ * (ScrollTrigger-based reveals measured positions before images loaded, which
+ * on phones left cards and photos at opacity 0.) Elements already on screen,
+ * or above it, show immediately.
+ */
+let revealIO = null;
+export function reveal(els, { stagger = 0.06, group = 4, kind = '' } = {}) {
+  const list = [...els].filter(Boolean);
+  if (!list.length) return;
+  if (reduced || !('IntersectionObserver' in window)) return;
+  if (!revealIO) {
+    revealIO = new IntersectionObserver((entries) => entries.forEach((e) => {
+      if (e.isIntersecting || e.boundingClientRect.bottom < 0) { e.target.classList.add('is-in'); revealIO.unobserve(e.target); }
+    }), { rootMargin: '0px 0px -6% 0px', threshold: 0.01 });
+  }
+  list.forEach((el, i) => {
+    el.classList.add('rv');
+    if (kind) el.classList.add(`rv--${kind}`);
+    el.style.setProperty('--rv-d', `${(i % group) * stagger}s`);
+    revealIO.observe(el);
+  });
 }
 
 /** Bolivia time (UTC-4, no DST). */

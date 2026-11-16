@@ -1,6 +1,6 @@
 import gsap from 'gsap';
 import { mall, restaurants, events, postImage, coverOf, logoOf } from '../content.js';
-import { $, $$, esc, img, icons, reduced, bindTilt } from '../ui.js';
+import { $, $$, esc, img, icons, reduced, bindTilt, bgSrc } from '../ui.js';
 import { restaurantCard } from './cards.js';
 import { pageHeroIntro } from './directory.js';
 import { revealGrids } from './home.js';
@@ -9,7 +9,7 @@ export function boulevardView() {
   const bg = postImage('Dfp4sDXDj42', 1) || postImage('DfbUIfdDVTz', 0);
   const html = `
   <header class="page-hero page-hero--blv">
-    ${bg ? `<div class="page-hero__bg" style="background-image:url('${bg}')" aria-hidden="true"></div>` : ''}
+    ${bg ? `<div class="page-hero__bg" style="background-image:url('${bgSrc(bg)}')" aria-hidden="true"></div>` : ''}
     <div class="page-hero__inner">
       <nav class="crumbs" aria-label="Ruta"><a href="/">Inicio</a><span>/</span><span aria-current="page">Boulevard</span></nav>
       <h1 class="page-title"><span class="line"><span class="split">Boulevard</span></span><span class="line"><span class="split serif">de Luz</span></span></h1>

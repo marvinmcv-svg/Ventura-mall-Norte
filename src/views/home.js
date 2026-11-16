@@ -1,7 +1,7 @@
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { mall, categories, stores, restaurants, events, experiences, heroSlides, tiktoks, mallReels, catById, url, post, postImage, refImage, mallPhoto, logoOf, coverOf } from '../content.js';
-import { $, $$, esc, img, icons, reduced, bindTilt, bindVideos, videoCard, logoBadge, fmtNum, waLink } from '../ui.js';
+import { $, $$, esc, img, icons, reduced, bindTilt, bindVideos, videoCard, logoBadge, fmtNum, waLink, reveal, isPhone, srcset, bgSrc } from '../ui.js';
 import { storeCard, restaurantCard } from './cards.js';
 import { splitChars, splitWords } from '../split.js';
 
@@ -28,7 +28,7 @@ export function homeView() {
   const html = `
   <section class="hero" aria-label="Inicio">
     <div class="hero__slides" aria-hidden="true">
-      ${heroSlides.map((h, i) => `<figure class="hero__slide"><img src="${url(h.src)}" alt="" style="object-position:${h.pos}" ${i ? 'loading="lazy"' : 'fetchpriority="high"'} decoding="async" /></figure>`).join('')}
+      ${heroSlides.map((h, i) => `<figure class="hero__slide"><img src="${url(h.src)}" srcset="${srcset(url(h.src))}" sizes="100vw" alt="" style="object-position:${h.pos}" ${i ? 'loading="lazy"' : 'fetchpriority="high"'} decoding="async" /></figure>`).join('')}
     </div>
     <canvas class="hero__canvas" aria-hidden="true"></canvas>
     <div class="hero__glow" aria-hidden="true"></div>
@@ -64,7 +64,7 @@ export function homeView() {
   </section>
 
   <section class="facts" aria-label="Ventura Mall en cifras">
-    ${factsBg ? `<div class="facts__bg" style="background-image:url('${factsBg}')" aria-hidden="true"></div>` : ''}
+    ${factsBg ? `<div class="facts__bg" style="background-image:url('${bgSrc(factsBg)}')" aria-hidden="true"></div>` : ''}
     <div class="facts__head">
       <p class="kicker">( En cifras )</p>
       <h2 data-reveal>El más grande <span class="serif">de Bolivia</span></h2>
@@ -94,7 +94,7 @@ export function homeView() {
             <div class="cat__media" data-tilt>
               <span class="cat__num">${c.kicker}</span>
               <span class="cat__count">${n} locales</span>
-              ${img(refImage(c.cover), c.name) || '<div class="cat__fallback"></div>'}
+              ${img(refImage(c.cover), c.name, '', false, '(max-width: 760px) 86vw, 44vw') || '<div class="cat__fallback"></div>'}
               <div class="cat__logos" title="${esc(members.map((m) => m.name).join(' · '))}">
                 ${shown.map((m) => logoBadge(logoOf(m), m.name, 'cat__logo')).join('')}${members.length > shown.length ? `<span class="cat__more">+${members.length - shown.length}</span>` : ''}
               </div>
@@ -238,7 +238,7 @@ export function homeView() {
       cleanups.push(bindVideos(main));
       bindTilt(main);
       cleanups.push(initRails(main));
-      const ring = renderRing(main);
+      const ring = isPhone ? null : renderRing(main);
 
       // hero intro: chars rise once the loader (or the page curtain) is gone
       const heroChars = $$('.hero__title .split', main).flatMap(splitChars);
@@ -384,7 +384,7 @@ function setupScroll(main, ring) {
 
   // facts
   gsap.fromTo('.facts__bg', { yPercent: -12, scale: 1.15 }, { yPercent: 12, scale: 1, ease: 'none', scrollTrigger: { trigger: '.facts', start: 'top bottom', end: 'bottom top', scrub: true } });
-  gsap.from('.fact', { rotationX: -70, y: 80, opacity: 0, transformOrigin: '50% 100%', transformPerspective: 900, duration: 1.3, ease: 'expo.out', stagger: 0.1, scrollTrigger: { trigger: '.facts__grid', start: 'top 85%' } });
+  reveal($$('.fact', main), { stagger: 0.1, kind: 'flip' });
   const fmt = new Intl.NumberFormat('es-BO');
   $$('[data-counter]', main).forEach((el) => {
     const end = +el.dataset.counter;
@@ -412,18 +412,19 @@ function setupScroll(main, ring) {
   });
 
   // headings + staggered card grids
-  $$('[data-reveal]', main).forEach((h) => gsap.from(h, { yPercent: 40, opacity: 0, duration: 1.2, ease: 'expo.out', scrollTrigger: { trigger: h, start: 'top 88%' } }));
+  reveal($$('[data-reveal]', main), { stagger: 0 });
   revealGrids(main);
 
   // reels / tiktok rails drift in
-  $$('[data-rail]', main).forEach((r) => gsap.from(r.children, { x: 120, opacity: 0, duration: 1.1, ease: 'expo.out', stagger: 0.05, scrollTrigger: { trigger: r, start: 'top 85%' } }));
+  $$('[data-rail]', main).forEach((r) => reveal([...r.children].slice(0, 6), { stagger: 0.06, group: 6, kind: 'side' }));
 
   // stacked experience cards
   const cards = $$('.exp-card', main);
   cards.forEach((card, i) => {
     const next = cards[i + 1];
     if (!next) return;
-    gsap.to(card, { scale: 0.92, filter: 'brightness(0.45)', ease: 'none', scrollTrigger: { trigger: next, start: 'top bottom', end: 'top 12%', scrub: true } });
+    // phones: scale only (animating a CSS filter on a full-screen photo is expensive)
+    gsap.to(card, { scale: 0.92, ...(isPhone ? {} : { filter: 'brightness(0.45)' }), ease: 'none', scrollTrigger: { trigger: next, start: 'top bottom', end: 'top 12%', scrub: true } });
   });
 
   if (ring) gsap.fromTo(ring, { rotateY: 0, rotateX: -8 }, { rotateY: -200, rotateX: 8, ease: 'none', scrollTrigger: { trigger: '.social', start: 'top bottom', end: 'bottom top', scrub: 1 } });
@@ -431,12 +432,5 @@ function setupScroll(main, ring) {
 
 /** Cards rise in 3D as their grid enters the viewport (used by every page). */
 export function revealGrids(main) {
-  $$('[data-stagger]', main).forEach((grid) => {
-    const items = [...grid.children];
-    gsap.set(items, { y: 70, rotationX: -18, opacity: 0, transformPerspective: 1000 });
-    ScrollTrigger.batch(items, {
-      start: 'top 92%', once: true,
-      onEnter: (els) => gsap.to(els, { y: 0, rotationX: 0, opacity: 1, duration: 1.1, ease: 'expo.out', stagger: 0.06, overwrite: true }),
-    });
-  });
+  $$('[data-stagger]', main).forEach((grid) => reveal(grid.children, { stagger: 0.07, group: 4 }));
 }

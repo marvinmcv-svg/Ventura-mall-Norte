@@ -1,7 +1,7 @@
 // Detail page for a store (/tiendas/:slug) or a restaurant (/boulevard/:slug).
 import gsap from 'gsap';
 import { mall, stores, restaurants, catById, post, url, coverOf, logoOf, galleryOf, videosOf, account, captionTitle, captionBody, accountPosts } from '../content.js';
-import { $, $$, esc, img, icons, reduced, bindTilt, bindVideos, videoCard, logoBadge, openLightbox, waLink, mallOpen, fmtNum } from '../ui.js';
+import { $, $$, esc, img, icons, reduced, bindTilt, bindVideos, videoCard, logoBadge, openLightbox, waLink, mallOpen, fmtNum, reveal, bgSrc } from '../ui.js';
 import { storeCard, restaurantCard } from './cards.js';
 import { pageHeroIntro } from './directory.js';
 import { revealGrids, initRails } from './home.js';
@@ -43,7 +43,7 @@ export function placeView(kind, slug) {
 
   const html = `
   <header class="page-hero page-hero--place">
-    ${cover ? `<div class="page-hero__bg" style="background-image:url('${cover}')" aria-hidden="true"></div>` : '<div class="page-hero__bg page-hero__bg--grad" aria-hidden="true"></div>'}
+    ${cover ? `<div class="page-hero__bg" style="background-image:url('${bgSrc(cover)}')" aria-hidden="true"></div>` : '<div class="page-hero__bg page-hero__bg--grad" aria-hidden="true"></div>'}
     <div class="page-hero__inner">
       <nav class="crumbs" aria-label="Ruta"><a href="/">Inicio</a><span>/</span><a href="${base}">${section}</a><span>/</span><span aria-current="page">${esc(x.name)}</span></nav>
       <div class="place-id">
@@ -129,12 +129,12 @@ export function placeView(kind, slug) {
       });
       if (!reduced) {
         gsap.from('.place-id__logo', { scale: 0.6, rotation: -8, opacity: 0, duration: 1.2, ease: 'back.out(1.7)', delay: 0.3 });
-        gsap.from('.info-card', { y: 40, opacity: 0, duration: 1, ease: 'expo.out', stagger: 0.07, scrollTrigger: { trigger: '.place-info', start: 'top 90%' } });
-        gsap.from('.place-about__text', { y: 40, opacity: 0, duration: 1.2, ease: 'expo.out', scrollTrigger: { trigger: '.place-about', start: 'top 85%' } });
-        gsap.from('.place-about__tags li', { y: 16, opacity: 0, duration: 0.7, ease: 'power3.out', stagger: 0.05, scrollTrigger: { trigger: '.place-about__tags', start: 'top 90%' } });
-        $$('.masonry__item', main).forEach((el, i) => gsap.from(el, { y: 60, opacity: 0, clipPath: 'inset(20% 0 0 0 round 18px)', duration: 1.1, ease: 'expo.out', delay: (i % 3) * 0.06, scrollTrigger: { trigger: el, start: 'top 94%' } }));
-        $$('.section-head h2', main).forEach((h) => gsap.from(h, { yPercent: 40, opacity: 0, duration: 1.1, ease: 'expo.out', scrollTrigger: { trigger: h, start: 'top 90%' } }));
-        gsap.from('.next-place__name', { yPercent: 60, opacity: 0, duration: 1.2, ease: 'expo.out', scrollTrigger: { trigger: '.next-place', start: 'top 85%' } });
+        reveal($$('.info-card', main), { stagger: 0.07 });
+        reveal($$('.place-about__text, .place-about__tags', main), { stagger: 0.1 });
+        reveal($$('.masonry__item', main), { stagger: 0.06, group: 3 });
+        reveal($$('.section-head h2', main), { stagger: 0 });
+        reveal($$('.next-place__name', main));
+        $$('[data-rail]', main).forEach((r) => reveal([...r.children].slice(0, 6), { stagger: 0.06, group: 6, kind: 'side' }));
         revealGrids(main);
       }
       return () => off.forEach((f) => f?.());

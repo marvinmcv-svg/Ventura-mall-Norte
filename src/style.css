@@ -601,7 +601,7 @@ h2 .serif { color: var(--orange); }
 
 /* ── Marvin ───────────────────────────────── */
 .panel__id { display: flex; align-items: center; gap: 12px; }
-.marvin-avatar { width: 40px; height: 40px; border-radius: 50%; display: grid; place-items: center; flex-shrink: 0; background: #fff; color: var(--red); font-family: var(--display); font-weight: 800; font-size: 19px; box-shadow: 0 0 0 3px rgba(255,255,255,.25); }
+.marvin-avatar { width: 44px; height: 44px; border-radius: 50%; flex-shrink: 0; object-fit: cover; background: #fff; box-shadow: 0 0 0 3px rgba(255,255,255,.35); }
 .msg a { color: var(--orange); text-decoration: underline; text-underline-offset: 2px; word-break: break-word; }
 .msg--user a { color: #fff; }
 
@@ -643,3 +643,45 @@ h2 .serif { color: var(--orange); }
 .cookie a { color: var(--orange); text-decoration: underline; }
 .cookie .btn { flex-shrink: 0; padding: 11px 18px; }
 @media (max-width: 560px) { .cookie { left: 12px; right: 84px; max-width: none; flex-direction: column; align-items: flex-start; gap: 10px; } }
+
+.fab__btn--chat { position: relative; padding: 0; background: #fff; overflow: visible; }
+.fab__btn--chat img { width: 100%; height: 100%; border-radius: 50%; object-fit: cover; }
+.fab__badge { position: absolute; right: calc(100% + 10px); top: 50%; transform: translateY(-50%); padding: 6px 12px; border-radius: 99px; background: rgba(23,19,17,.92); border: 1px solid rgba(255,255,255,.12); color: var(--bone); font-size: 12.5px; font-weight: 600; white-space: nowrap; opacity: 0; pointer-events: none; transition: opacity .3s; }
+.fab__btn--chat:hover .fab__badge, .fab__btn--chat:focus-visible .fab__badge { opacity: 1; }
+
+/* ── Scroll reveal (IntersectionObserver + CSS) ── */
+.rv { opacity: 0; transform: translate3d(0, 44px, 0); transition: opacity .8s ease var(--rv-d, 0s), transform 1.1s cubic-bezier(.16, 1, .3, 1) var(--rv-d, 0s); }
+.rv--side { transform: translate3d(70px, 0, 0); }
+.rv--flip { transform: perspective(900px) rotateX(-40deg) translate3d(0, 60px, 0); transform-origin: 50% 100%; }
+.rv--up { transform: translate3d(0, 100%, 0); }
+.rv.is-in { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) { .rv { opacity: 1; transform: none; transition: none; } }
+
+/* ── Phones: drop effects that cost more than they give ── */
+@media (max-width: 760px), (hover: none) and (pointer: coarse) {
+  .grain { display: none; }
+  *, *::before, *::after { -webkit-backdrop-filter: none !important; backdrop-filter: none !important; }
+  .nav.is-solid { background: rgba(13,11,10,.94); }
+  .directory__tools { background: rgba(13,11,10,.97); }
+  .btn--ghost { background: rgba(255,255,255,.08); }
+  .pill--ghost, .status, .news__count, .vcard__sound, .vcard__link, .cat__more { background: rgba(13,11,10,.72); }
+  .social { height: auto; padding: 18vh var(--pad); }
+  .social::after { display: none; }
+  [data-tilt], .hero__slides, .hero__slide img { will-change: auto; }
+  .store:hover .store__media img, .blv-card:hover .blv-card__img, .news:hover .news__media img, .masonry__item:hover img, .event:hover .event__media img { transform: none; }
+}
+
+/* ── Phone layout fixes ─────────────────── */
+@media (max-width: 760px) {
+  /* carousel caption + dots go under the nav, clear of the headline */
+  .hero__carousel { top: 78px; bottom: auto; left: var(--pad); right: var(--pad); justify-items: start; gap: 8px; }
+  .hero__dots button { width: 26px; }
+  /* cookie notice: one slim row */
+  .cookie { left: 10px; right: 78px; bottom: 12px; max-width: none; flex-direction: row; align-items: center; gap: 10px; padding: 10px 10px 10px 14px; font-size: 11.5px; line-height: 1.35; border-radius: 14px; }
+  .cookie .btn { padding: 8px 12px; font-size: 12.5px; }
+  /* Marvin: bottom sheet that fits the screen */
+  .panel { left: 8px; right: 8px; bottom: 8px; width: auto; max-height: min(78svh, 640px); border-radius: 20px; }
+  .panel--chat .chat__log { min-height: 0; }
+  .fab__badge { display: none; }
+}
+@media (hover: none) { .fab__badge { display: none; } }

@@ -39,14 +39,16 @@ export function initChat({ closePanels }) {
   let busy = false;
   let apiDownUntil = 0;
 
+  const tidy = (text) => text.replace(/\*\*/g, '').replace(/^#{1,6}\s*/gm, '').replace(/^\s*[-*]\s+/gm, '• ');
   // escape, then turn site paths (/tiendas/boss) and URLs into links
-  const linkify = (text) => esc(text)
+  const linkify = (text) => esc(tidy(text))
     .replace(/(https?:\/\/[^\s<]+[^\s<.,;:!?)])/g, '<a href="$1" target="_blank" rel="noopener">$1</a>')
     .replace(/(^|[\s(])(\/(?:tiendas|boulevard|legal|ayuda)(?:\/[\w-]+)?(?:\?[\w=&-]+)?)/g, '$1<a href="$2">$2</a>')
     .replace(/\n/g, '<br />');
   const add = (role, text) => {
     const el = document.createElement('div');
     el.className = `msg msg--${role}`;
+    if (role === 'bot') el.setAttribute('data-who', 'Marvin');
     el.innerHTML = role === 'bot' ? linkify(text) : esc(text).replace(/\n/g, '<br />');
     log.appendChild(el);
     gsap.fromTo(el, { y: 12, opacity: 0 }, { y: 0, opacity: 1, duration: 0.35, ease: 'power3.out' });
@@ -70,6 +72,7 @@ export function initChat({ closePanels }) {
     const typing = add('bot', '…');
     typing.classList.add('is-typing');
     let reply = '';
+    let bubble = null;
     if (Date.now() > apiDownUntil) {
       try {
         const res = await fetch('/api/chat', {
@@ -78,14 +81,29 @@ export function initChat({ closePanels }) {
           body: JSON.stringify({ messages: history.slice(-12) }),
         });
         if (!res.ok) throw new Error(String(res.status));
-        reply = (await res.json()).reply || '';
+        if ((res.headers.get('content-type') || '').includes('text/plain') && res.body) {
+          // streamed answer: show it as it arrives
+          const reader = res.body.getReader();
+          const dec = new TextDecoder();
+          for (;;) {
+            const { value, done } = await reader.read();
+            if (done) break;
+            reply += dec.decode(value, { stream: true });
+            if (!bubble && reply.trim()) { typing.remove(); bubble = add('bot', ''); }
+            if (bubble) { bubble.textContent = tidy(reply); log.scrollTop = log.scrollHeight; }
+          }
+        } else {
+          reply = (await res.json()).reply || '';
+        }
       } catch {
-        apiDownUntil = Date.now() + 60_000; // use local answers for a minute, then retry
+        if (!reply) apiDownUntil = Date.now() + 60_000; // use local answers for a minute, then retry
       }
     }
-    if (!reply) reply = localAnswer(text);
+    if (!reply.trim()) reply = localAnswer(text);
+    reply = tidy(reply).trim();
     typing.remove();
-    add('bot', reply);
+    if (bubble) bubble.innerHTML = linkify(reply);
+    else add('bot', reply);
     history.push({ role: 'assistant', content: reply });
     busy = false;
   }

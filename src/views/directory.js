@@ -1,7 +1,7 @@
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { stores, restaurants, categories, mallPhoto } from '../content.js';
-import { $, $$, esc, icons, reduced, bindTilt } from '../ui.js';
+import { $, $$, esc, icons, reduced, bindTilt, bgSrc } from '../ui.js';
 import { storeCard } from './cards.js';
 import { splitChars } from '../split.js';
 
@@ -14,7 +14,7 @@ export function directoryView() {
 
   const html = `
   <header class="page-hero page-hero--dir">
-    ${bg ? `<div class="page-hero__bg" style="background-image:url('${bg}')" aria-hidden="true"></div>` : ''}
+    ${bg ? `<div class="page-hero__bg" style="background-image:url('${bgSrc(bg)}')" aria-hidden="true"></div>` : ''}
     <div class="page-hero__inner">
       <nav class="crumbs" aria-label="Ruta"><a href="/">Inicio</a><span>/</span><span aria-current="page">Tiendas</span></nav>
       <h1 class="page-title"><span class="line"><span class="split">Nuestras</span></span><span class="line"><span class="split serif">tiendas</span></span></h1>

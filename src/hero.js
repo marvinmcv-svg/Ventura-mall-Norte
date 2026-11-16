@@ -124,16 +124,17 @@ function sampleText(lines, count) {
 }
 
 export function createHero(canvas) {
-  const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true });
-  const pr = Math.min(window.devicePixelRatio, 2);
+  const isPhone = window.innerWidth < 768 || window.matchMedia('(hover: none)').matches;
+  // phones: no MSAA and a lower pixel ratio — the points are soft glows anyway
+  const renderer = new THREE.WebGLRenderer({ canvas, antialias: !isPhone, alpha: true, powerPreference: isPhone ? 'low-power' : 'high-performance' });
+  const pr = Math.min(window.devicePixelRatio, isPhone ? 1.5 : 2);
   renderer.setPixelRatio(pr);
 
   const scene = new THREE.Scene();
   const camera = new THREE.PerspectiveCamera(35, 1, 0.1, 100);
   camera.position.set(0, 0, 10);
 
-  const isMobile = window.innerWidth < 768;
-  const COUNT = isMobile ? 14000 : 30000;
+  const COUNT = isPhone ? 8000 : 30000;
   const { pos: text, line } = sampleText([
     { text: 'VENTURA', size: 300, weight: 800, y: 205 },
     { text: 'MALL', size: 150, weight: 800, y: 420, tracking: 90 },

@@ -3,7 +3,7 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Lenis from 'lenis';
 import { mall, funnel, mallLogo } from './content.js';
-import { $, $$, esc, icons, reduced, finePointer, bindMagnetic, waLink, mallOpen } from './ui.js';
+import { $, $$, esc, icons, reduced, finePointer, bindMagnetic, waLink, mallOpen, reveal, isPhone } from './ui.js';
 import { route, initRouter } from './router.js';
 import { initChat } from './chat.js';
 import { splitChars } from './split.js';
@@ -203,10 +203,9 @@ async function boot() {
 let footerST = null;
 function refreshFooter() {
   if (reduced || !footerChars.length) return;
-  footerST?.scrollTrigger?.kill();
-  footerST?.kill();
-  gsap.set(footerChars, { yPercent: 100, opacity: 0 });
-  footerST = gsap.to(footerChars, { yPercent: 0, opacity: 1, stagger: 0.05, duration: 1.2, ease: 'expo.out', scrollTrigger: { trigger: '.footer', start: 'top 85%' } });
+  // CSS + IntersectionObserver reveal: replays on every page, never stuck hidden
+  footerChars.forEach((c) => c.classList.remove('is-in'));
+  reveal(footerChars, { stagger: 0.05, group: 7, kind: 'up' });
 }
 
 boot();
